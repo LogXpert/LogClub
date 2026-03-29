@@ -1,0 +1,4793 @@
+[
+  {
+    "inputs": [
+      "<*> close , <*> bytes <*> sent , <*> bytes <*> received , lifetime <*>",
+      "<*> close , <*> bytes <*> sent , <*> bytes received , lifetime <*>"
+    ],
+    "output": {
+      "template": "<*> close , <*> bytes <*> sent , <*> bytes <*> received , lifetime <*>"
+    }
+  },
+  {
+    "inputs": [
+      "<*> close , <*> bytes <*> sent , <*> bytes <*> received , lifetime <*>",
+      "<*> close , <*> bytes sent , <*> bytes <*> received , lifetime <*>"
+    ],
+    "output": {
+      "template": "<*> close , <*> bytes <*> sent , <*> bytes <*> received , lifetime <*>"
+    }
+  },
+  {
+    "inputs": [
+      "<*> close , <*> bytes <*> sent , <*> bytes <*> received , lifetime <*>",
+      "<*> close , <*> bytes sent , <*> bytes received , lifetime <*>"
+    ],
+    "output": {
+      "template": "<*> close , <*> bytes <*> sent , <*> bytes <*> received , lifetime <*>"
+    }
+  },
+  {
+    "inputs": [
+      "pam_unix ( sshd : session ) : session opened for user curi by ( uid = <*> )",
+      "pam_unix ( sshd : session ) : session opened for user suyuxin by ( uid = <*> )"
+    ],
+    "output": {
+      "template": "pam_unix ( sshd : session ) : session opened for user <*> by ( uid = <*> )"
+    }
+  },
+  {
+    "inputs": [
+      "reverse mapping checking getaddrinfo for <*> [ <*> ] failed - POSSIBLE BREAK-IN ATTEMPT !",
+      "reverse mapping checking getaddrinfo for . [ <*> ] failed - POSSIBLE BREAK-IN ATTEMPT !"
+    ],
+    "output": {
+      "template": "reverse mapping checking getaddrinfo for <*> [ <*> ] failed - POSSIBLE BREAK-IN ATTEMPT !"
+    }
+  },
+  {
+    "inputs": [
+      "pam_unix ( sshd : session ) : session closed for user zachary",
+      "pam_unix ( sshd : session ) : session closed for user curi",
+      "pam_unix ( sshd : session ) : session closed for user suyuxin"
+    ],
+    "output": {
+      "template": "pam_unix ( sshd : session ) : session closed for user <*>"
+    }
+  },
+  {
+    "inputs": [
+      "Accepted password for curi from <*> port <*> ssh2",
+      "Accepted password for suyuxin from <*> port <*> ssh2"
+    ],
+    "output": {
+      "template": "Accepted password for <*> from <*> port <*> ssh2"
+    }
+  },
+  {
+    "inputs": [
+      "[ instance : <*> ] Took <*> seconds to spawn the instance on the hypervisor .",
+      "[ instance : <*> ] Took <*> seconds to destroy the instance on the hypervisor ."
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "<*> \"GET <*> \" status : <*> len : <*> time : <*>",
+      "<*> \"POST <*> \" status : <*> len : <*> time : <*>",
+      "<*> \"DELETE <*> \" status : <*> len : <*> time : <*>"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "[ instance : <*> ] Total memory : <*> , used : <*>",
+      "[ instance : <*> ] Total disk : <*> , used : <*>"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "[ instance : <*> ] disk limit not specified , defaulting to unlimited",
+      "[ instance : <*> ] vcpu limit not specified , defaulting to unlimited"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "[ instance : <*> ] VM Resumed ( Lifecycle Event )",
+      "[ instance : <*> ] VM Stopped ( Lifecycle Event )",
+      "[ instance : <*> ] VM Started ( Lifecycle Event )",
+      "[ instance : <*> ] VM Paused ( Lifecycle Event )"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "[ instance : <*> ] Instance spawned successfully .",
+      "[ instance : <*> ] Instance destroyed successfully ."
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "[ instance : <*> ] Creating image",
+      "[ instance : <*> ] Terminating instance",
+      "[ instance : <*> ] Claim successful"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "Active base files : <*>",
+      "Removable base files : <*>"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "NIFF : node <*> detected a failed network connection on network <*> via interface alt0",
+      "NIFF : node <*> detected a failed network connection on network <*> via interface scip0",
+      "NIFF : node <*> detected a failed network connection on network <*> via interface ee0"
+    ],
+    "output": {
+      "template": "NIFF : node <*> detected a failed network connection on network <*> via interface <*>"
+    }
+  },
+  {
+    "inputs": [
+      "Targeting domains : node-D7 and nodes : node-[ <*> ] child of command <*>",
+      "Targeting domains : node-D0 and nodes : node-[ <*> ] child of command <*>",
+      "Targeting domains : node-D1 and nodes : node-[ <*> ] child of command <*>"
+    ],
+    "output": {
+      "template": "Targeting domains : <*> and nodes : node-[ <*> ] child of command <*>"
+    }
+  },
+  {
+    "inputs": [
+      "Targeting domains : <*> and nodes : node- [ <*> ] child of command <*>",
+      "Targeting domains : <*> and nodes : node-[ <*> ] child of command <*>",
+      "Targeting domains : <*> and nodes : <*> child of command <*>"
+    ],
+    "output": {
+      "template": "Targeting domains : <*> and nodes : <*> child of command <*>"
+    }
+  },
+  {
+    "inputs": [
+      "Targeting domains : node-D [ <*> ] and nodes : node- [ <*> ]",
+      "Targeting domains : <*> and nodes : node- [ <*> ]"
+    ],
+    "output": {
+      "template": "Targeting domains : <*> and nodes : node- [ <*> ]"
+    }
+  },
+  {
+    "inputs": [
+      "Targeting domains : node-D7 and nodes : node-[ <*> ]",
+      "Targeting domains : node-D5 and nodes : node-[ <*> ]",
+      "Targeting domains : node-D0 and nodes : node-[ <*> ]"
+    ],
+    "output": {
+      "template": "Targeting domains : <*> and nodes : node-[ <*> ]"
+    }
+  },
+  {
+    "inputs": [
+      "Targeting domains : node-D [ <*> ] and nodes : node-[ <*> ]",
+      "Targeting domains : node-D[ <*> ] and nodes : node-[ <*> ]",
+      "Targeting domains : <*> and nodes : node-[ <*> ]"
+    ],
+    "output": {
+      "template": "Targeting domains : <*> and nodes : node-[ <*> ]"
+    }
+  },
+  {
+    "inputs": [
+      "Targeting domains : <*> and nodes : node- [ <*> ]",
+      "Targeting domains : <*> and nodes : node-[ <*> ]",
+      "Targeting domains : <*> and nodes : <*>"
+    ],
+    "output": {
+      "template": "Targeting domains : <*> and nodes : <*>"
+    }
+  },
+  {
+    "inputs": [
+      "Temperature ( 41C ) exceeds warning threshold",
+      "Temperature ( 43C ) exceeds warning threshold",
+      "Temperature ( 42C ) exceeds warning threshold"
+    ],
+    "output": {
+      "template": "Temperature ( <*> ) exceeds warning threshold"
+    }
+  },
+  {
+    "inputs": [
+      "wait ( command <*> )",
+      "boot ( command <*> )",
+      "halt ( command <*> )",
+      "clusterAddMember ( command <*> )",
+      "risBoot ( command <*> )"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "Fan speeds ( <*> **** <*> )",
+      "Fan speeds ( <*> )"
+    ],
+    "output": {
+      "template": "Fan speeds ( <*> )"
+    }
+  },
+  {
+    "inputs": [
+      "ServerFileSystem domain root_domain is full",
+      "ServerFileSystem domain give_domain is full"
+    ],
+    "output": {
+      "template": "ServerFileSystem domain <*> is full"
+    }
+  },
+  {
+    "inputs": [
+      "ClusterFileSystem : ServerFileSystem domain cluster_var_backup is no longer served by node <*>",
+      "ClusterFileSystem : ServerFileSystem domain root13_domain is no longer served by node <*>",
+      "ClusterFileSystem : ServerFileSystem domain root17_domain is no longer served by node <*>",
+      "ClusterFileSystem : ServerFileSystem domain root19_local is no longer served by node <*>",
+      "ClusterFileSystem : ServerFileSystem domain root12_tmp is no longer served by node <*>"
+    ],
+    "output": {
+      "template": "ClusterFileSystem : ServerFileSystem domain <*> is no longer served by node <*>"
+    }
+  },
+  {
+    "inputs": [
+      "<*> ok",
+      "<*> problem"
+    ],
+    "output": {
+      "template": "<*> <*>"
+    }
+  },
+  {
+    "inputs": [
+      "inconsistent nodesets <*> <ok> <*> <ok> <*> <ok> <*> <ok> <*> <ok> <*> <ok> <*> <ok> <*> <ok> <*> <ok> <*> <ok> <*> <ok> <*> <ok> <*> <ok> <*> <ok> <*> <ok> <*> <ok>",
+      "inconsistent nodesets <*> <ok> <*> <ok> <*> <ok> <*> <ok> <*> <ok> <*> <ok> <*> <ok> <*> <ok> <*> <ok> <*> <ok> <*> <ok> <*> <ok> <*> <ok> <*> <ok> <*> <ok>"
+    ],
+    "output": {
+      "template": "inconsistent nodesets <*> <ok> <*> <ok> <*> <ok> <*> <ok> <*> <ok> <*> <ok> <*> <ok> <*> <ok> <*> <ok> <*> <ok> <*> <ok> <*> <ok> <*> <ok> <*> <ok> <*> <ok> <*> <ok> <*> <ok>"
+    }
+  },
+  {
+    "inputs": [
+      "inconsistent nodesets <*> <ok> <*> <ok> <*> <ok> <*> <ok> <*> <ok> <*> <ok> <*> <ok> <*> <ok> <*> <ok> <*> <ok> <*> <ok> <*> <ok>",
+      "inconsistent nodesets <*> <ok> <*> <ok> <*> <ok> <*> <ok> <*> <ok> <*> <ok> <*> <ok> <*> <ok> <*> <ok> <*> <ok> <*> <ok>"
+    ],
+    "output": {
+      "template": "inconsistent nodesets <*> <ok> <*> <ok> <*> <ok> <*> <ok> <*> <ok> <*> <ok> <*> <ok> <*> <ok> <*> <ok> <*> <ok> <*> <ok> <*> <*>"
+    }
+  },
+  {
+    "inputs": [
+      "inconsistent nodesets <*> <ok> <*> <ok> <*> <ok> <*> <ok> <*> <ok> <*> <ok> <*> <ok> <*> <ok> <*> <ok> <*> <ok>",
+      "inconsistent nodesets <*> <ok> <*> <ok> <*> <ok> <*> <ok> <*> <ok> <*> <ok> <*> <ok> <*> <ok> <*> <ok>"
+    ],
+    "output": {
+      "template": "inconsistent nodesets <*> <ok> <*> <ok> <*> <ok> <*> <ok> <*> <ok> <*> <ok> <*> <ok> <*> <ok> <*> <ok> <*> <ok> <*> <ok>"
+    }
+  },
+  {
+    "inputs": [
+      "inconsistent nodesets <*> <ok> <*> <ok> <*> <ok> <*> <ok> <*> <ok> <*> <ok> <*> <ok> <*> <ok>",
+      "inconsistent nodesets <*> <ok> <*> <ok> <*> <ok> <*> <ok> <*> <ok> <*> <ok> <*> <ok>"
+    ],
+    "output": {
+      "template": "inconsistent nodesets <*> <ok> <*> <ok> <*> <ok> <*> <ok> <*> <ok> <*> <ok> <*> <ok> <*> <ok>"
+    }
+  },
+  {
+    "inputs": [
+      "inconsistent nodesets <*> <ok> <*> <ok> <*> <ok> <*> <ok> <*> <ok> <*> <ok>",
+      "inconsistent nodesets <*> <ok> <*> <ok> <*> <ok> <*> <ok> <*> <ok>"
+    ],
+    "output": {
+      "template": "inconsistent nodesets <*> <ok> <*> <ok> <*> <ok> <*> <ok> <*> <ok> <*> <ok> <*> <ok>"
+    }
+  },
+  {
+    "inputs": [
+      "inconsistent nodesets <*> <ok> <*> <ok> <*> <ok> <*> <ok>",
+      "inconsistent nodesets <*> <ok> <*> <ok> <*> <ok>"
+    ],
+    "output": {
+      "template": "inconsistent nodesets <*> <ok> <*> <ok> <*> <ok> <*> <ok>"
+    }
+  },
+  {
+    "inputs": [
+      "NIFF : node <*> has detected an available network connection on network <*> via interface alt0",
+      "NIFF : node <*> has detected an available network connection on network <*> via interface ee0",
+      "NIFF : node <*> has detected an available network connection on network <*> via interface scip0"
+    ],
+    "output": {
+      "template": "NIFF : node <*> has detected an available network connection on network <*> via interface <*>"
+    }
+  },
+  {
+    "inputs": [
+      "boot ( command <*> ) Error : Console-Busy Port already in use",
+      "halt ( command <*> ) Error : timeout waiting for SRM prompt",
+      "haltcluster ( command <*> ) Error : haltcluster : bad spawn id"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "Notification : <*> ( n.leader ) , <*> ( n.zxid ) , <*> ( n.round ) , LOOKING ( n.state ) , <*> ( n.sid ) , <*> ( n.peerEPoch ) , LOOKING ( my state )",
+      "Notification : <*> ( n.leader ) , <*> ( n.zxid ) , <*> ( n.round ) , LOOKING ( n.state ) , <*> ( n.sid ) , <*> ( n.peerEPoch ) , FOLLOWING ( my state )"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "currentEpoch not found ! Creating with a reasonable default of <*> . This should only happen when you are upgrading your installation",
+      "acceptedEpoch not found ! Creating with a reasonable default of <*> . This should only happen when you are upgrading your installation"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "Notification : <*> ( n.leader ) , <*> ( n.zxid ) , <*> ( n.round ) , LEADING ( n.state ) , <*> ( n.sid ) , <*> ( n.peerEPoch ) , LOOKING ( my state )",
+      "Notification : <*> ( n.leader ) , <*> ( n.zxid ) , <*> ( n.round ) , FOLLOWING ( n.state ) , <*> ( n.sid ) , <*> ( n.peerEPoch ) , FOLLOWING ( my state )",
+      "Notification : <*> ( n.leader ) , <*> ( n.zxid ) , <*> ( n.round ) , LEADING ( n.state ) , <*> ( n.sid ) , <*> ( n.peerEPoch ) , FOLLOWING ( my state )",
+      "Notification : <*> ( n.leader ) , <*> ( n.zxid ) , <*> ( n.round ) , LOOKING ( n.state ) , <*> ( n.sid ) , <*> ( n.peerEPoch ) , LEADING ( my state )",
+      "Notification : <*> ( n.leader ) , <*> ( n.zxid ) , <*> ( n.round ) , FOLLOWING ( n.state ) , <*> ( n.sid ) , <*> ( n.peerEPoch ) , LOOKING ( my state )"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "FollowerRequestProcessor exited loop !",
+      "CommitProcessor exited loop !"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "Shutting down",
+      "shutting down"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "Sending DIFF",
+      "Sending SNAP"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "Notification : <*> ( n.leader ) , <*> ( n.zxid ) , <*> ( n.round ) , FOLLOWING ( n.state ) , <*> ( n.sid ) , <*> ( n.peerEPoch ) , LEADING ( my state )",
+      "Notification : <*> ( n.leader ) , <*> ( n.zxid ) , <*> ( n.round ) , LEADING ( n.state ) , <*> ( n.sid ) , <*> ( n.peerEPoch ) , LEADING ( my state )"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "PrepRequestProcessor exited loop !",
+      "SessionTrackerImpl exited loop !"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "saveRealTimeHealthDatasStat ( ) size = <*> , totalTime = <*>",
+      "bulkSaveDetailHiHealthData ( ) size = <*> , totalTime = <*>"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "InsertCallBack ( ) onSuccess type = <*> data = <*>",
+      "uploadStaticsToDB ( ) onResult type = <*> obj = <*>"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "onReceive action : android.intent.action.SCREEN_ON",
+      "processHandleBroadcastAction action : android.intent.action.SCREEN_ON",
+      "processHandleBroadcastAction action : android.intent.action.TIME_TICK",
+      "onReceive action : android.intent.action.SCREEN_OFF"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "flushTempCacheToDB by stand",
+      "flushTempCacheToDB by ext"
+    ],
+    "output": {
+      "template": "flushTempCacheToDB by <*>"
+    }
+  },
+  {
+    "inputs": [
+      "getMidWareCache mRemote = <*>",
+      "getMidWareCache result = <*>"
+    ],
+    "output": {
+      "template": "getMidWareCache <*> = <*>"
+    }
+  },
+  {
+    "inputs": [
+      "checkLocalDataValue <*>",
+      "initExtendStepCounter <*>"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "aggregateHiHealthData ( ) checkAppType <*> appID = <*> id = <*> time = <*>",
+      "readHiHealthData ( ) checkAppType <*> appID = <*> id = <*> time = <*>"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "subscribeHiHealthData ( ) checkAppType <*> appID = <*>",
+      "aggregateHiHealthDataEx ( ) checkAppType <*> appID = <*>"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "Added filter AM_PROXY_FILTER ( class = org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter ) to context mapreduce",
+      "Added filter AM_PROXY_FILTER ( class = org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter ) to context static"
+    ],
+    "output": {
+      "template": "Added filter AM_PROXY_FILTER ( class = org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter ) to context <*>"
+    }
+  },
+  {
+    "inputs": [
+      "Processing the event EventType : CONTAINER_REMOTE_LAUNCH for container <*> taskAttempt <*>",
+      "Processing the event EventType : CONTAINER_REMOTE_CLEANUP for container <*> taskAttempt <*>"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "The job-jar file on the remote FS is <*>",
+      "The job-conf file on the remote FS is <*>"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "maxContainerCapability : <*> , vCores : <*>",
+      "mapResourceRequest : <*> , vCores : <*>"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "<*> Task Transitioned from NEW to SCHEDULED",
+      "<*> TaskAttempt Transitioned from NEW to UNASSIGNED",
+      "<*> TaskAttempt Transitioned from UNASSIGNED to ASSIGNED",
+      "<*> TaskAttempt Transitioned from ASSIGNED to RUNNING",
+      "<*> Task Transitioned from SCHEDULED to RUNNING"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "bufstart = <*> bufvoid = <*>",
+      "kvstart = <*> length = <*>"
+    ],
+    "output": {
+      "template": "<*> = <*> <*> = <*>"
+    }
+  },
+  {
+    "inputs": [
+      "Notify RMCommunicator isAMLastRetry : <*>",
+      "Notify JHEH isAMLastRetry : <*>"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "MapTask metrics system started",
+      "ReduceTask metrics system started",
+      "MRAppMaster metrics system started"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "Using ResourceCalculatorProcessTree : <*>",
+      "Using ShuffleConsumerPlugin : <*>"
+    ],
+    "output": {
+      "template": "Using <*> : <*>"
+    }
+  },
+  {
+    "inputs": [
+      "Resolved <*> to <*>",
+      "Copying <*> to <*>"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "After Scheduling : <*>",
+      "Before Scheduling : <*>"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "maxTaskFailuresPerNode is <*>",
+      "blacklistDisablePercent is <*>"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "<*> TaskAttempt Transitioned from SUCCEEDED to KILLED",
+      "<*> Task Transitioned from SUCCEEDED to SCHEDULED",
+      "<*> TaskAttempt Transitioned from UNASSIGNED to KILLED"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "Launching <*>",
+      "ATTEMPT_START <*>",
+      "KILLING <*>",
+      "Started <*>",
+      "JOB_CREATE <*>"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "Starting task <*> in stage <*> ( TID <*> , partition <*> , NODE_LOCAL , <*> bytes )",
+      "Starting task <*> in stage <*> ( TID <*> , partition <*> , PROCESS_LOCAL , <*> bytes )"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "Block <*> stored as bytes in memory ( estimated size <*> , free <*> )",
+      "Block <*> stored as values in memory ( estimated size <*> , free <*> )"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "Changing view acls to : yarn , curi",
+      "Changing modify acls to : yarn , curi"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "running : Set ( )",
+      "failed : Set ( )"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "<*> torus receiver y + input pipe error ( s ) ( dcr <*> ) detected and corrected",
+      "<*> torus receiver z + input pipe error ( s ) ( dcr <*> ) detected and corrected"
+    ],
+    "output": {
+      "template": "<*> torus receiver <*> + input pipe error ( s ) ( dcr <*> ) detected and corrected"
+    }
+  },
+  {
+    "inputs": [
+      "<*> L3 EDRAM error ( s ) ( dcr <*> ) detected and corrected",
+      "<*> L3 directory error ( s ) ( dcr <*> ) detected and corrected"
+    ],
+    "output": {
+      "template": "<*> L3 <*> error ( s ) ( dcr <*> ) detected and corrected"
+    }
+  },
+  {
+    "inputs": [
+      "program interrupt : illegal <*>",
+      "program interrupt : privileged <*>",
+      "program interrupt : trap <*>",
+      "program interrupt : unimplemented <*>",
+      "program interrupt : imprecise <*>"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "guaranteed instruction cache block <*>",
+      "guaranteed data cache block <*>"
+    ],
+    "output": {
+      "template": "guaranteed <*> cache block <*>"
+    }
+  },
+  {
+    "inputs": [
+      "general purpose registers :",
+      "special purpose registers :"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "critical input interrupt <*>",
+      "external input interrupt <*>"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "data address <*>",
+      "instruction address <*>"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "disable store <*>",
+      "disable trace <*>"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "debug wait <*>",
+      "debug interrupt <*>"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "PrepareForService shutting down NodeCard ( mLctn ( R13-M0-N3 ) , mCardSernum ( <*> ) , mLp ( <*> : E9:1D:5F ) , mIp ( <*> ) , mType ( <*> ) ) as part of Service Action <*>",
+      "PrepareForService shutting down NodeCard ( mLctn ( R27-M0-NA ) , mCardSernum ( <*> ) , mLp ( <*> : E9:3B:8D ) , mIp ( <*> ) , mType ( <*> ) ) as part of Service Action <*>"
+    ],
+    "output": {
+      "template": "PrepareForService shutting down NodeCard ( mLctn ( <*> ) , mCardSernum ( <*> ) , mLp ( <*> : <*> ) , mIp ( <*> ) , mType ( <*> ) ) as part of Service Action <*>"
+    }
+  },
+  {
+    "inputs": [
+      "Ido chip status changed : <*> : E9:1D:E6 ip = <*> v = <*> t = <*> status = M <*>",
+      "Ido chip status changed : <*> : E9:2D:E8 ip = <*> v = <*> t = <*> status = M <*>",
+      "Ido chip status changed : <*> : E9:1E:D8 ip = <*> v = <*> t = <*> status = M <*>"
+    ],
+    "output": {
+      "template": "Ido chip status changed : <*> : <*> ip = <*> v = <*> t = <*> status = M <*>"
+    }
+  },
+  {
+    "inputs": [
+      "external input interrupt ( unit = <*> bit = <*> ) : torus sender y + retransmission error was corrected",
+      "external input interrupt ( unit = <*> bit = <*> ) : torus sender x + retransmission error was corrected",
+      "external input interrupt ( unit = <*> bit = <*> ) : torus sender z + retransmission error was corrected"
+    ],
+    "output": {
+      "template": "external input interrupt ( unit = <*> bit = <*> ) : torus sender <*> + retransmission error was corrected"
+    }
+  },
+  {
+    "inputs": [
+      "external input interrupt ( unit = <*> bit = <*> ) : torus sender y- retransmission error was corrected",
+      "external input interrupt ( unit = <*> bit = <*> ) : torus sender z- retransmission error was corrected"
+    ],
+    "output": {
+      "template": "external input interrupt ( unit = <*> bit = <*> ) : torus sender <*> retransmission error was corrected"
+    }
+  },
+  {
+    "inputs": [
+      "external input interrupt ( unit = <*> bit = <*> ) : torus sender <*> + retransmission error was corrected",
+      "external input interrupt ( unit = <*> bit = <*> ) : torus sender <*> retransmission error was corrected"
+    ],
+    "output": {
+      "template": "external input interrupt ( unit = <*> bit = <*> ) : torus sender <*> <*> retransmission error was corrected"
+    }
+  },
+  {
+    "inputs": [
+      "<*> torus receiver x- input pipe error ( s ) ( dcr <*> ) detected and corrected",
+      "<*> torus receiver y- input pipe error ( s ) ( dcr <*> ) detected and corrected"
+    ],
+    "output": {
+      "template": "<*> torus receiver <*> input pipe error ( s ) ( dcr <*> ) detected and corrected"
+    }
+  },
+  {
+    "inputs": [
+      "<*> torus receiver <*> + input pipe error ( s ) ( dcr <*> ) detected and corrected",
+      "<*> torus receiver z- input pipe error ( s ) ( dcr <*> ) detected and corrected",
+      "<*> torus receiver <*> input pipe error ( s ) ( dcr <*> ) detected and corrected"
+    ],
+    "output": {
+      "template": "<*> torus receiver <*> input pipe error ( s ) ( dcr <*> ) detected and corrected"
+    }
+  },
+  {
+    "inputs": [
+      "ciod : Error creating node map from file <*> : No child processes",
+      "ciod : Error creating node map from file <*> : Bad file descriptor"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "NodeCard is not fully functional",
+      "LinkCard is not fully functional"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "d-cache search parity <*>",
+      "d-cache flush parity <*>"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "ciod : T coordinate <*> exceeds physical dimension <*> at line <*> of node map file <*>",
+      "ciod : Y coordinate <*> exceeds physical dimension <*> at line <*> of node map file <*>",
+      "ciod : Z coordinate <*> exceeds physical dimension <*> at line <*> of node map file <*>"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "Missing reverse cable : Cable R00-M1-L2 <*> F ( J11 ) --> R01-M1-L2 <*> C ( J10 ) is present BUT the reverse cable R01-M1-L2 <*> F ( J09 ) --> R00-M1-L2 <*> C ( J08 ) is missing",
+      "Missing reverse cable : Cable R03-M1-L2 <*> F ( J17 ) --> R01-M1-L2 <*> C ( J16 ) is present BUT the reverse cable R01-M1-L2 <*> F ( J03 ) --> R03-M1-L2 <*> C ( J02 ) is missing",
+      "Missing reverse cable : Cable R13-M0-L0 <*> F ( J04 ) --> R03-M1-L0 <*> C ( J06 ) is present BUT the reverse cable R03-M1-L0 <*> F ( J12 ) --> R13-M0-L0 <*> C ( J14 ) is missing"
+    ],
+    "output": {
+      "template": "Missing reverse cable : Cable <*> F ( <*> ) --> <*> C ( <*> ) is present BUT the reverse cable <*> F ( <*> ) --> <*> C ( <*> ) is missing"
+    }
+  },
+  {
+    "inputs": [
+      "Missing reverse cable : Cable R16-M0-L1 <*> E ( J13 ) --> R06-M1-L1 <*> D ( J15 ) is present BUT the reverse cable R06-M1-L1 <*> E ( J05 ) --> R16-M0-L1 <*> D ( J07 ) is missing",
+      "Missing reverse cable : Cable R10-M0-L2 <*> E ( J13 ) --> R00-M1-L2 <*> D ( J15 ) is present BUT the reverse cable R00-M1-L2 <*> E ( J05 ) --> R10-M0-L2 <*> D ( J07 ) is missing",
+      "Missing reverse cable : Cable R11-M1-L3 <*> E ( J13 ) --> R01-M0-L3 <*> D ( J15 ) is present BUT the reverse cable R01-M0-L3 <*> E ( J05 ) --> R11-M1-L3 <*> D ( J07 ) is missing"
+    ],
+    "output": {
+      "template": "Missing reverse cable : Cable <*> <*> E ( J13 ) --> <*> <*> D ( J15 ) is present BUT the reverse cable <*> <*> E ( J05 ) --> <*> <*> D ( J07 ) is missing"
+    }
+  },
+  {
+    "inputs": [
+      "PrepareForService shutting down NodeCard ( mLctn ( R26-M1-N3 ) , mCardSernum ( <*> ) , mLp ( <*> : E9:3F:F1 ) , mIp ( <*> ) , mType ( <*> ) ) as part of Service Action <*>",
+      "PrepareForService shutting down NodeCard ( mLctn ( R72-M1-NC ) , mCardSernum ( <*> ) , mLp ( <*> : E9:3C:F2 ) , mIp ( <*> ) , mType ( <*> ) ) as part of Service Action <*>"
+    ],
+    "output": {
+      "template": "PrepareForService shutting down NodeCard ( mLctn ( <*> ) , mCardSernum ( <*> ) , mLp ( <*> : E9:3F:F1 ) , mIp ( <*> ) , mType ( <*> ) ) as part of Service Action <*>"
+    }
+  },
+  {
+    "inputs": [
+      "rts <*> link training failed : wanted : A C X + X- Y + Y- Z + Z- got : A C X + Y + Z + Z-",
+      "rts <*> link training failed : wanted : A C X + X- Y + Y- Z + Z- got : A C X + X- Y + Z +"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "<*> torus receiver x + input pipe error ( s ) ( dcr <*> ) detected and corrected",
+      "<*> torus receiver y + input pipe error ( s ) ( dcr <*> ) detected and corrected"
+    ],
+    "output": {
+      "template": "torus receiver <*> + input pipe error ( s ) ( dcr <*> ) detected and corrected"
+    }
+  },
+  {
+    "inputs": [
+      "Node card VPD check : missing <*> node , VPD ecid <*> in processor card slot J18",
+      "Node card VPD check : missing <*> node , VPD ecid <*> in processor card slot J19"
+    ],
+    "output": {
+      "template": "Node card VPD check : missing <*> node , VPD ecid <*> in processor card slot <*>"
+    }
+  },
+  {
+    "inputs": [
+      "<*> torus sender y- retransmission error ( s ) ( dcr <*> ) detected and corrected",
+      "<*> torus sender x- retransmission error ( s ) ( dcr <*> ) detected and corrected",
+      "<*> torus sender z- retransmission error ( s ) ( dcr <*> ) detected and corrected"
+    ],
+    "output": {
+      "template": "<*> torus sender <*> retransmission error ( s ) ( dcr <*> ) detected and corrected"
+    }
+  },
+  {
+    "inputs": [
+      "EndServiceAction is restarting the NodeCards in midplane R01-M1 as part of Service Action <*>",
+      "EndServiceAction is restarting the NodeCards in midplane R35-M1 as part of Service Action <*>"
+    ],
+    "output": {
+      "template": "EndServiceAction is restarting the NodeCards in midplane <*> as part of Service Action <*>"
+    }
+  },
+  {
+    "inputs": [
+      "NodeCard power module <*> is not accessible",
+      "LinkCard power module <*> is not accessible"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "PrepareForService shutting down NodeCard ( mLctn ( R30-M0-N6 ) , mCardSernum ( <*> ) , mLp ( <*> : E9:2D:2A ) , mIp ( <*> ) , mType ( <*> ) ) as part of Service Action <*>",
+      "PrepareForService shutting down NodeCard ( mLctn ( R63-M0-N3 ) , mCardSernum ( <*> ) , mLp ( <*> : E9:3D:DF ) , mIp ( <*> ) , mType ( <*> ) ) as part of Service Action <*>"
+    ],
+    "output": {
+      "template": "PrepareForService shutting down NodeCard ( mLctn ( <*> ) , mCardSernum ( <*> ) , mLp ( <*> : <*> ) , mIp ( <*> ) , mType ( <*> ) ) as part of Service Action <*>"
+    }
+  },
+  {
+    "inputs": [
+      "critical input interrupt ( unit = <*> bit = <*> ) : warning for torus y- wire",
+      "critical input interrupt ( unit = <*> bit = <*> ) : warning for tree C1 wire",
+      "critical input interrupt ( unit = <*> bit = <*> ) : warning for tree A0 wire",
+      "critical input interrupt ( unit = <*> bit = <*> ) : warning for torus x- wire",
+      "critical input interrupt ( unit = <*> bit = <*> ) : warning for tree B0 wire"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "critical input interrupt ( unit = <*> bit = <*> ) : warning for torus y + wire , suppressing further interrupts of same type",
+      "critical input interrupt ( unit = <*> bit = <*> ) : warning for torus z + wire , suppressing further interrupts of same type",
+      "critical input interrupt ( unit = <*> bit = <*> ) : warning for torus x + wire , suppressing further interrupts of same type"
+    ],
+    "output": {
+      "template": "critical input interrupt ( unit = <*> bit = <*> ) : warning for torus <*> + wire , suppressing further interrupts of same type"
+    }
+  },
+  {
+    "inputs": [
+      "critical input interrupt ( unit = <*> bit = <*> ) : warning for tree C1 wire , suppressing further interrupts of same type",
+      "critical input interrupt ( unit = <*> bit = <*> ) : warning for torus z- wire , suppressing further interrupts of same type",
+      "critical input interrupt ( unit = <*> bit = <*> ) : warning for tree A0 wire , suppressing further interrupts of same type",
+      "critical input interrupt ( unit = <*> bit = <*> ) : warning for tree A1 wire , suppressing further interrupts of same type",
+      "critical input interrupt ( unit = <*> bit = <*> ) : warning for torus y- wire , suppressing further interrupts of same type"
+    ],
+    "output": {
+      "template": "critical input interrupt ( unit = <*> bit = <*> ) : warning for tree <*> wire , suppressing further interrupts of same type"
+    }
+  },
+  {
+    "inputs": [
+      "<*> torus receiver y + input pipe error ( s ) ( dcr <*> ) detected and corrected over <*> seconds",
+      "<*> torus receiver z + input pipe error ( s ) ( dcr <*> ) detected and corrected over <*> seconds",
+      "<*> torus receiver x + input pipe error ( s ) ( dcr <*> ) detected and corrected over <*> seconds"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "<*> torus receiver x- input pipe error ( s ) ( dcr <*> ) detected and corrected over <*> seconds",
+      "<*> torus receiver y- input pipe error ( s ) ( dcr <*> ) detected and corrected over <*> seconds",
+      "<*> torus receiver z- input pipe error ( s ) ( dcr <*> ) detected and corrected over <*> seconds"
+    ],
+    "output": {
+      "template": "<*> torus receiver <*> input pipe error ( s ) ( dcr <*> ) detected and corrected over <*> seconds"
+    }
+  },
+  {
+    "inputs": [
+      "<*> torus sender x + retransmission error ( s ) ( dcr <*> ) detected and corrected over <*> seconds",
+      "<*> torus sender z + retransmission error ( s ) ( dcr <*> ) detected and corrected over <*> seconds"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "<*> torus sender z- retransmission error ( s ) ( dcr <*> ) detected and corrected over <*> seconds",
+      "<*> torus sender x- retransmission error ( s ) ( dcr <*> ) detected and corrected over <*> seconds",
+      "<*> torus sender y- retransmission error ( s ) ( dcr <*> ) detected and corrected over <*> seconds"
+    ],
+    "output": {
+      "template": "<*> torus sender <*> retransmission error ( s ) ( dcr <*> ) detected and corrected over <*> seconds"
+    }
+  },
+  {
+    "inputs": [
+      "<*> L3 directory error ( s ) ( dcr <*> ) detected and corrected over <*> seconds",
+      "<*> L3 EDRAM error ( s ) ( dcr <*> ) detected and corrected over <*> seconds"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "ciod : Error reading message prefix on CioStream socket to <*> , Link has been severed",
+      "ciod : Error reading message prefix on CioStream socket to <*> , Connection reset by peer"
+    ],
+    "output": {
+      "template": "ciod : Error reading message prefix on CioStream socket to <*> , <*> has been severed"
+    }
+  },
+  {
+    "inputs": [
+      "correctable error detected in EDRAM bank <*>",
+      "uncorrectable error detected in EDRAM bank <*>"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "correctable error detected in directory <*>",
+      "uncorrectable error detected in directory <*>"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "L3 global control register : <*>",
+      "L3 ecc control register : <*>"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "memory manager store buffer <*>",
+      "memory manager RMW buffer <*>"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "memory manager uncorrectable <*>",
+      "memory manager strobe <*>",
+      "memory manager address <*>",
+      "memory manager refresh <*>"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "minus normalized <*>",
+      "minus denormalized <*>",
+      "plus normalized <*>"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "enable <*> ",
+      "enable divide-by-zero <*>"
+    ],
+    "output": {
+      "template": "enable <*>"
+    }
+  },
+  {
+    "inputs": [
+      "round toward + <*>",
+      "round toward <*>"
+    ],
+    "output": {
+      "template": "round toward <*>"
+    }
+  },
+  {
+    "inputs": [
+      "start <*>",
+      "state <*>",
+      "capture <*>",
+      "correctable <*>",
+      "qw <*>"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "ide0 : BM-DMA at <*> , BIOS settings : hda : DMA , hdb : pio",
+      "ide1 : BM-DMA at <*> , BIOS settings : hdc : DMA , hdd : pio"
+    ],
+    "output": {
+      "template": "ide<*> : BM-DMA at <*> , BIOS settings : <*> : DMA , <*> : pio"
+    }
+  },
+  {
+    "inputs": [
+      "Inode-cache hash table entries : <*> ( order : <*> bytes )",
+      "Mount-cache hash table entries : <*> ( order : <*> bytes )"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "PID hash table entries : <*> ( order <*> bytes )",
+      "Dquot-cache hash table entries : <*> ( order <*> bytes )"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "session opened for user <*> by <*> ( uid = <*> )",
+      "session opened for user <*> by ( uid = <*> )"
+    ],
+    "output": {
+      "template": "session opened for user <*> by <*> ( uid = <*> )"
+    }
+  },
+  {
+    "inputs": [
+      "serio : i8042 AUX port at <*> irq <*>",
+      "serio : i8042 KBD port at <*> irq <*>"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "*** info [ startup.c ( <*> ) ] :",
+      "*** info [ mice.c ( <*> ) ] :",
+      "*** info [ client.c ( <*> ) ] :"
+    ],
+    "output": {
+      "template": "*** info [ <*> ( <*> ) ] :"
+    }
+  },
+  {
+    "inputs": [
+      "BIOS-e820 : <*> - <*> ( usable )",
+      "BIOS-e820 : <*> - <*> ( reserved )"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "DMA zone : <*> pages , LIFO <*>",
+      "Normal zone : <*> pages , LIFO <*>",
+      "HighMem zone : <*> pages , LIFO <*>"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "EXT3 FS on hda2 , internal journal",
+      "EXT3 FS on hda1 , internal journal"
+    ],
+    "output": {
+      "template": "EXT3 FS on <*> , internal journal"
+    }
+  },
+  {
+    "inputs": [
+      "listening on IPv4 interface lo , <*>",
+      "listening on IPv4 interface eth0 , <*>"
+    ],
+    "output": {
+      "template": "listening on IPv4 interface <*> , <*>"
+    }
+  },
+  {
+    "inputs": [
+      "connection from <*> ( <*> ) at <*>",
+      "connection from <*> ( ) at <*>"
+    ],
+    "output": {
+      "template": "connection from <*> ( <*> ) at <*>"
+    }
+  },
+  {
+    "inputs": [
+      "ide0 at <*> on irq <*>",
+      "ide1 at <*> on irq <*>"
+    ],
+    "output": {
+      "template": "ide<*> at <*> on irq <*>"
+    }
+  },
+  {
+    "inputs": [
+      "Bluetooth : HCI socket layer initialized",
+      "Bluetooth : RFCOMM socket layer initialized"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "SELinux : Registering netfilter hooks",
+      "SELinux : Unregistering netfilter hooks"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "Bluetooth : Core ver <*>",
+      "Bluetooth : L2CAP ver <*>",
+      "Bluetooth : RFCOMM ver <*>"
+    ],
+    "output": {
+      "template": "Bluetooth : <*> ver <*>"
+    }
+  },
+  {
+    "inputs": [
+      "kernel time sync status <*>",
+      "kernel time sync disabled <*>",
+      "kernel time sync enabled <*>"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "<*> + <*> records in",
+      "<*> + <*> records out"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "creating device node <*>",
+      "removing device node <*>"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "Stopping MySQL : succeeded",
+      "Stopping squid : succeeded"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "kernel.core_uses_pid = <*>",
+      "kernel.sysrq = <*>"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "sendmail shutdown failed",
+      "sm-client shutdown failed"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "messagebus -TERM succeeded",
+      "sshd -TERM succeeded"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "session opened for user cyrus by ( uid = <*> )",
+      "session opened for user news by ( uid = <*> )"
+    ],
+    "output": {
+      "template": "session opened for user <*> by ( uid = <*> )"
+    }
+  },
+  {
+    "inputs": [
+      "session opened for user <*> by <*> ( uid = <*> )",
+      "session opened for user cyrus by ( uid = <*> )",
+      "session opened for user news by ( uid = <*> )",
+      "session opened for user <*> by ( uid = <*> )"
+    ],
+    "output": {
+      "template": "session opened for user <*> by <*> ( uid = <*> )"
+    }
+  },
+  {
+    "inputs": [
+      "httpd : page allocation failure . <*> , mode : <*>",
+      "sendmail : page allocation failure . <*> , mode : <*>"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "[ <*> ] ext3_get_inode_loc + <*> [ ext3 ]",
+      "[ <*> ] ext3_reserve_inode_write + <*> [ ext3 ]",
+      "[ <*> ] ext3_mark_inode_dirty + <*> [ ext3 ]",
+      "[ <*> ] journal_start + <*> [ jbd ]",
+      "[ <*> ] ext3_dirty_inode + <*> [ ext3 ]"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "[ <*> ] ext3_get_inode_loc + <*> [ ext3 ]",
+      "[ <*> ] ext3_reserve_inode_write + <*> [ ext3 ]",
+      "[ <*> ] ext3_mark_inode_dirty + <*> [ ext3 ]",
+      "[ <*> ] ext3_dirty_inode + <*> [ ext3 ]",
+      "[ <*> ] ext3_file_write + <*> [ ext3 ]",
+      "[ <*> ] <*> + <*>"
+    ],
+    "output": {
+      "template": "[ <*> ] <*> + <*> [ ext3 ]"
+    }
+  },
+  {
+    "inputs": [
+      "VM : killing process httpd",
+      "VM : killing process sendmail"
+    ],
+    "output": {
+      "template": "VM : killing process <*>"
+    }
+  },
+  {
+    "inputs": [
+      "SELinux : initialized ( dev , type mqueue ) , not configured for labeling",
+      "SELinux : initialized ( dev , type hugetlbfs ) , not configured for labeling"
+    ],
+    "output": {
+      "template": "SELinux : initialized ( dev , type <*> ) , not configured for labeling"
+    }
+  },
+  {
+    "inputs": [
+      "Dec <*> Privoxy ( <*> ) Info : loading configuration file <*> :",
+      "Jan <*> Privoxy ( <*> ) Info : loading configuration file <*> :"
+    ],
+    "output": {
+      "template": "<*> Privoxy ( <*> ) Info : loading configuration file <*> :"
+    }
+  },
+  {
+    "inputs": [
+      "SELinux : initialized ( dev , type devpts ) , uses transition SIDs",
+      "SELinux : initialized ( dev , type pipefs ) , uses task SIDs",
+      "SELinux : initialized ( dev , type tmpfs ) , uses transition SIDs",
+      "SELinux : initialized ( dev , type sockfs ) , uses task SIDs"
+    ],
+    "output": {
+      "template": "SELinux : initialized ( dev , type <*> ) , uses transition SIDs"
+    }
+  },
+  {
+    "inputs": [
+      "session opened for user cyrus by ( uid = <*> )",
+      "session opened for user news by ( uid = <*> )",
+      "session opened for user htt by ( uid = <*> )"
+    ],
+    "output": {
+      "template": "session opened for user <*> by ( uid = <*> )"
+    }
+  },
+  {
+    "inputs": [
+      "session opened for user <*> by <*> ( uid = <*> )",
+      "session opened for user cyrus by ( uid = <*> )",
+      "session opened for user news by ( uid = <*> )",
+      "session opened for user htt by ( uid = <*> )",
+      "session opened for user <*> by ( uid = <*> )"
+    ],
+    "output": {
+      "template": "session opened for user <*> by ( uid = <*> )"
+    }
+  },
+  {
+    "inputs": [
+      "ANONYMOUS FTP LOGIN FROM <*> ( Sgpuser@home.com )",
+      "ANONYMOUS FTP LOGIN FROM <*> ( anonymous )"
+    ],
+    "output": {
+      "template": "ANONYMOUS FTP LOGIN FROM <*> ( <*> )"
+    }
+  },
+  {
+    "inputs": [
+      "[ <*> ] <*> + <*> [ ext3 ]",
+      "[ <*> ] <*> + <*>"
+    ],
+    "output": {
+      "template": "[ <*> ] <*> + <*> [ <*> ]"
+    }
+  },
+  {
+    "inputs": [
+      "ARPT : <*> : IOPMPowerSource Information : onSleep , SleepType : Normal Sleep , 'ExternalConnected' : Yes , 'TimeRemaining' : <*> ,",
+      "ARPT : <*> : IOPMPowerSource Information : onSleep , SleepType : Normal Sleep , 'ExternalConnected' : No , 'TimeRemaining' : <*> ,"
+    ],
+    "output": {
+      "template": "ARPT : <*> : IOPMPowerSource Information : onSleep , SleepType : Normal Sleep , 'ExternalConnected' : <*> , 'TimeRemaining' : <*> ,"
+    }
+  },
+  {
+    "inputs": [
+      "<*> : Could not write data to client PID [ <*> ] ( Mail ) because of error - aborting connection",
+      "<*> : Could not write data to client PID [ <*> ] ( configd ) because of error - aborting connection"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "Failed to connect ( colorGridView ) outlet from ( NSApplication ) to ( NSColorPickerGridView ) : missing setter or instance variable",
+      "Failed to connect ( view ) outlet from ( NSApplication ) to ( NSColorPickerGridView ) : missing setter or instance variable"
+    ],
+    "output": {
+      "template": "Failed to connect ( <*> ) outlet from ( NSApplication ) to ( NSColorPickerGridView ) : missing setter or instance variable"
+    }
+  },
+  {
+    "inputs": [
+      "[ HID ] [ ATC ] [ Error ] AppleDeviceManagementHIDEventService::start Could not make a string from out connection notification key",
+      "[ HID ] [ ATC ] [ Error ] AppleDeviceManagementHIDEventService::start Could not make a string from out poweredoff notification key"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "network changed : v4 ( en0- : <*> ) v6 ( en0 : <*> ) DNS ! Proxy SMB",
+      "network changed : v4 ( en0+ : <*> ) v6 ( en0 : <*> ) DNS ! Proxy SMB",
+      "network changed : v4 ( en0 : <*> ) v6 ( en0+ : <*> ) DNS ! Proxy SMB"
+    ],
+    "output": {
+      "template": "network changed : v4 ( <*> : <*> ) v6 ( en0 : <*> ) DNS ! Proxy SMB"
+    }
+  },
+  {
+    "inputs": [
+      "<*> : DNSServiceCreateConnection : <*> registered records , <*> kDNSServiceFlagsShareConnection operation PID [ <*> ] ( Mail )",
+      "<*> : DNSServiceCreateConnection : <*> registered records , <*> kDNSServiceFlagsShareConnection operation PID [ <*> ] ( configd )"
+    ],
+    "output": {
+      "template": "<*> : DNSServiceCreateConnection : <*> registered records , <*> kDNSServiceFlagsShareConnection operation PID [ <*> ] ( <*> )"
+    }
+  },
+  {
+    "inputs": [
+      "[ <*> ] itemasync_SetProperty signalled err = <*> ( kFigBaseObjectError_Invalidated ) ( invalidated ) at <*> line <*>",
+      "[ <*> ] itemasync_CopyProperty signalled err = <*> ( kFigBaseObjectError_Invalidated ) ( invalidated ) at <*> line <*>"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "<*> ksfetch[ <*> [ lvl = <*> ] KSHelperReceiveAllData ( ) KSHelperTool read <*> bytes from stdin .",
+      "<*> ksfetch[ <*> [ lvl = <*> ] main ( ) Fetcher received a download path : <*>"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "ERROR | -[ LWBuiltInScreenLockAuthLion askForPasswordBuiltIn : ] | Attempted to add an observer when already observing",
+      "ERROR | -[ LWBuiltInScreenLockAuthLion closeAuthAndReset : ] | Attempted to remove an observer when not observing"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "<IMMacNotificationCenterManager : <*> : notification observer : <*> notification : __CFNotification <*> {name = _NSDoNotDisturbEnabledNotification}",
+      "<IMMacNotificationCenterManager : <*> : notification observer : <*> notification : __CFNotification <*> {name = _NSDoNotDisturbDisabledNotification}"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "<*> ksfetch[ <*> [ lvl = <*> ] main ( ) ksfetch done fetching .",
+      "<*> ksfetch[ <*> [ lvl = <*> ] main ( ) Fetcher is exiting ."
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "[ HID ] [ ATC ] AppleDeviceManagementHIDEventService::processWakeReason Wake reason : Host ( <*> )",
+      "[ HID ] [ ATC ] AppleDeviceManagementHIDEventService::processWakeReason Wake reason : Button ( <*> )"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "network changed : v4 ( en0! : <*> ) DNS + Proxy + SMB",
+      "network changed : v6 ( en0! : <*> ) DNS + Proxy + SMB"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "CCFile::captureLog Received Capture notice id : <*> , reason = AssocFail : <*>",
+      "CCFile::captureLog Received Capture notice id : <*> , reason = AuthFail : <*>",
+      "CCFile::captureLog Received Capture notice id : <*> , reason = RoamFail : <*>"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "tcp_connection_destination_perform_socket_connect <*> connectx to <*> failed : [ <*> ] Network is down",
+      "tcp_connection_destination_perform_socket_connect <*> connectx to <*> failed : [ <*> ] Network is unreachable"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "Failed to stop a scan - central is not powered on : <*>",
+      "Failed to start a scan - central is not powered on : <*>"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "ARPT : <*> : wl0 : setup_keepalive : Local IP : <*>",
+      "ARPT : <*> : wl0 : MDNS : IPV6 Addr : <*>",
+      "ARPT : <*> : wl0 : MDNS : IPV4 Addr : <*>"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "<IMMacNotificationCenterManager : <*> : Updating enabled : NO ( Topics : (",
+      "<IMMacNotificationCenterManager : <*> : Updating enabled : YES ( Topics : ("
+    ],
+    "output": {
+      "template": "<IMMacNotificationCenterManager : <*> : Updating enabled : <*> ( Topics : ("
+    }
+  },
+  {
+    "inputs": [
+      "Sandbox : <*> ( <*> ) deny ( <*> ) network-outbound <*>",
+      "Sandbox : <*> ( <*> ) deny ( <*> ) mach-lookup <*>",
+      "Sandbox : <*> ( <*> ) deny ( <*> ) file-read-data <*>"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "could discard act <*> inact <*> purgeable <*> spec <*> cleaned <*>",
+      "did discard act <*> inact <*> purgeable <*> spec <*> cleaned <*>"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "<*> : Will write to : <*> - AssocFail : <*>",
+      "<*> : Will write to : <*> - AuthFail : <*>",
+      "<*> : Will write to : <*> - RoamFail : <*>"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "ARPT : <*> : AirPort_Brcm43xx::platformWoWEnable : WWEN [ enable ]",
+      "ARPT : <*> : AirPort_Brcm43xx::syncPowerState : WWEN [ enabled ]",
+      "ARPT : <*> : AirPort_Brcm43xx::platformWoWEnable : WWEN [ disable ]"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "IO80211AWDLPeerManager::setAwdlOperatingMode Setting the AWDL operation mode from AUTO to SUSPENDED",
+      "IO80211AWDLPeerManager::setAwdlOperatingMode Setting the AWDL operation mode from SUSPENDED to AUTO"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "mDNS_RegisterInterface : Frequent transitions for interface en0 ( <*> )",
+      "mDNS_DeregisterInterface : Frequent transitions for interface en0 ( <*> )",
+      "mDNS_RegisterInterface : Frequent transitions for interface awdl0 ( <*> )",
+      "mDNS_DeregisterInterface : Frequent transitions for interface awdl0 ( <*> )"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "en0 : <*> country code set to 'X3' .",
+      "en0 : <*> country code set to 'US' ."
+    ],
+    "output": {
+      "template": "en0 : <*> country code set to <*> ."
+    }
+  },
+  {
+    "inputs": [
+      "CCDataTap::profileRemoved , Owner : <*> , Name : AssociationEventHistory",
+      "CCLogTap::profileRemoved , Owner : <*> , Name : OneStats",
+      "CCLogTap::profileRemoved , Owner : <*> , Name : IO80211AWDLPeerManager",
+      "CCDataTap::profileRemoved , Owner : <*> , Name : StateSnapshots",
+      "CCLogTap::profileRemoved , Owner : <*> , Name : DriverLogs"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "<IMMacNotificationCenterManager : <*> : DND Enabled : YES",
+      "<IMMacNotificationCenterManager : <*> : DND Enabled : NO"
+    ],
+    "output": {
+      "template": "<IMMacNotificationCenterManager : <*> : DND Enabled : <*>"
+    }
+  },
+  {
+    "inputs": [
+      "Location icon should now be in state 'Active'",
+      "Location icon should now be in state 'Inactive'"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "<*> AM [ AirPlayUIAgent ] BecomingInactive : NSWorkspaceWillSleepNotification",
+      "<*> PM [ AirPlayUIAgent ] BecomingInactive : NSWorkspaceWillSleepNotification"
+    ],
+    "output": {
+      "template": "<*> [ AirPlayUIAgent ] BecomingInactive : NSWorkspaceWillSleepNotification"
+    }
+  },
+  {
+    "inputs": [
+      "QQ ( <*> ) deny mach-lookup <*>",
+      "<*> ( <*> ) deny network-outbound <*>",
+      "<*> ( <*> ) deny mach-lookup <*>"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "AirPort : Link Up on awdl0",
+      "AirPort : Link Up on en0"
+    ],
+    "output": {
+      "template": "AirPort : Link Up on <*>"
+    }
+  },
+  {
+    "inputs": [
+      "<*> : BTLE scanner Powered On",
+      "<*> : BTLE scanner Powered Off"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "en0 : BSSID changed to <*>",
+      "en0 : channel changed to <*>"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "Peripheral manager is not powered on",
+      "Central manager is not powered on"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "vm_compressor_flush completed - took <*> msecs",
+      "hibernate_rebuild completed - took <*> msecs",
+      "vm_compressor_fastwake_warmup completed - took <*> msecs"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "Previous sleep cause : <*>",
+      "Previous shutdown cause : <*>"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "AppleCamIn::systemWakeCall - messageType = 0xE0000340",
+      "AppleCamIn::systemWakeCall - messageType = 0xE0000300",
+      "AppleCamIn::systemWakeCall - messageType = 0xE0000280",
+      "AppleCamIn::systemWakeCall - messageType = 0xE0000320"
+    ],
+    "output": {
+      "template": "AppleCamIn::systemWakeCall - messageType = <*>"
+    }
+  },
+  {
+    "inputs": [
+      "Error in CoreDragRemoveTrackingHandler : <*>",
+      "Error in CoreDragRemoveReceiveHandler : <*>"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "<*> : Started generating hashes",
+      "<*> : Finished generating hashes"
+    ],
+    "output": {
+      "template": "<*> : Started generating hashes"
+    }
+  },
+  {
+    "inputs": [
+      "<*> : BTLE scanning stopped",
+      "<*> : BTLE scanning started"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "hibernate_teardown_pmap_structs done : last_valid_compact_indx <*>",
+      "hibernate_rebuild_pmap_structs done : last_valid_compact_indx <*>"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "Wake reason : ?",
+      "Wake reason : XHC1"
+    ],
+    "output": {
+      "template": "Wake reason : <*>"
+    }
+  },
+  {
+    "inputs": [
+      "( <*> ) c001 <*>",
+      "( <*> ) <*>"
+    ],
+    "output": {
+      "template": "( <*> ) <*> <*>"
+    }
+  },
+  {
+    "inputs": [
+      "kern_open_file_for_direct_io ( <*> )",
+      "IOHibernatePollerOpen ( <*> )"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "[ BluetoothHIDDeviceController ] EventServiceDisconnectedCallback",
+      "[ BluetoothHIDDeviceController ] EventServiceConnectedCallback"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "Session <*> created",
+      "Session <*> destroyed"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "hibernate_teardown started",
+      "hibernate_rebuild started"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "BuildActDeviceEntry enter",
+      "BuildActDeviceEntry exit"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "[ CardDAVPlugin-ERROR ] -getPrincipalInfo : [ _controller supportsRequestCompressionAtURL : <*> Error Domain = <*> Code = <*> \"The Internet connection appears to be offline.\" UserInfo = <*> {Error Domain = <*> Code = <*> \"The Internet connection appears to be offline.\" UserInfo = <*> NSErrorFailingURLKey = <*> _kCFStreamErrorCodeKey = <*> , _kCFStreamErrorDomainKey = <*> , NSLocalizedDescription = The Internet connection appears to be offline.}} , NSErrorFailingURLStringKey = <*> NSErrorFailingURLKey = <*> _kCFStreamErrorDomainKey = <*> , _kCFStreamErrorCodeKey = <*> , NSLocalizedDescription = The Internet connection appears to be offline.}",
+      "[ CardDAVPlugin-ERROR ] -getPrincipalInfo : [ _controller principalPropertiesAtURL : <*> Error Domain = <*> Code = <*> \"The Internet connection appears to be offline.\" UserInfo = <*> {Error Domain = <*> Code = <*> \"The Internet connection appears to be offline.\" UserInfo = <*> NSErrorFailingURLKey = <*> _kCFStreamErrorCodeKey = <*> , _kCFStreamErrorDomainKey = <*> , NSLocalizedDescription = The Internet connection appears to be offline.}} , NSErrorFailingURLStringKey = <*> NSErrorFailingURLKey = <*> _kCFStreamErrorDomainKey = <*> , _kCFStreamErrorCodeKey = <*> , NSLocalizedDescription = The Internet connection appears to be offline.}"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "[ CardDAVPlugin-ERROR ] -getPrincipalInfo : [ _controller supportsRequestCompressionAtURL : <*> Error Domain = <*> Code = <*> \"The request timed out.\" UserInfo = <*> {Error Domain = <*> Code = <*> \"The request timed out.\" UserInfo = <*> NSErrorFailingURLKey = <*> _kCFStreamErrorCodeKey = <*> , _kCFStreamErrorDomainKey = <*> , NSLocalizedDescription = The request timed out.}} , NSErrorFailingURLStringKey = <*> NSErrorFailingURLKey = <*> _kCFStreamErrorDomainKey = <*> , _kCFStreamErrorCodeKey = <*> , NSLocalizedDescription = The request timed out.}",
+      "[ CardDAVPlugin-ERROR ] -getPrincipalInfo : [ _controller principalPropertiesAtURL : <*> Error Domain = <*> Code = <*> \"The request timed out.\" UserInfo = <*> {Error Domain = <*> Code = <*> \"The request timed out.\" UserInfo = <*> NSErrorFailingURLKey = <*> _kCFStreamErrorCodeKey = <*> , _kCFStreamErrorDomainKey = <*> , NSLocalizedDescription = The request timed out.}} , NSErrorFailingURLStringKey = <*> NSErrorFailingURLKey = <*> _kCFStreamErrorDomainKey = <*> , _kCFStreamErrorCodeKey = <*> , NSLocalizedDescription = The request timed out.}"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "[ <*> ] sgffr_generateSingleSampleBuffer signalled err = <*> ( err ) ( FigScheduledReadRequestRead failed ) at <*> line <*>",
+      "[ <*> ] videoMentorThreadCreateSampleBuffer signalled err = <*> ( err ) ( FigSampleGeneratorCreateSampleBufferAtCursor failed ) at <*> line <*>",
+      "[ <*> ] mv_LowLevelCheckIfVideoPlayableUsingDecoder signalled err = <*> ( kFigMediaValidatorError_VideoCodecNotSupported ) ( video codec <*> ) at line <*>"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "tcp_connection_destination_perform_socket_connect <*> connectx to <*> failed : [ <*> ] Can't assign requested address",
+      "tcp_connection_destination_perform_socket_connect <*> connectx to <*> failed : [ <*> ] No route to host"
+    ],
+    "output": {
+      "template": "tcp_connection_destination_perform_socket_connect <*> connectx to <*> failed : [ <*> ] <*>"
+    }
+  },
+  {
+    "inputs": [
+      "Wake reason : <*>",
+      "Wake reason : EC.SleepTimer ( SleepTimer )"
+    ],
+    "output": {
+      "template": "Wake reason : <*>"
+    }
+  },
+  {
+    "inputs": [
+      "Wake reason : <*>",
+      "Wake reason : EC.SleepTimer ( SleepTimer )"
+    ],
+    "output": {
+      "template": "Wake reason : <*>"
+    }
+  },
+  {
+    "inputs": [
+      "( <*> ) <*> <*>",
+      "( <*> ) <*>"
+    ],
+    "output": {
+      "template": "( <*> ) <*> <*>"
+    }
+  },
+  {
+    "inputs": [
+      ". sdef warning for argument '' of command 'activate object' in suite 'Microsoft Word Suite' : <*> is not a valid type name .",
+      ". sdef warning for argument '' of command 'cut object' in suite 'Microsoft Word Suite' : <*> is not a valid type name ."
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      ". sdef warning for argument '' of command 'check grammar' in suite 'Microsoft Word Suite' : <*> is not a valid type name .",
+      ". sdef warning for argument '' of command 'check spelling' in suite 'Microsoft Word Suite' : <*> is not a valid type name ."
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      ". sdef warning for argument '' of command 'reject' in suite 'Microsoft Word Suite' : <*> is not a valid type name .",
+      ". sdef warning for argument '' of command 'update' in suite 'Microsoft Word Suite' : <*> is not a valid type name ."
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      ". sdef warning for argument '' of command 'preset drop' in suite 'Drawing Suite' : <*> is not a valid type name .",
+      ". sdef warning for argument '' of command 'preset gradient' in suite 'Drawing Suite' : <*> is not a valid type name ."
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      ". sdef warning for argument '' of command 'user picture' in suite 'Drawing Suite' : <*> is not a valid type name .",
+      ". sdef warning for argument '' of command 'user textured' in suite 'Drawing Suite' : <*> is not a valid type name ."
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      ". sdef warning for argument '' of command 'sort ascending' in suite 'Table Suite' : <*> is not a valid type name .",
+      ". sdef warning for argument '' of command 'sort descending' in suite 'Table Suite' : <*> is not a valid type name ."
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "Failed to connect ( noResultLabel ) outlet from ( MMSearchViewController ) to ( NSTextField ) : missing setter or instance variable",
+      "Failed to connect ( _consoleX ) outlet from ( NSApplication ) to ( ConsoleX ) : missing setter or instance variable",
+      "Failed to connect ( imageView ) outlet from ( MMFilePreviewPanelWindowController ) to ( NSImageView ) : missing setter or instance variable",
+      "Failed to connect ( loadingViewContainer ) outlet from ( MMFilePreviewPanelWindowController ) to ( NSView ) : missing setter or instance variable"
+    ],
+    "output": {
+      "template": "Failed to connect ( <*> ) outlet from ( <*> ) to ( <*> ) : missing setter or instance variable"
+    }
+  },
+  {
+    "inputs": [
+      "[ <*> ] FigFormatReaderCreateForStreamReturningMatchingContainerLabelType signalled err = <*> ( kFigFormatReaderError_FileNotRecognized ) ( Unrecognized content ) at <*> line <*>",
+      "[ <*> ] audioMentorThreadForwardOrReversePlayback signalled err = <*> ( err ) ( FigSampleGeneratorCreateSampleBufferAtCursor failed ) at <*> line <*>",
+      "[ <*> ] sgffr_generatePartialChunkSampleBuffer signalled err = <*> ( err ) ( FigScheduledReadRequestRead failed ) at <*> line <*>"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "ChromeExistion main isUndetectWithCommand = <*>",
+      "ChromeExistion main isBrowserDetect = <*>",
+      "ChromeExistion main isUndetectWebsite = <*>"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "( <*> ) <*> <*>",
+      "( <*> ) <*>"
+    ],
+    "output": {
+      "template": "( <*> ) <*> <*>"
+    }
+  },
+  {
+    "inputs": [
+      "Wake reason : <*>",
+      "Wake reason : EC.SleepTimer ( SleepTimer )"
+    ],
+    "output": {
+      "template": "Wake reason : <*>"
+    }
+  },
+  {
+    "inputs": [
+      "extension <*> -> ( <*> )",
+      "extension <*> -> <*>"
+    ],
+    "output": {
+      "template": "extension <*> -> <*>"
+    }
+  },
+  {
+    "inputs": [
+      "( <*> ) <*> <*>",
+      "( <*> ) <*>"
+    ],
+    "output": {
+      "template": "( <*> ) <*> <*>"
+    }
+  },
+  {
+    "inputs": [
+      "PM response took <*> ms ( <*> , mapspushd )",
+      "PM response took <*> ms ( <*> , softwareupdated )",
+      "PM response took <*> ms ( <*> , netbiosd )"
+    ],
+    "output": {
+      "template": "PM response took <*> ms ( <*> , <*> )"
+    }
+  },
+  {
+    "inputs": [
+      "Unknown class DocsUINewTemplateItemBox in Interface Builder file at path <*>",
+      "Unknown class FRToolbar in Interface Builder file at path <*>"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "CoreAnimation : failed to receive fence reply : <*>",
+      "CoreAnimation : failed to send fence reply : <*>"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "( <*> ) <*> <*>",
+      "( <*> ) <*>"
+    ],
+    "output": {
+      "template": "( <*> ) <*> <*>"
+    }
+  },
+  {
+    "inputs": [
+      "extension <*> -> <*>",
+      "extension <*> -> ( <*> )"
+    ],
+    "output": {
+      "template": "extension <*> -> <*>"
+    }
+  },
+  {
+    "inputs": [
+      "( <*> ) <*> <*>",
+      "( <*> ) <*>"
+    ],
+    "output": {
+      "template": "( <*> ) <*> <*>"
+    }
+  },
+  {
+    "inputs": [
+      "Instrumentation Service EventID : <*> Temperature sensor returned to a normal value Sensor location : BMC Ambient Temp Chassis location : Main System Chassis Previous state was : Unknown Temperature sensor value ( in Degrees Celsius ) : <*>",
+      "Instrumentation Service EventID : <*> Temperature sensor returned to a normal value Sensor location : BMC Riser Temp Chassis location : Main System Chassis Previous state was : Unknown Temperature sensor value ( in Degrees Celsius ) : <*>"
+    ],
+    "output": {
+      "template": "Instrumentation Service EventID : <*> Temperature sensor returned to a normal value Sensor location : <*> Chassis location : Main System Chassis Previous state was : Unknown Temperature sensor value ( in Degrees Celsius ) : <*>"
+    }
+  },
+  {
+    "inputs": [
+      "omsad32 [ <*> ] : segfault at <*> rip <*> rsp <*> error <*>",
+      "ssh [ <*> ] : segfault at <*> rip <*> rsp <*> error <*>"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "Unable to write meta data for metric cpu_user to RRD",
+      "Unable to write meta data for metric bytes_in to RRD",
+      "Unable to write meta data for metric swap_free to RRD",
+      "Unable to write meta data for metric swap_total to RRD",
+      "Unable to write meta data for metric proc_total to RRD"
+    ],
+    "output": {
+      "template": "Unable to write meta data for metric <*> to RRD"
+    }
+  },
+  {
+    "inputs": [
+      "getServiceRestartRecord = <*>",
+      "getStepsTarget = <*>",
+      "getLastSyncDBTime = <*>",
+      "getDiffTotalCalories = <*>",
+      "getDiffTotalAltitude = <*>"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "e1000 : eth1 : e1000_probe : Intel ( R ) <*> Network Connection",
+      "e1000 : eth0 : e1000_probe : Intel ( R ) <*> Network Connection"
+    ],
+    "output": {
+      "template": "e1000 : <*> : e1000_probe : Intel ( R ) <*> Network Connection"
+    }
+  },
+  {
+    "inputs": [
+      "running <*> --nox -i netsnmp' with <*> privileges on behalf of '<*>'",
+      "running <*> --nox -i ganglia-gmond' with <*> privileges on behalf of '<*>'"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "PID hash table entries : <*> ( order : <*> bytes )",
+      "Inode-cache hash table entries : <*> ( order : <*> bytes )",
+      "Mount-cache hash table entries : <*> ( order : <*> bytes )"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "uhci_hcd <*> : new USB bus registered , assigned bus number <*>",
+      "ehci_hcd <*> : new USB bus registered , assigned bus number <*>"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "session opened for user <*> by <*> ( uid = <*> )",
+      "session opened for user <*> by ( uid = <*> )"
+    ],
+    "output": {
+      "template": "session opened for user <*> by <*> ( uid = <*> )"
+    }
+  },
+  {
+    "inputs": [
+      "ACPI : LAPIC ( <*> lapic_id [ <*> ] disabled )",
+      "ACPI : LAPIC ( <*> lapic_id [ <*> ] enabled )"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "ACPI : Processor [ CPU0 ] ( supports C1 )",
+      "ACPI : Processor [ CPU1 ] ( supports C1 )"
+    ],
+    "output": {
+      "template": "ACPI : Processor [ <*> ] ( supports C1 )"
+    }
+  },
+  {
+    "inputs": [
+      "divert : not allocating divert_blk for non-ethernet device sit0",
+      "divert : not allocating divert_blk for non-ethernet device lo"
+    ],
+    "output": {
+      "template": "divert : not allocating divert_blk for non-ethernet device <*>"
+    }
+  },
+  {
+    "inputs": [
+      "START : rsync pid = <*> from = <*>",
+      "START : tftp pid = <*> from = <*>"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "/ : clean , <*> files , <*> blocks",
+      "<*> : clean , <*> files , <*> blocks"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "uhci_hcd <*> : irq <*> , io base <*>",
+      "ehci_hcd <*> : irq <*> , pci mem <*>"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "running <*> --nox -i netsnmp' with <*> privileges on behalf of '<*>'",
+      "running <*> --nox -i ganglia-gmond' with <*> privileges on behalf of '<*>'",
+      "running <*> with <*> privileges on behalf of '<*>'"
+    ],
+    "output": {
+      "template": "running <*> with <*> privileges on behalf of '<*>'"
+    }
+  },
+  {
+    "inputs": [
+      "Type : Direct-Access ANSI SCSI revision : <*>",
+      "Type : Processor ANSI SCSI revision : <*>"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "BIOS-e820 : <*> - <*> ( reserved )",
+      "BIOS-e820 : <*> - <*> ( usable )"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "Warning : acpi_table_parse ( ACPI_SRAT ) returned <*>",
+      "Warning : acpi_table_parse ( ACPI_SLIT ) returned <*>"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "Normal zone : <*> pages , LIFO <*>",
+      "DMA zone : <*> pages , LIFO <*>",
+      "HighMem zone : <*> pages , LIFO <*>"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "Copyright ( c ) <*> LSI Logic Corporation",
+      "Copyright ( c ) <*> Intel Corporation ."
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "DHCPOFFER on <*> to <*> via eth1",
+      "DHCPACK on <*> to <*> via eth1"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "[ <*> ( <*> ) -- <*> fsck.ext3 -a <*>",
+      "[ <*> ( <*> ) -- <*>"
+    ],
+    "output": {
+      "template": "[ <*> ( <*> ) -- <*> fsck.ext3 -a <*>"
+    }
+  },
+  {
+    "inputs": [
+      "ACPI : IRQ9 used by override .",
+      "ACPI : IRQ2 used by override .",
+      "ACPI : IRQ0 used by override ."
+    ],
+    "output": {
+      "template": "ACPI : <*> used by override ."
+    }
+  },
+  {
+    "inputs": [
+      "EXT3 FS on sda5 , internal journal",
+      "EXT3 FS on sda3 , internal journal",
+      "EXT3 FS on sda1 , internal journal",
+      "EXT3 FS on sda6 , internal journal"
+    ],
+    "output": {
+      "template": "EXT3 FS on <*> , internal journal"
+    }
+  },
+  {
+    "inputs": [
+      "ehci_hcd <*> : EHCI Host Controller",
+      "uhci_hcd <*> : UHCI Host Controller"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "Bringing up interface ib0 : succeeded",
+      "Bringing up interface eth0 : succeeded"
+    ],
+    "output": {
+      "template": "Bringing up interface <*> : succeeded"
+    }
+  },
+  {
+    "inputs": [
+      "eth1 : no IPv6 routers present",
+      "ib0 : no IPv6 routers present",
+      "eth0 : no IPv6 routers present"
+    ],
+    "output": {
+      "template": "<*> : no IPv6 routers present"
+    }
+  },
+  {
+    "inputs": [
+      "RHH kernel module initialized successfully",
+      "THH kernel module initialized successfully"
+    ],
+    "output": {
+      "template": "<*> kernel module initialized successfully"
+    }
+  },
+  {
+    "inputs": [
+      "kernel time sync status <*>",
+      "kernel time sync disabled <*>",
+      "kernel time sync enabled <*>"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "dcdipm device driver loaded",
+      "dcdbas device driver loaded",
+      "dcdbas device driver unloaded",
+      "dcdipm device driver unloaded"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "sshd -TERM succeeded",
+      "haldaemon -TERM succeeded"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "net.ipv4.conf.default.rp_filter = <*>",
+      "net.ipv4.conf.default.accept_source_route = <*>"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "Utst_dyn_mesh_d [ <*> ] : segfault at <*> rip <*> rsp <*> error <*>",
+      "adagio_dp_opt_t [ <*> ] : segfault at <*> rip <*> rsp <*> error <*>"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "bem_dp_opt_tbir [ <*> ] : segfault at <*> rip <*> rsp <*> error <*>",
+      "adesto_dp_opt_t [ <*> ] : segfault at <*> rip <*> rsp <*> error <*>",
+      "Utst_transfer_d [ <*> ] : segfault at <*> rip <*> rsp <*> error <*>",
+      "Utst_comm_dp_op [ <*> ] : segfault at <*> rip <*> rsp <*> error <*>",
+      "presto_dbg_dp_t [ <*> ] : segfault at <*> rip <*> rsp <*> error <*>"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "running <*> --nox -i netsnmp' with <*> privileges on behalf of '<*>'",
+      "running <*> --nox -i ganglia-gmond' with <*> privileges on behalf of '<*>'"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "running <*> with <*> privileges on behalf of '<*>'",
+      "running <*> --nox -i netsnmp' with <*> privileges on behalf of '<*>'"
+    ],
+    "output": {
+      "template": "running <*> with <*> privileges on behalf of '<*>'"
+    }
+  },
+  {
+    "inputs": [
+      "running <*> with <*> privileges on behalf of '<*>'",
+      "running <*> --nox -i ganglia-gmond' with <*> privileges on behalf of '<*>'"
+    ],
+    "output": {
+      "template": "running <*> with <*> privileges on behalf of '<*>'"
+    }
+  },
+  {
+    "inputs": [
+      "Listening on interface eth0 , <*>",
+      "Listening on interface wildcard , <*>",
+      "Listening on interface lo , <*>"
+    ],
+    "output": {
+      "template": "Listening on interface <*> , <*>"
+    }
+  },
+  {
+    "inputs": [
+      "Node <*> HighMem free : 0kB min : 128kB low : 256kB high : 384kB active : 0kB inactive : 0kB present : 0kB <*> all_unreclaimable ? no",
+      "Node <*> DMA free : 11596kB min : 4kB low : 8kB high : 12kB active : 0kB inactive : 0kB present : 16384kB <*> all_unreclaimable ? yes",
+      "Node <*> Normal free : 2648kB min : 2696kB low : 5392kB high : 8088kB active : 49968kB inactive : 3448kB present : 7323648kB <*> all_unreclaimable ? no",
+      "Node <*> Normal free : 183608kB min : 2696kB low : 5392kB high : 8088kB active : 15556kB inactive : 1692kB present : 7323648kB <*> all_unreclaimable ? no",
+      "Node <*> Normal free : 157392kB min : 2696kB low : 5392kB high : 8088kB active : 22636kB inactive : 3844kB present : 7323648kB <*> all_unreclaimable ? no"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "cpu <*> cold : low <*> , high <*> , batch <*>",
+      "cpu <*> hot : low <*> , high <*> , batch <*>"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "running <*> --nox -i netsnmp' with <*> privileges on behalf of '<*>'",
+      "running <*> --nox -i ganglia-gmond' with <*> privileges on behalf of '<*>'"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "running <*> with <*> privileges on behalf of '<*>'",
+      "running <*> --nox -i netsnmp' with <*> privileges on behalf of '<*>'"
+    ],
+    "output": {
+      "template": "running <*> with <*> privileges on behalf of '<*>'"
+    }
+  },
+  {
+    "inputs": [
+      "running <*> with <*> privileges on behalf of '<*>'",
+      "running <*> --nox -i ganglia-gmond' with <*> privileges on behalf of '<*>'"
+    ],
+    "output": {
+      "template": "running <*> with <*> privileges on behalf of '<*>'"
+    }
+  },
+  {
+    "inputs": [
+      "Free pages : 202444kB ( 0kB HighMem )",
+      "Free pages : 196548kB ( 0kB HighMem )",
+      "Free pages : 175712kB ( 0kB HighMem )"
+    ],
+    "output": {
+      "template": "Free pages : <*> ( 0kB HighMem )"
+    }
+  },
+  {
+    "inputs": [
+      "[ <*> ( <*> ) -- <*> fsck.ext3 -a <*>",
+      "[ <*> ( <*> ) -- <*>"
+    ],
+    "output": {
+      "template": "[ <*> ( <*> ) -- <*> fsck.ext3 -a <*>"
+    }
+  },
+  {
+    "inputs": [
+      "Node <*> DMA : <*> = 11596kB",
+      "Node <*> Normal : <*> = 172440kB",
+      "Node <*> Normal : <*> = 185080kB",
+      "Node <*> Normal : <*> = 173640kB"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "Free swap : 3871408kB",
+      "Free swap : 3864120kB",
+      "Free swap : 3868868kB"
+    ],
+    "output": {
+      "template": "Free swap : <*>"
+    }
+  },
+  {
+    "inputs": [
+      "sam raid obsd error on read : local_status <*> ( RPC : No response within the timeout period ) , obsd_error <*> ( Success ) virtual object I-xD020038da11df0002-xGf5edfff4-xUf029f5d7e546a4a5 index <*> , stor_op <*> , component device <*> ( OBSD )",
+      "sam raid obsd error on read : local_status <*> ( RPC : No response within the timeout period ) , obsd_error <*> ( Success ) virtual object I-xD020038da11df0002-xGf5edfff4-xU033ec9af270b7e19 index <*> , stor_op <*> , component device <*> ( OBSD )"
+    ],
+    "output": {
+      "template": "sam raid obsd error on read : local_status <*> ( RPC : No response within the timeout period ) , obsd_error <*> ( Success ) virtual object I-xD020038da11df0002-xGf5edfff4-xU<*> index <*> , stor_op <*> , component device <*> ( OBSD )"
+    }
+  },
+  {
+    "inputs": [
+      "pan_sam : I-xD020038da11df0002-xGf5edfff4-xUaf16bdabc4077f9f : error report : failure <*> ( OBSD ) osd_op = <*> offset = <*> length = <*> error = <*> ( RPC : No response within the timeout period )",
+      "pan_sam : I-xD020038da11df0002-xGf5edfff4-xU7a7b9fe15033fa7f : error report : failure <*> ( OBSD ) osd_op = <*> offset = <*> length = <*> error = <*> ( RPC : No response within the timeout period )"
+    ],
+    "output": {
+      "template": "pan_sam : <*> : error report : failure <*> ( OBSD ) osd_op = <*> offset = <*> length = <*> error = <*> ( RPC : No response within the timeout period )"
+    }
+  },
+  {
+    "inputs": [
+      "pan_sam : I-xD020038da11df0002-xGf5edfff4-xUa153654359664693 : error report : cap_handle = <*> op = <*> op_offset = <*> op_length = <*> action_mask = <*> cap_offset = <*> cap_length = <*>",
+      "pan_sam : I-xD020038da11df0002-xGf5edfff4-xUc60d66047e9be81b : error report : cap_handle = <*> op = <*> op_offset = <*> op_length = <*> action_mask = <*> cap_offset = <*> cap_length = <*>"
+    ],
+    "output": {
+      "template": "pan_sam : <*> : error report : cap_handle = <*> op = <*> op_offset = <*> op_length = <*> action_mask = <*> cap_offset = <*> cap_length = <*>"
+    }
+  },
+  {
+    "inputs": [
+      "THH ( <*> ) : handle_eqe_ib_events : QP event on qpn = 0x1B0519 event type is VAPI_LOCAL_WQ_ACCESS_VIOL_ERROR ( <*> ) , syndrome = <*>",
+      "THH ( <*> ) : handle_eqe_ib_events : QP event on qpn = 0xA0A54 event type is VAPI_LOCAL_WQ_ACCESS_VIOL_ERROR ( <*> ) , syndrome = <*>"
+    ],
+    "output": {
+      "template": "THH ( <*> ) : handle_eqe_ib_events : QP event on qpn = <*> event type is VAPI_LOCAL_WQ_ACCESS_VIOL_ERROR ( <*> ) , syndrome = <*>"
+    }
+  },
+  {
+    "inputs": [
+      "running <*> with <*> privileges on behalf of '<*>'",
+      "running <*> --nox -i ganglia-gmond' with <*> privileges on behalf of '<*>'"
+    ],
+    "output": {
+      "template": "running <*> with <*> privileges on behalf of '<*>'"
+    }
+  },
+  {
+    "inputs": [
+      "dcdbas : disagrees about version of symbol struct_module",
+      "dcdipm : disagrees about version of symbol struct_module"
+    ],
+    "output": {
+      "template": "<*> : disagrees about version of symbol struct_module"
+    }
+  },
+  {
+    "inputs": [
+      "Updated timestamp for job `cron.monthly' to <*>",
+      "Updated timestamp for job `cron.weekly' to <*>"
+    ],
+    "output": {
+      "template": "Updated timestamp for job <*> to <*>"
+    }
+  },
+  {
+    "inputs": [
+      "disk at <*>",
+      "processor at <*>"
+    ],
+    "output": {
+      "template": "at <*>"
+    }
+  },
+  {
+    "inputs": [
+      "DHCPREQUEST for <*> ( <*> ) from <*> via eth1 : unknown lease <*> .",
+      "DHCPREQUEST for <*> from <*> via eth1 : unknown lease <*> ."
+    ],
+    "output": {
+      "template": "DHCPREQUEST for <*> from <*> via eth1 : unknown lease <*> ."
+    }
+  },
+  {
+    "inputs": [
+      "running <*> with <*> privileges on behalf of '<*>'",
+      "running <*> --nox -i netsnmp' with <*> privileges on behalf of '<*>'"
+    ],
+    "output": {
+      "template": "running <*> with <*> privileges on behalf of '<*>'"
+    }
+  },
+  {
+    "inputs": [
+      "[ <*> ( <*> ) -- <*> fsck.ext3 -a <*>",
+      "[ <*> ( <*> ) -- <*>"
+    ],
+    "output": {
+      "template": "[ <*> ( <*> ) -- <*> fsck.ext3 -a <*>"
+    }
+  },
+  {
+    "inputs": [
+      "DHCPREQUEST for <*> ( <*> ) from <*> via eth1",
+      "DHCPREQUEST for <*> from <*> via eth1"
+    ],
+    "output": {
+      "template": "DHCPREQUEST for <*> from <*> via eth1"
+    }
+  },
+  {
+    "inputs": [
+      "Lustre : <*> : ( <*> : init_libcfs_module ( ) ) maximum lustre stack <*>",
+      "Lustre : <*> : ( <*> : ksocknal_associate_route_conn_locked ( ) ) Binding <*> to <*>"
+    ],
+    "output": {
+      "template": "Lustre : <*> : ( <*> : <*> ( ) ) <*> <*> <*> <*>"
+    }
+  },
+  {
+    "inputs": [
+      "running <*> with <*> privileges on behalf of '<*>'",
+      "running <*> --nox -i ganglia-gmond' with <*> privileges on behalf of '<*>'"
+    ],
+    "output": {
+      "template": "running <*> with <*> privileges on behalf of '<*>'"
+    }
+  },
+  {
+    "inputs": [
+      "[ <*> ( <*> ) -- <*> fsck.ext3 -a <*>",
+      "[ <*> ( <*> ) -- <*>"
+    ],
+    "output": {
+      "template": "[ <*> ( <*> ) -- <*> fsck.ext3 -a <*>"
+    }
+  },
+  {
+    "inputs": [
+      "RSA1 key generation succeeded",
+      "DSA key generation succeeded"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "Out of Memory : Killed process <*> ( python ) .",
+      "Out of Memory : Killed process <*> ( sendmail ) .",
+      "Out of Memory : Killed process <*> ( mysqld ) .",
+      "Out of Memory : Killed process <*> ( named ) .",
+      "Out of Memory : Killed process <*> ( xfs ) ."
+    ],
+    "output": {
+      "template": "Out of Memory : Killed process <*> ( <*> ) ."
+    }
+  },
+  {
+    "inputs": [
+      "Jun <*> : <*> Privoxy ( <*> ) Info : loading configuration file <*> :",
+      "Jul <*> : <*> Privoxy ( <*> ) Info : loading configuration file <*> :",
+      "Sep <*> : <*> Privoxy ( <*> ) Info : loading configuration file <*> :",
+      "Oct <*> : <*> Privoxy ( <*> ) Info : loading configuration file <*> :"
+    ],
+    "output": {
+      "template": "<*> <*> : <*> Privoxy ( <*> ) Info : loading configuration file <*> :"
+    }
+  },
+  {
+    "inputs": [
+      "Inode-cache hash table entries : <*> ( order : <*> , <*> bytes )",
+      "Mount-cache hash table entries : <*> ( order : <*> , <*> bytes )"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "PID hash table entries : <*> ( order <*> : <*> bytes )",
+      "Dquot-cache hash table entries : <*> ( order <*> , <*> bytes )"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "serio : i8042 AUX port at <*> , <*> irq <*>",
+      "serio : i8042 KBD port at <*> , <*> irq <*>"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "Failed to renew lease for [ DFSClient_NONMAPREDUCE_483047941_1 ] for <*> seconds . Will retry shortly . . .",
+      "Failed to renew lease for [ DFSClient_NONMAPREDUCE_1537864556_1 ] for <*> seconds . Will retry shortly . . ."
+    ],
+    "output": {
+      "template": "Failed to renew lease for [ <*> ] for <*> seconds . Will retry shortly . . ."
+    }
+  },
+  {
+    "inputs": [
+      "Kind : mapreduce.job , Service : job_1445087491445_0005 , Ident : ( org.apache.hadoop.mapreduce.security.token.JobTokenIdentifier@<*> )",
+      "Kind : mapreduce.job , Service : job_1445062781478_0018 , Ident : ( org.apache.hadoop.mapreduce.security.token.JobTokenIdentifier@<*> )",
+      "Kind : mapreduce.job , Service : job_1445087491445_0002 , Ident : ( org.apache.hadoop.mapreduce.security.token.JobTokenIdentifier@<*> )",
+      "Kind : mapreduce.job , Service : job_1445062781478_0020 , Ident : ( org.apache.hadoop.mapreduce.security.token.JobTokenIdentifier@<*> )",
+      "Kind : mapreduce.job , Service : job_1445062781478_0016 , Ident : ( org.apache.hadoop.mapreduce.security.token.JobTokenIdentifier@<*> )"
+    ],
+    "output": {
+      "template": "Kind : mapreduce.job , Service : <*> , Ident : ( <*> )"
+    }
+  },
+  {
+    "inputs": [
+      "Killing taskAttempt : attempt_1445087491445_0005_m_000007_0 because it is running on unusable node : <*>",
+      "Killing taskAttempt : attempt_1445087491445_0005_m_000012_0 because it is running on unusable node : <*>",
+      "Killing taskAttempt : attempt_1445087491445_0002_m_000003_0 because it is running on unusable node : <*>"
+    ],
+    "output": {
+      "template": "Killing taskAttempt : <*> because it is running on unusable node : <*>"
+    }
+  },
+  {
+    "inputs": [
+      "Processing the event EventType : CONTAINER_REMOTE_LAUNCH for container container_1445087491445_0005_01_000016 taskAttempt attempt_1445087491445_0005_m_000011_1",
+      "Processing the event EventType : CONTAINER_REMOTE_CLEANUP for container container_1445087491445_0005_01_000007 taskAttempt attempt_1445087491445_0005_m_000004_0",
+      "Processing the event EventType : CONTAINER_REMOTE_CLEANUP for container container_1445087491445_0005_01_000011 taskAttempt attempt_1445087491445_0005_m_000006_0",
+      "Processing the event EventType : CONTAINER_REMOTE_CLEANUP for container container_1445087491445_0005_01_000012 taskAttempt attempt_1445087491445_0005_m_000007_0",
+      "Processing the event EventType : CONTAINER_REMOTE_CLEANUP for container container_1445087491445_0005_01_000013 taskAttempt attempt_1445087491445_0005_m_000008_0"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "Diagnostics report from attempt_1445087491445_0005_m_000012_0 : Container released on a *lost* node",
+      "Diagnostics report from attempt_1445087491445_0005_m_000006_0 : Container released on a *lost* node",
+      "Diagnostics report from attempt_1445087491445_0002_m_000003_0 : Container released on a *lost* node"
+    ],
+    "output": {
+      "template": "Diagnostics report from <*> : Container released on a *lost* node"
+    }
+  },
+  {
+    "inputs": [
+      "task_1445087491445_0005_m_000002 Task Transitioned from NEW to SCHEDULED",
+      "task_1445087491445_0005_m_000006 Task Transitioned from SCHEDULED to RUNNING",
+      "task_1445087491445_0005_m_000008 Task Transitioned from SCHEDULED to RUNNING",
+      "task_1445087491445_0005_m_000001 Task Transitioned from RUNNING to SUCCEEDED",
+      "task_1445087491445_0005_m_000010 Task Transitioned from RUNNING to SUCCEEDED"
+    ],
+    "output": {
+      "template": "task_1445087491445_0005_m_<*> Task Transitioned from <*> to <*>"
+    }
+  },
+  {
+    "inputs": [
+      "Task attempt_1445062781478_0020_r_000000_0 is allowed to commit now",
+      "Task attempt_1445062781478_0011_r_000000_0 is allowed to commit now",
+      "Task attempt_1445175094696_0005_r_000000_0 is allowed to commit now"
+    ],
+    "output": {
+      "template": "Task <*> is allowed to commit now"
+    }
+  },
+  {
+    "inputs": [
+      "Saved output of task 'attempt_1445062781478_0020_r_000000_0' to <*>",
+      "Saved output of task 'attempt_1445062781478_0011_r_000000_0' to <*>",
+      "Saved output of task 'attempt_1445175094696_0005_r_000000_0' to <*>"
+    ],
+    "output": {
+      "template": "Saved output of task <*> to <*>"
+    }
+  },
+  {
+    "inputs": [
+      "Using ResourceCalculatorProcessTree : org.apache.hadoop.yarn.util.WindowsBasedProcessTree@<*>",
+      "Using ResourceCalculatorProcessTree : org.apache.hadoop.yarn.util.WindowsBasedProcessTree@db57326",
+      "Using ResourceCalculatorProcessTree : org.apache.hadoop.yarn.util.WindowsBasedProcessTree@b2e6de0",
+      "Using ResourceCalculatorProcessTree : org.apache.hadoop.yarn.util.WindowsBasedProcessTree@7cedd9bc"
+    ],
+    "output": {
+      "template": "Using ResourceCalculatorProcessTree : org.apache.hadoop.yarn.util.WindowsBasedProcessTree@<*>"
+    }
+  },
+  {
+    "inputs": [
+      "OutputCommitter is org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter",
+      "maxTaskFailuresPerNode is <*>",
+      "blacklistDisablePercent is <*>"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "Processing the event EventType : CONTAINER_REMOTE_LAUNCH for container container_1445175094696_0005_01_000004 taskAttempt attempt_1445175094696_0005_m_000002_0",
+      "Processing the event EventType : CONTAINER_REMOTE_LAUNCH for container container_1445175094696_0005_01_000005 taskAttempt attempt_1445175094696_0005_m_000003_0",
+      "Processing the event EventType : CONTAINER_REMOTE_LAUNCH for container container_1445175094696_0005_01_000008 taskAttempt attempt_1445175094696_0005_m_000006_0",
+      "Processing the event EventType : CONTAINER_REMOTE_LAUNCH for container container_1445175094696_0005_01_000011 taskAttempt attempt_1445175094696_0005_m_000007_0",
+      "Processing the event EventType : CONTAINER_REMOTE_LAUNCH for container container_1445175094696_0005_01_000010 taskAttempt attempt_1445175094696_0005_m_000009_0"
+    ],
+    "output": {
+      "template": "Processing the event EventType : CONTAINER_REMOTE_LAUNCH for container <*> taskAttempt <*>"
+    }
+  },
+  {
+    "inputs": [
+      "TaskAttempt killed because it ran on unusable node <*> . AttemptId : attempt_1445087491445_0002_m_000006_1",
+      "TaskAttempt killed because it ran on unusable node <*> . AttemptId : attempt_1445087491445_0004_m_000005_0",
+      "TaskAttempt killed because it ran on unusable node <*> . AttemptId : attempt_1445175094696_0003_m_000009_0"
+    ],
+    "output": {
+      "template": "TaskAttempt killed because it ran on unusable node <*> . AttemptId : <*>"
+    }
+  },
+  {
+    "inputs": [
+      "session.id is deprecated . Instead , use dfs.metrics.session-id",
+      "mapred.skip.on is deprecated . Instead , use mapreduce.job.skiprecords"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "Container complete event for unknown container id container_1445062781478_0018_01_000012",
+      "Container complete event for unknown container id container_1445062781478_0018_01_000013",
+      "Container complete event for unknown container id container_1445182159119_0004_01_000015"
+    ],
+    "output": {
+      "template": "Container complete event for unknown container id <*>"
+    }
+  },
+  {
+    "inputs": [
+      "Using ShuffleConsumerPlugin : org.apache.hadoop.mapreduce.task.reduce.Shuffle@<*>",
+      "Using ShuffleConsumerPlugin : org.apache.hadoop.mapreduce.task.reduce.Shuffle@e55c068"
+    ],
+    "output": {
+      "template": "Using ShuffleConsumerPlugin : org.apache.hadoop.mapreduce.task.reduce.Shuffle@<*>"
+    }
+  },
+  {
+    "inputs": [
+      "JOB_CREATE job_1445182159119_0020",
+      "JOB_CREATE job_1445182159119_0018",
+      "JOB_CREATE job_1445076437777_0002"
+    ],
+    "output": {
+      "template": "JOB_CREATE <*>"
+    }
+  },
+  {
+    "inputs": [
+      "Diagnostics report from attempt_1445144423722_0020_m_000006_0 : cleanup failed for container container_1445144423722_0020_01_000008 : java.lang.IllegalArgumentException : java.net.UnknownHostException : <*>",
+      "Diagnostics report from attempt_1445144423722_0023_m_000003_0 : cleanup failed for container container_1445144423722_0023_01_000005 : java.lang.IllegalArgumentException : java.net.UnknownHostException : <*>",
+      "Diagnostics report from attempt_1445144423722_0023_m_000002_0 : cleanup failed for container container_1445144423722_0023_01_000004 : java.lang.IllegalArgumentException : java.net.UnknownHostException : <*>"
+    ],
+    "output": {
+      "template": "Diagnostics report from <*> : cleanup failed for container <*> : java.lang.IllegalArgumentException : java.net.UnknownHostException : <*>"
+    }
+  },
+  {
+    "inputs": [
+      "Cannot assign container Container : [ ContainerId : container_1445062781478_0018_01_000013 , NodeId : <*> , NodeHttpAddress : <*> , Resource : <*> , vCores : <*> , Priority : <*> , Token : Token { kind : ContainerToken , service : <*> } , ] for a map as either container memory less than required <*> , vCores : <*> or no pending map tasks - maps.isEmpty = <*>",
+      "Cannot assign container Container : [ ContainerId : container_1445062781478_0015_01_000012 , NodeId : <*> , NodeHttpAddress : <*> , Resource : <*> , vCores : <*> , Priority : <*> , Token : Token { kind : ContainerToken , service : <*> } , ] for a map as either container memory less than required <*> , vCores : <*> or no pending map tasks - maps.isEmpty = <*>",
+      "Cannot assign container Container : [ ContainerId : container_1445062781478_0013_01_000014 , NodeId : <*> , NodeHttpAddress : <*> , Resource : <*> , vCores : <*> , Priority : <*> , Token : Token { kind : ContainerToken , service : <*> } , ] for a map as either container memory less than required <*> , vCores : <*> or no pending map tasks - maps.isEmpty = <*>"
+    ],
+    "output": {
+      "template": "Cannot assign container Container : [ ContainerId : <*> , NodeId : <*> , NodeHttpAddress : <*> , Resource : <*> , vCores : <*> , Priority : <*> , Token : Token { kind : ContainerToken , service : <*> } , ] for a map as either container memory less than required <*> , vCores : <*> or no pending map tasks - maps.isEmpty = <*>"
+    }
+  },
+  {
+    "inputs": [
+      "Result of canCommit for attempt_1445062781478_0013_r_000000_1000 : <*>",
+      "Result of canCommit for attempt_1445094324383_0004_r_000000_1 : <*>",
+      "Result of canCommit for attempt_1445182159119_0013_r_000000_0 : <*>"
+    ],
+    "output": {
+      "template": "Result of canCommit for <*> : <*>"
+    }
+  },
+  {
+    "inputs": [
+      "Releasing unassigned and invalid container Container : [ ContainerId : container_1445062781478_0018_01_000012 , NodeId : <*> , NodeHttpAddress : <*> , Resource : <*> , vCores : <*> , Priority : <*> , Token : Token { kind : ContainerToken , service : <*> } , ] . RM may have assignment issues",
+      "Releasing unassigned and invalid container Container : [ ContainerId : container_1445076437777_0005_01_000011 , NodeId : <*> , NodeHttpAddress : <*> , Resource : <*> , vCores : <*> , Priority : <*> , Token : Token { kind : ContainerToken , service : <*> } , ] . RM may have assignment issues"
+    ],
+    "output": {
+      "template": "Releasing unassigned and invalid container Container : [ ContainerId : <*> , NodeId : <*> , NodeHttpAddress : <*> , Resource : <*> , vCores : <*> , Priority : <*> , Token : Token { kind : ContainerToken , service : <*> } , ] . RM may have assignment issues"
+    }
+  },
+  {
+    "inputs": [
+      "Assigning container Container : [ ContainerId : container_1445182159119_0003_01_000018 , NodeId : <*> , NodeHttpAddress : <*> , Resource : <*> , vCores : <*> , Priority : <*> , Token : Token { kind : ContainerToken , service : <*> } , ] to fast fail map",
+      "Assigning container Container : [ ContainerId : container_1445182159119_0015_01_000012 , NodeId : <*> , NodeHttpAddress : <*> , Resource : <*> , vCores : <*> , Priority : <*> , Token : Token { kind : ContainerToken , service : <*> } , ] to fast fail map"
+    ],
+    "output": {
+      "template": "Assigning container Container : [ ContainerId : <*> , NodeId : <*> , NodeHttpAddress : <*> , Resource : <*> , vCores : <*> , Priority : <*> , Token : Token { kind : ContainerToken , service : <*> } , ] to fast fail map"
+    }
+  },
+  {
+    "inputs": [
+      "Diagnostics report from attempt_1445182159119_0004_m_000004_0 : Error : java.io.IOException : There is not enough space on the disk",
+      "Diagnostics report from attempt_1445182159119_0015_m_000005_0 : Error : java.io.IOException : There is not enough space on the disk",
+      "Diagnostics report from attempt_1445182159119_0015_m_000006_0 : Error : java.io.IOException : There is not enough space on the disk"
+    ],
+    "output": {
+      "template": "Diagnostics report from <*> : Error : java.io.IOException : There is not enough space on the disk"
+    }
+  },
+  {
+    "inputs": [
+      "Kind : mapreduce.job , Service : job_1445087491445_0004 , Ident : ( org.apache.hadoop.mapreduce.security.token.JobTokenIdentifier@c5f5deb )",
+      "Kind : mapreduce.job , Service : job_1445094324383_0003 , Ident : ( org.apache.hadoop.mapreduce.security.token.JobTokenIdentifier@c5f5deb )",
+      "Kind : mapreduce.job , Service : job_1445076437777_0001 , Ident : ( org.apache.hadoop.mapreduce.security.token.JobTokenIdentifier@c5f5deb )"
+    ],
+    "output": {
+      "template": "Kind : mapreduce.job , Service : <*> , Ident : ( org.apache.hadoop.mapreduce.security.token.JobTokenIdentifier@c5f5deb )"
+    }
+  },
+  {
+    "inputs": [
+      "Diagnostics report from attempt_1445062781478_0017_m_000002_0 : AttemptID : attempt_1445062781478_0017_m_000002_0 Timed out after <*> <*>",
+      "Diagnostics report from attempt_1445062781478_0017_m_000008_0 : AttemptID : attempt_1445062781478_0017_m_000008_0 Timed out after <*> <*>"
+    ],
+    "output": {
+      "template": "Diagnostics report from <*> : AttemptID : <*> Timed out after <*> <*>"
+    }
+  },
+  {
+    "inputs": [
+      "Successfully connected to <*> for <*> : blk_1073742826_2022",
+      "Successfully connected to <*> for <*> : blk_1073742829_2025"
+    ],
+    "output": {
+      "template": "Successfully connected to <*> for <*> : <*>"
+    }
+  },
+  {
+    "inputs": [
+      "Stopping MapTask metrics system . . .",
+      "Stopping ReduceTask metrics system . . ."
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "Added attempt_1445144423722_0020_m_000001_1 to list of failed maps",
+      "Added attempt_1445182159119_0004_m_000004_1 to list of failed maps",
+      "Added attempt_1445182159119_0015_m_000005_1 to list of failed maps"
+    ],
+    "output": {
+      "template": "Added <*> to list of failed maps"
+    }
+  },
+  {
+    "inputs": [
+      "MapTask metrics system shutdown complete .",
+      "ReduceTask metrics system shutdown complete ."
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "In stop , writing event MAP_ATTEMPT_FAILED",
+      "In stop , writing event TASK_FINISHED"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "MapTask metrics system stopped .",
+      "ReduceTask metrics system stopped ."
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "ide0 : BM-DMA at <*>-<*> , BIOS settings : hda : DMA , hdb : pio",
+      "ide1 : BM-DMA at <*>-0xffaf , BIOS settings : hdc : DMA , hdd : pio"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "ANONYMOUS FTP LOGIN FROM <*> , <*> ( Sgpuser@home.com )",
+      "ANONYMOUS FTP LOGIN FROM <*> , <*> ( anonymous )"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "ide0 at <*>-<*> , <*> on irq <*>",
+      "ide1 at <*>-<*> , <*> on irq <*>"
+    ],
+    "output": {
+      "template": "<*> at <*>-<*> , <*> on irq <*>"
+    }
+  },
+  {
+    "inputs": [
+      "bad username [ ;; ]",
+      "bad username [ \\ ]"
+    ],
+    "output": {
+      "template": "bad username [ <*> ]"
+    }
+  },
+  {
+    "inputs": [
+      "bad username [ <*> ]",
+      "bad username [ ]"
+    ],
+    "output": {
+      "template": "bad username [ <*> ]"
+    }
+  },
+  {
+    "inputs": [
+      "Stopping MySQL : succeeded",
+      "Stopping squid : succeeded",
+      "Stopping MySQL : failed"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "pam_unix ( sshd : session ) : session opened for user curi by ( uid = <*> )",
+      "pam_unix ( sshd : session ) : session opened for user suyuxin by ( uid = <*> )",
+      "pam_unix ( sshd : session ) : session opened for user fztu by ( uid = <*> )"
+    ],
+    "output": {
+      "template": "pam_unix ( sshd : session ) : session opened for user <*> by ( uid = <*> )"
+    }
+  },
+  {
+    "inputs": [
+      "Received disconnect from <*> : <*> : [ preauth ]",
+      "Received disconnect from <*> : <*> : disconnected by user"
+    ],
+    "output": {
+      "template": "Received disconnect from <*> : <*> : <*>"
+    }
+  },
+  {
+    "inputs": [
+      "wait ( command <*> )",
+      "boot ( command <*> )",
+      "halt ( command <*> )",
+      "haltcluster ( command <*> )"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "Command Failed on : node-D7",
+      "Command Failed on : node-D4"
+    ],
+    "output": {
+      "template": "Command Failed on : <*>"
+    }
+  },
+  {
+    "inputs": [
+      "haltcluster ( command <*> ) Error : timeout waiting for SRM prompts",
+      "halt ( command <*> ) Error : timeout waiting for SRM prompt",
+      "haltcluster ( command <*> ) Error : haltcluster : bad spawn id"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "Targeting domains : <*> and nodes : node-[ <*> ]",
+      "Targeting domains : node-D [ <*> ] and nodes : node-[ <*> ]"
+    ],
+    "output": {
+      "template": "Targeting domains : <*> and nodes : node-[ <*> ]"
+    }
+  },
+  {
+    "inputs": [
+      "Targeting domains : <*> and nodes : node-[ <*> ]",
+      "Targeting domains : node-D[ <*> ] and nodes : node-[ <*> ]"
+    ],
+    "output": {
+      "template": "Targeting domains : <*> and nodes : node-[ <*> ]"
+    }
+  },
+  {
+    "inputs": [
+      "Notification : <*> ( n.leader ) , <*> ( n.zxid ) , <*> ( n.round ) , LOOKING ( n.state ) , <*> ( n.sid ) , <*> ( n.peerEPoch ) , LOOKING ( my state )",
+      "Notification : <*> ( n.leader ) , <*> ( n.zxid ) , <*> ( n.round ) , LOOKING ( n.state ) , <*> ( n.sid ) , <*> ( n.peerEPoch ) , FOLLOWING ( my state )",
+      "Notification : <*> ( n.leader ) , <*> ( n.zxid ) , <*> ( n.round ) , LEADING ( n.state ) , <*> ( n.sid ) , <*> ( n.peerEPoch ) , LOOKING ( my state )",
+      "Notification : <*> ( n.leader ) , <*> ( n.zxid ) , <*> ( n.round ) , FOLLOWING ( n.state ) , <*> ( n.sid ) , <*> ( n.peerEPoch ) , FOLLOWING ( my state )",
+      "Notification : <*> ( n.leader ) , <*> ( n.zxid ) , <*> ( n.round ) , LEADING ( n.state ) , <*> ( n.sid ) , <*> ( n.peerEPoch ) , FOLLOWING ( my state )"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "FOLLOWING - LEADER ELECTION TOOK - <*>",
+      "LEADING - LEADER ELECTION TOOK - <*>"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "autopurge.snapRetainCount set to <*>",
+      "autopurge.purgeInterval set to <*>"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "shutdown called",
+      "Shutdown called"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "onReceive action : android.intent.action.SCREEN_ON",
+      "onReceive action : android.intent.action.SCREEN_OFF"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "processHandleBroadcastAction action : android.intent.action.SCREEN_ON",
+      "processHandleBroadcastAction action : android.intent.action.TIME_TICK"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "next day : steps0mLastReport7214",
+      "next day : steps0mLastReport6089",
+      "next day : steps0mLastReport6225"
+    ],
+    "output": {
+      "template": "next day : <*>"
+    }
+  },
+  {
+    "inputs": [
+      "<*> Task Transitioned from NEW to SCHEDULED",
+      "<*> Task Transitioned from SCHEDULED to RUNNING",
+      "<*> Task Transitioned from RUNNING to SUCCEEDED",
+      "<*> Task Transitioned from NEW to SUCCEEDED"
+    ],
+    "output": {
+      "template": "<*> Task Transitioned from <*> to <*>"
+    }
+  },
+  {
+    "inputs": [
+      "mapred.tip.id is deprecated . Instead , use mapreduce.task.id",
+      "mapred.job.id is deprecated . Instead , use mapreduce.job.id"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "Starting task <*> in stage <*> ( TID <*> , <*> , partition <*> , NODE_LOCAL , <*> bytes )",
+      "Starting task <*> in stage <*> ( TID <*> , <*> , partition <*> , PROCESS_LOCAL , <*> bytes )",
+      "Starting task <*> in stage <*> ( TID <*> , <*> , partition <*> , RACK_LOCAL , <*> bytes )"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "Lost task <*> in stage <*> ( TID <*> , <*> ) : ExecutorLostFailure ( executor <*> exited caused by one of the running tasks ) Reason : Container killed by YARN for exceeding memory limits . <*> of <*> virtual memory used . Consider boosting spark.yarn.executor.memoryOverhead .",
+      "Lost task <*> in stage <*> ( TID <*> , <*> ) : ExecutorLostFailure ( executor <*> exited caused by one of the running tasks ) Reason : Container killed by YARN for exceeding memory limits . <*> of <*> physical memory used . Consider boosting spark.yarn.executor.memoryOverhead ."
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "<*> torus receiver y + input pipe error ( s ) ( dcr <*> ) detected and corrected",
+      "<*> torus receiver z + input pipe error ( s ) ( dcr <*> ) detected and corrected",
+      "<*> torus receiver x + input pipe error ( s ) ( dcr <*> ) detected and corrected"
+    ],
+    "output": {
+      "template": "<*> torus receiver <*> + input pipe error ( s ) ( dcr <*> ) detected and corrected"
+    }
+  },
+  {
+    "inputs": [
+      "<*> torus receiver z- input pipe error ( s ) ( dcr <*> ) detected and corrected",
+      "<*> torus receiver x- input pipe error ( s ) ( dcr <*> ) detected and corrected",
+      "<*> torus receiver y- input pipe error ( s ) ( dcr <*> ) detected and corrected"
+    ],
+    "output": {
+      "template": "<*> torus receiver <*> input pipe error ( s ) ( dcr <*> ) detected and corrected"
+    }
+  },
+  {
+    "inputs": [
+      "<*> torus receiver <*> + input pipe error ( s ) ( dcr <*> ) detected and corrected",
+      "<*> torus receiver <*> input pipe error ( s ) ( dcr <*> ) detected and corrected"
+    ],
+    "output": {
+      "template": "<*> torus receiver <*> <*> input pipe error ( s ) ( dcr <*> ) detected and corrected"
+    }
+  },
+  {
+    "inputs": [
+      "ciod : X coordinate <*> exceeds physical dimension <*> at line <*> of node map file <*>",
+      "ciod : T coordinate <*> exceeds physical dimension <*> at line <*> of node map file <*>",
+      "ciod : Y coordinate <*> exceeds physical dimension <*> at line <*> of node map file <*>",
+      "ciod : Z coordinate <*> exceeds physical dimension <*> at line <*> of node map file <*>"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "ciod : Error creating node map from file <*> : No child processes",
+      "ciod : Error creating node map from file <*> : Bad file descriptor",
+      "ciod : Error creating node map from file <*> : Block device required"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "Missing reverse cable : Cable R00-M1-L2 <*> F ( J11 ) --> R01-M1-L2 <*> C ( J10 ) is present BUT the reverse cable R01-M1-L2 <*> F ( J09 ) --> R00-M1-L2 <*> C ( J08 ) is missing",
+      "Missing reverse cable : Cable R03-M1-L2 <*> F ( J17 ) --> R01-M1-L2 <*> C ( J16 ) is present BUT the reverse cable R01-M1-L2 <*> F ( J03 ) --> R03-M1-L2 <*> C ( J02 ) is missing"
+    ],
+    "output": {
+      "template": "Missing reverse cable : Cable <*> F ( <*> ) --> R01-M1-L2 <*> C ( <*> ) is present BUT the reverse cable R01-M1-L2 <*> F ( <*> ) --> <*> C ( <*> ) is missing"
+    }
+  },
+  {
+    "inputs": [
+      "New ido chip inserted into the database : <*> : EA:E0:D6 ip = <*> v = <*> t = <*>",
+      "New ido chip inserted into the database : <*> : EA:E0:BA ip = <*> v = <*> t = <*>",
+      "New ido chip inserted into the database : <*> : EA:E0:E0 ip = <*> v = <*> t = <*>"
+    ],
+    "output": {
+      "template": "New ido chip inserted into the database : <*> : <*> ip = <*> v = <*> t = <*>"
+    }
+  },
+  {
+    "inputs": [
+      "New ido chip inserted into the database : <*> : E9:1B:0D ip = <*> v = <*> t = <*>",
+      "New ido chip inserted into the database : <*> : E9:1B:6C ip = <*> v = <*> t = <*>"
+    ],
+    "output": {
+      "template": "New ido chip inserted into the database : <*> : <*> ip = <*> v = <*> t = <*>"
+    }
+  },
+  {
+    "inputs": [
+      "rts <*> link training failed : wanted : A C X + X- Y + Y- Z + Z- got : A C X + Y + Z + Z-",
+      "rts <*> link training failed : wanted : A C X + X- Y + Y- Z + Z- got : A C X + X- Y + Z +",
+      "rts <*> link training failed : wanted : <*> C X + X- Y + Y- Z + Z- got : <*> C X + X- Y- Z + Z-"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "critical input interrupt ( unit = <*> bit = <*> ) : warning for torus z + wire",
+      "critical input interrupt ( unit = <*> bit = <*> ) : warning for torus y + wire",
+      "critical input interrupt ( unit = <*> bit = <*> ) : warning for torus x + wire"
+    ],
+    "output": {
+      "template": "critical input interrupt ( unit = <*> bit = <*> ) : warning for torus <*> + wire"
+    }
+  },
+  {
+    "inputs": [
+      "critical input interrupt ( unit = <*> bit = <*> ) : warning for torus z- wire",
+      "critical input interrupt ( unit = <*> bit = <*> ) : warning for torus y- wire",
+      "critical input interrupt ( unit = <*> bit = <*> ) : warning for tree C1 wire",
+      "critical input interrupt ( unit = <*> bit = <*> ) : warning for tree A0 wire",
+      "critical input interrupt ( unit = <*> bit = <*> ) : warning for torus x- wire"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "EndServiceAction is restarting the NodeCards in midplane R01-M1 as part of Service Action <*>",
+      "EndServiceAction is restarting the NodeCards in midplane R35-M1 as part of Service Action <*>",
+      "EndServiceAction is restarting the NodeCards in midplane R67-M1 as part of Service Action <*>"
+    ],
+    "output": {
+      "template": "EndServiceAction is restarting the NodeCards in midplane <*> as part of Service Action <*>"
+    }
+  },
+  {
+    "inputs": [
+      "critical input interrupt ( unit = <*> bit = <*> ) : warning for torus y- wire , suppressing further interrupts of same type",
+      "critical input interrupt ( unit = <*> bit = <*> ) : warning for torus z- wire , suppressing further interrupts of same type",
+      "critical input interrupt ( unit = <*> bit = <*> ) : warning for torus x- wire , suppressing further interrupts of same type"
+    ],
+    "output": {
+      "template": "critical input interrupt ( unit = <*> bit = <*> ) : warning for torus <*> wire , suppressing further interrupts of same type"
+    }
+  },
+  {
+    "inputs": [
+      "critical input interrupt ( unit = <*> bit = <*> ) : warning for torus <*> + wire , suppressing further interrupts of same type",
+      "critical input interrupt ( unit = <*> bit = <*> ) : warning for torus <*> wire , suppressing further interrupts of same type"
+    ],
+    "output": {
+      "template": "critical input interrupt ( unit = <*> bit = <*> ) : warning for torus <*> wire , suppressing further interrupts of same type"
+    }
+  },
+  {
+    "inputs": [
+      "EndServiceAction is restarting the LinkCards in midplane R04-M1 as part of Service Action <*>",
+      "EndServiceAction is restarting the LinkCards in midplane R62-M0 as part of Service Action <*>"
+    ],
+    "output": {
+      "template": "EndServiceAction is restarting the LinkCards in midplane <*> as part of Service Action <*>"
+    }
+  },
+  {
+    "inputs": [
+      "ciod : LOGIN chdir ( <*> ) failed : Permission denied",
+      "ciod : LOGIN chdir ( <*> ) failed : <*> error"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "correctable error detected in directory <*>",
+      "uncorrectable error detected in directory <*>",
+      "uncorrectable error detected in external <*>"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "data read plb <*>",
+      "data write plb <*>"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "General Purpose Registers :",
+      "Special Purpose Registers :"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "disable store <*>",
+      "disable trace <*>",
+      "disable speculative <*>"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "i-cache parity <*>",
+      "address parity <*>"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "enable overflow <*>",
+      "enable underflow <*>",
+      "enable inexact <*>"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "DMA zone : <*> pages , LIFO <*>",
+      "Normal zone : <*> pages , LIFO <*>"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "ide0 at <*> , <*> on irq <*>",
+      "ide1 at <*> , <*> on irq <*>"
+    ],
+    "output": {
+      "template": "<*> at <*> , <*> on irq <*>"
+    }
+  },
+  {
+    "inputs": [
+      "[ <*> : <*> ] itemasync_SetProperty signalled err = <*> ( kFigBaseObjectError_Invalidated ) ( invalidated ) at <*> line <*>",
+      "[ <*> : <*> ] itemasync_CopyProperty signalled err = <*> ( kFigBaseObjectError_Invalidated ) ( invalidated ) at <*> line <*>"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "ARPT : <*> : ARPT : Wake Reason : Wake on Scan offload",
+      "ARPT : <*> : ARPT : Wake Reason : Wake on TCP Timeout"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "<*> : <*> : BTLE scanner Powered On",
+      "<*> : <*> : BTLE scanner Powered Off"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "Failed to connect ( colorGridView ) outlet from ( NSApplication ) to ( NSColorPickerGridView ) : missing setter or instance variable",
+      "Failed to connect ( view ) outlet from ( NSApplication ) to ( NSColorPickerGridView ) : missing setter or instance variable",
+      "Failed to connect ( _consoleX ) outlet from ( NSApplication ) to ( ConsoleX ) : missing setter or instance variable"
+    ],
+    "output": {
+      "template": "Failed to connect ( <*> ) outlet from ( NSApplication ) to ( <*> ) : missing setter or instance variable"
+    }
+  },
+  {
+    "inputs": [
+      "<*> : <*> : BTLE scanning stopped",
+      "<*> : <*> : BTLE scanning started"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "<*> : Could not write data to client PID [ <*> ] ( Mail ) because of error - aborting connection",
+      "<*> : Could not write data to client PID [ <*> ] ( configd ) because of error - aborting connection",
+      "<*> : Could not write data to client PID [ <*> ] ( CalendarAgent ) because of error - aborting connection"
+    ],
+    "output": {
+      "template": "<*> : Could not write data to client PID [ <*> ] ( <*> ) because of error - aborting connection"
+    }
+  },
+  {
+    "inputs": [
+      "<*> : DNSServiceCreateConnection : <*> registered records , <*> kDNSServiceFlagsShareConnection operation PID [ <*> ] ( Mail )",
+      "<*> : DNSServiceCreateConnection : <*> registered records , <*> kDNSServiceFlagsShareConnection operation PID [ <*> ] ( configd )",
+      "<*> : DNSServiceCreateConnection : <*> registered records , <*> kDNSServiceFlagsShareConnection operation PID [ <*> ] ( CalendarAgent )"
+    ],
+    "output": {
+      "template": "<*> : DNSServiceCreateConnection : <*> registered records , <*> kDNSServiceFlagsShareConnection operation PID [ <*> ] ( <*> )"
+    }
+  },
+  {
+    "inputs": [
+      "tcp_connection_destination_perform_socket_connect <*> connectx to <*> : <*> failed : [ <*> ] Network is down",
+      "tcp_connection_destination_perform_socket_connect <*> connectx to <*> : <*> failed : [ <*> ] Network is unreachable"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "[ CardDAVPlugin-ERROR ] -getPrincipalInfo : [ _controller supportsRequestCompressionAtURL : <*> Error Domain = <*> Code = <*> \"The network connection was lost.\" UserInfo = <*> {Error Domain = <*> Code = <*> \"The network connection was lost.\" UserInfo = <*> NSErrorFailingURLKey = <*> _kCFStreamErrorCodeKey = <*> , _kCFStreamErrorDomainKey = <*> , NSLocalizedDescription = The network connection was lost.}} , NSErrorFailingURLStringKey = <*> NSErrorFailingURLKey = <*> _kCFStreamErrorDomainKey = <*> , _kCFStreamErrorCodeKey = <*> , NSLocalizedDescription = The network connection was lost.}",
+      "[ CardDAVPlugin-ERROR ] -getPrincipalInfo : [ _controller principalPropertiesAtURL : <*> Error Domain = <*> Code = <*> \"The network connection was lost.\" UserInfo = <*> {Error Domain = <*> Code = <*> \"The network connection was lost.\" UserInfo = <*> NSErrorFailingURLKey = <*> _kCFStreamErrorCodeKey = <*> , _kCFStreamErrorDomainKey = <*> , NSLocalizedDescription = The network connection was lost.}} , NSErrorFailingURLStringKey = <*> NSErrorFailingURLKey = <*> _kCFStreamErrorDomainKey = <*> , _kCFStreamErrorCodeKey = <*> , NSLocalizedDescription = The network connection was lost.}"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "<*> : <*> GoogleSoftwareUpdateAgent[ <*> [ lvl = <*> ] + [ KSCodeSigningVerification verifyBundle : applicationId:error: ] KSCodeSigningVerification verifying code signing for <*> Chrome.app' with the requirement 'anchor apple generic and certificate <*> [ <*> ] exists and certificate leaf [ <*> ] exists and certificate leaf [ subject.OU ] = \"EQHXZ8M8AV\" and ( identifier = <*> ) '",
+      "<*> : <*> GoogleSoftwareUpdateAgent[ <*> [ lvl = <*> ] + [ KSCodeSigningVerification verifyBundle : applicationId:error: ] KSCodeSigningVerification verifying code signing for <*> with the requirement 'anchor apple generic and certificate <*> [ <*> ] exists and certificate leaf [ <*> ] exists and certificate leaf [ subject.OU ] = \"EQHXZ8M8AV\" and ( identifier = <*> ) '"
+    ],
+    "output": {
+      "template": "<*> : <*> GoogleSoftwareUpdateAgent[ <*> [ lvl = <*> ] + [ KSCodeSigningVerification verifyBundle : applicationId:error: ] KSCodeSigningVerification verifying code signing for <*> <*> with the requirement 'anchor apple generic and certificate <*> [ <*> ] exists and certificate leaf [ <*> ] exists and certificate leaf [ subject.OU ] = \"EQHXZ8M8AV\" and ( identifier = <*> ) '"
+    }
+  },
+  {
+    "inputs": [
+      "<*> : <*> GoogleSoftwareUpdateAgent[ <*> [ lvl = <*> ] -[ KSAgentApp updateProductWithProductID : usingEngine: ] Done checking for updates for <*> using engine <KSUpdateEngine : <*>",
+      "<*> : <*> GoogleSoftwareUpdateAgent[ <*> [ lvl = <*> ] -[ KSAgentApp updateProductWithProductID : usingEngine: ] Checking for updates for \"All Products\" using engine <KSUpdateEngine : <*>"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "<*> : <*> GoogleSoftwareUpdateAgent[ <*> [ lvl = <*> ] -[ KSAgentApp updateProductWithProductID : usingEngine: ] Done checking for updates for '\"All Products\"' using engine <KSUpdateEngine : <*>",
+      "<*> : <*> GoogleSoftwareUpdateAgent[ <*> [ lvl = <*> ] -[ KSAgentApp updateProductWithProductID : usingEngine: ] Done checking for updates for <*> using engine <KSUpdateEngine : <*>"
+    ],
+    "output": {
+      "template": "<*> : <*> GoogleSoftwareUpdateAgent[ <*> [ lvl = <*> ] -[ KSAgentApp updateProductWithProductID : usingEngine: ] Done checking for updates for <*> using engine <KSUpdateEngine : <*>"
+    }
+  },
+  {
+    "inputs": [
+      "objc [ <*> ] : Class TSUDateFormatter_FormatterCache is implemented in both <*> and <*> One of the two will be used . Which one is undefined .",
+      "objc [ <*> ] : Class TSUFormatUtilities_LocaleSpecificStorage is implemented in both <*> and <*> One of the two will be used . Which one is undefined ."
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "<*> : <*> GoogleSoftwareUpdateAgent[ <*> [ lvl = <*> ] -[ KSAgentApp updateProductWithProductID : usingEngine: ] Checking for updates for \"All Products\" using engine <KSUpdateEngine : <*>",
+      "<*> : <*> GoogleSoftwareUpdateAgent[ <*> [ lvl = <*> ] -[ KSAgentApp updateProductWithProductID : usingEngine: ] Checking for updates for <*> using engine <KSUpdateEngine : <*>"
+    ],
+    "output": {
+      "template": "<*> : <*> GoogleSoftwareUpdateAgent[ <*> [ lvl = <*> ] -[ KSAgentApp updateProductWithProductID : usingEngine: ] Checking for updates for <*> using engine <KSUpdateEngine : <*>"
+    }
+  },
+  {
+    "inputs": [
+      "[ CardDAVPlugin-ERROR ] -getPrincipalInfo : [ _controller principalPropertiesAtURL : <*> Error Domain = <*> Code = <*> \" ( <*> ) \"",
+      "[ CardDAVPlugin-ERROR ] -getPrincipalInfo : [ _controller supportsRequestCompressionAtURL : <*> Error Domain = <*> Code = <*> \" ( <*> ) \""
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "[ <*> : <*> ] FigFileForkOpenMainByCFURL signalled err = <*> ( errno ) ( open failed ) at <*> line <*>",
+      "[ <*> : <*> ] sgffr_generatePartialChunkSampleBuffer signalled err = <*> ( err ) ( FigScheduledReadRequestRead failed ) at <*> line <*>"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "<*> : <*> ksfetch[ <*> [ lvl = <*> ] KSHelperReceiveAllData ( ) KSHelperTool read <*> bytes from stdin .",
+      "<*> : <*> ksfetch[ <*> [ lvl = <*> ] main ( ) Fetcher received a download path : <*>"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "Captive : [ <*> ] en0 : SSID 'CalVisitor' making interface primary ( cache indicates network not captive )",
+      "Captive : [ <*> ] en0 : SSID 'AirBears2' making interface primary ( cache indicates network not captive )"
+    ],
+    "output": {
+      "template": "Captive : [ <*> ] en0 : SSID '<*>' making interface primary ( cache indicates network not captive )"
+    }
+  },
+  {
+    "inputs": [
+      "<*> : <*> ksfetch[ <*> [ lvl = <*> ] main ( ) ksfetch done fetching .",
+      "<*> : <*> ksfetch[ <*> [ lvl = <*> ] main ( ) Fetcher is exiting ."
+    ],
+    "output": {
+      "template": "<*> : <*> <*>[ <*> [ lvl = <*> ] main ( ) <*> is <*> ."
+    }
+  },
+  {
+    "inputs": [
+      "Captive : en0 : Not probing 'CalVisitor' ( cache indicates not captive )",
+      "Captive : en0 : Not probing 'AirBears2' ( cache indicates not captive )"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "network changed : v6 ( en0 : <*> ) DNS ! Proxy SMB",
+      "network changed : v4 ( en0 : <*> ) DNS ! Proxy SMB"
+    ],
+    "output": {
+      "template": "network changed : <*> ( en0 : <*> ) DNS ! Proxy SMB"
+    }
+  },
+  {
+    "inputs": [
+      "network changed : v6 ( en0- : <*> ) DNS- Proxy-",
+      "network changed : v4 ( en0- : <*> ) DNS- Proxy-"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "full wake promotion ( reason <*> ) <*> ms",
+      "full wake request ( reason <*> ) <*> ms"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "<*> : <*> : Started generating hashes",
+      "<*> : <*> : Finished generating hashes"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "jAAALVSg001460 : from = <*> , size = <*> , class = <*> , nrcpts = <*> , msgid = <*> , relay = <*>",
+      "jAB5VWZh007805 : from = <*> , size = <*> , class = <*> , nrcpts = <*> , msgid = <*> , relay = <*>",
+      "jAE0BVi0023951 : from = <*> , size = <*> , class = <*> , nrcpts = <*> , msgid = <*> , relay = <*>",
+      "jAE1BXJk014749 : from = <*> , size = <*> , class = <*> , nrcpts = <*> , msgid = <*> , relay = <*>",
+      "jAE5VXaY021188 : from = <*> , size = <*> , class = <*> , nrcpts = <*> , msgid = <*> , relay = <*>"
+    ],
+    "output": {
+      "template": "<*> : from = <*> , size = <*> , class = <*> , nrcpts = <*> , msgid = <*> , relay = <*>"
+    }
+  },
+  {
+    "inputs": [
+      "PID hash table entries : <*> ( order : <*> , <*> bytes )",
+      "Inode-cache hash table entries : <*> ( order : <*> , <*> bytes )",
+      "Mount-cache hash table entries : <*> ( order : <*> , <*> bytes )"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "ACPI : LAPIC ( <*> lapic_id [ <*> ] disabled )",
+      "ACPI : IOAPIC ( <*> address [ <*> ] <*> )",
+      "ACPI : LAPIC ( <*> lapic_id [ <*> ] enabled )"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "( <*> ) CMD ( <*> e )",
+      "( <*> ) CMD ( <*> d )",
+      "( <*> ) CMD ( <*> b )",
+      "( <*> ) CMD ( <*> a )"
+    ],
+    "output": {
+      "template": "( <*> ) CMD ( <*> <*> )"
+    }
+  },
+  {
+    "inputs": [
+      "pbs_mom shutdown succeeded",
+      "xinetd shutdown succeeded",
+      "acpid shutdown succeeded",
+      "omsad32 shutdown succeeded",
+      "snmpd shutdown succeeded"
+    ],
+    "output": {
+      "template": "<*> shutdown succeeded"
+    }
+  },
+  {
+    "inputs": [
+      "omsad32 [ <*> ] : segfault at <*> rip <*> rsp <*> error <*>",
+      "ssh [ <*> ] : segfault at <*> rip <*> rsp <*> error <*>",
+      "Utst_dyn_mesh_d [ <*> ] : segfault at <*> rip <*> rsp <*> error <*>"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "DHCPOFFER on <*> to <*> : <*> via eth1",
+      "DHCPACK on <*> to <*> : <*> via eth1"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "sshd -TERM succeeded",
+      "haldaemon -TERM succeeded",
+      "messagebus -TERM succeeded"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "Utst_transfer_d [ <*> ] : segfault at <*> rip <*> rsp <*> error <*>",
+      "Utst_comm_dp_op [ <*> ] : segfault at <*> rip <*> rsp <*> error <*>",
+      "com [ <*> ] : segfault at <*> rip <*> rsp <*> error <*>"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "Updated timestamp for job `cron.daily' to <*>",
+      "Updated timestamp for job `cron.monthly' to <*>",
+      "Updated timestamp for job `cron.weekly' to <*>"
+    ],
+    "output": {
+      "template": "Updated timestamp for job `<*>' to <*>"
+    }
+  },
+  {
+    "inputs": [
+      "VIPKL ( <*> ) : <*> : make_iobuf : MOSAL_iobuf_register failed : va = 0xC102000size=0x1B000",
+      "VIPKL ( <*> ) : <*> : make_iobuf : MOSAL_iobuf_register failed : va = 0xC102000size=0x1A000"
+    ],
+    "output": {
+      "template": "VIPKL ( <*> ) : <*> : make_iobuf : MOSAL_iobuf_register failed : va = 0xC102000size=<*>"
+    }
+  },
+  {
+    "inputs": [
+      "rpc : request timed out , request <*> , pan_rm_vsmdb_get_mgr_addrs_rpc_v1 ( async ) , to ( peer addr not available )",
+      "rpc : request timed out , request <*> , pan_fm_obj_get_r_capability_rpc_v2 ( async ) , to ( peer addr not available )"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "<*> : TTY = tty1 ; PWD = <*> ; USER = <*> ; COMMAND = <*> -",
+      "<*> : TTY = <*> ; PWD = <*> ; USER = <*> ; COMMAND = <*>"
+    ],
+    "output": {
+      "template": "<*> : TTY = <*> ; PWD = <*> ; USER = <*> ; COMMAND = <*>"
+    }
+  },
+  {
+    "inputs": [
+      "e1000 : eth0 : e1000_watchdog : NIC Link is Up <*> Mbps Full Duplex",
+      "e1000 : eth1 : e1000_watchdog : NIC Link is Up <*> Mbps Full Duplex"
+    ],
+    "output": {
+      "template": "e1000 : <*> : e1000_watchdog : NIC Link is Up <*> Mbps Full Duplex"
+    }
+  },
+  {
+    "inputs": [
+      "DHCPREQUEST for <*> ( <*> ) from <*> : <*> via eth1 : unknown lease <*> .",
+      "DHCPREQUEST for <*> from <*> : <*> via eth1 : unknown lease <*> ."
+    ],
+    "output": {
+      "template": "DHCPREQUEST for <*> from <*> : <*> via eth1 : unknown lease <*> ."
+    }
+  },
+  {
+    "inputs": [
+      "THH ( <*> ) : XHH_mrwm_register_internal : rc = HH_ERR",
+      "THH ( <*> ) : XHH_mrwm_register_mr : rc = HH_EAGAIN"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "Vendor : SEAGATE Model : ST373207LC Rev : D701",
+      "Vendor : MAXTOR Model : ATLAS10K5_73SCA Rev : JNZM"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "DHCPREQUEST for <*> from <*> : <*> via eth0",
+      "DHCPREQUEST for <*> from <*> : <*> via eth1"
+    ],
+    "output": {
+      "template": "DHCPREQUEST for <*> from <*> : <*> via <*>"
+    }
+  },
+  {
+    "inputs": [
+      "DHCPREQUEST for <*> ( <*> ) from <*> : <*> via eth1",
+      "DHCPREQUEST for <*> from <*> : <*> via <*>"
+    ],
+    "output": {
+      "template": "DHCPREQUEST for <*> from <*> : <*> via <*>"
+    }
+  },
+  {
+    "inputs": [
+      "Normal zone : <*> pages , LIFO <*>",
+      "DMA zone : <*> pages , LIFO <*>"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "ts_kernel_services : module license 'Proprietary' taints kernel .",
+      "panfs : module license 'Proprietary' taints kernel ."
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "Kickstart : setup firstboot for tbird panasas env",
+      "Kickstart : setup firstboot for ganglia client software"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "Updated timestamp for job `cron.daily' to <*>",
+      "Updated timestamp for job `cron.weekly' to <*>"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "shutting down for system halt",
+      "shutting down for system reboot"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "Unmounting NFS filesystems : succeeded",
+      "Unmounting PanFS filesystems : succeeded"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "Using IO APIC NMI watchdog",
+      "Processor <*> APIC version <*>"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "RSA key generation succeeded",
+      "DSA key generation succeeded"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "Sending on <*>",
+      "Listening on <*>"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "connection from <*>",
+      "DHCPACK from <*>"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "jAAALVSg001460 : from = <*> , size = <*> , class = <*> , nrcpts = <*> , msgid = <*> , relay = <*>",
+      "jAAB32Mn003063 : from = <*> , size = <*> , class = <*> , nrcpts = <*> , msgid = <*> , relay = <*>",
+      "jAAD1WpN032463 : from = <*> , size = <*> , class = <*> , nrcpts = <*> , msgid = <*> , relay = <*>",
+      "jAAEfUdS017026 : from = <*> , size = <*> , class = <*> , nrcpts = <*> , msgid = <*> , relay = <*>",
+      "jAB5VWZh007805 : from = <*> , size = <*> , class = <*> , nrcpts = <*> , msgid = <*> , relay = <*>"
+    ],
+    "output": {
+      "template": "<*> : from = <*> , size = <*> , class = <*> , nrcpts = <*> , msgid = <*> , relay = <*>"
+    }
+  },
+  {
+    "inputs": [
+      "DHCPDISCOVER from <*> : <*> via eth1 : network C_net : no free leases",
+      "DHCPDISCOVER from <*> : <*> via eth1 : network A_net : no free leases",
+      "DHCPDISCOVER from <*> : <*> via eth1 : network B_net : no free leases",
+      "DHCPDISCOVER from <*> : <*> via eth1 : network D_net : no free leases"
+    ],
+    "output": {
+      "template": "DHCPDISCOVER from <*> : <*> via eth1 : network <*> : no free leases"
+    }
+  },
+  {
+    "inputs": [
+      "Listening on interface eth0 , <*>",
+      "Listening on interface ib0 , <*>",
+      "Listening on interface wildcard , <*>",
+      "Listening on interface lo , <*>"
+    ],
+    "output": {
+      "template": "Listening on interface <*> , <*>"
+    }
+  },
+  {
+    "inputs": [
+      "DHCPOFFER on <*> to <*> : <*> via eth1",
+      "DHCPACK on <*> to <*> : <*> via eth1",
+      "DHCPACK on <*> to <*> : <*> via eth0"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "DHCPREQUEST for <*> ( <*> ) from <*> via eth1",
+      "DHCPREQUEST for <*> from <*> via <*>"
+    ],
+    "output": {
+      "template": "DHCPREQUEST for <*> from <*> via <*>"
+    }
+  },
+  {
+    "inputs": [
+      "MOSAL ( <*> ) : req_perm = READ | WRITE",
+      "MOSAL ( <*> ) : <*> = <*>"
+    ],
+    "output": {
+      "template": "MOSAL ( <*> ) : <*> = <*>"
+    }
+  },
+  {
+    "inputs": [
+      "RSA key generation succeeded",
+      "RSA1 key generation succeeded",
+      "DSA key generation succeeded"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "smartd startup failed",
+      "pbs_mom startup failed"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "[ <*> : <*> ] FigAgglomeratorSetObjectForKey signalled err = <*> ( kFigStringConformerError_ParamErr ) ( NULL key ) at <*> line <*>",
+      "[ <*> : <*> ] sgffr_generateSingleSampleBuffer signalled err = <*> ( err ) ( FigScheduledReadRequestRead failed ) at <*> line <*>",
+      "[ <*> : <*> ] videoMentorThreadCreateSampleBuffer signalled err = <*> ( err ) ( FigSampleGeneratorCreateSampleBufferAtCursor failed ) at <*> line <*>",
+      "[ <*> : <*> ] mv_LowLevelCheckIfVideoPlayableUsingDecoder signalled err = <*> ( kFigMediaValidatorError_VideoCodecNotSupported ) ( video codec <*> ) at line <*>"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "Failed to connect ( colorGridView ) outlet from ( NSApplication ) to ( NSColorPickerGridView ) : missing setter or instance variable",
+      "Failed to connect ( view ) outlet from ( NSApplication ) to ( NSColorPickerGridView ) : missing setter or instance variable",
+      "Failed to connect ( noResultLabel ) outlet from ( MMSearchViewController ) to ( NSTextField ) : missing setter or instance variable",
+      "Failed to connect ( _consoleX ) outlet from ( NSApplication ) to ( ConsoleX ) : missing setter or instance variable"
+    ],
+    "output": {
+      "template": "Failed to connect ( <*> ) outlet from ( NSApplication ) to ( <*> ) : missing setter or instance variable"
+    }
+  },
+  {
+    "inputs": [
+      "<*> GoogleSoftwareUpdateAgent[ <*> [ lvl = <*> ] + [ KSCodeSigningVerification verifyBundle : applicationId:error : ] KSCodeSigningVerification verifying code signing for <*> Chrome.app' with the requirement 'anchor apple generic and certificate <*> ] exists and certificate leaf[ <*> ] exists and certificate leaf[ subject.OU ] = \"EQHXZ8M8AV\" and ( identifier = <*> ) '",
+      "<*> GoogleSoftwareUpdateAgent[ <*> [ lvl = <*> ] + [ KSCodeSigningVerification verifyBundle : applicationId:error : ] KSCodeSigningVerification verifying code signing for <*> with the requirement 'anchor apple generic and certificate <*> ] exists and certificate leaf[ <*> ] exists and certificate leaf[ subject.OU ] = \"EQHXZ8M8AV\" and ( identifier = <*> ) '"
+    ],
+    "output": {
+      "template": "<*> GoogleSoftwareUpdateAgent[ <*> [ lvl = <*> ] + [ KSCodeSigningVerification verifyBundle : applicationId:error : ] KSCodeSigningVerification verifying code signing for <*> <*> with the requirement 'anchor apple generic and certificate <*> ] exists and certificate leaf[ <*> ] exists and certificate leaf[ subject.OU ] = \"EQHXZ8M8AV\" and ( identifier = <*> ) '"
+    }
+  },
+  {
+    "inputs": [
+      "<*> : <*> GoogleSoftwareUpdateAgent[ <*> [ lvl = <*> ] -[ KSAgentApp updateProductWithProductID : usingEngine : ] Done checking for updates for <*> using engine <KSUpdateEngine : <*>",
+      "<*> : <*> GoogleSoftwareUpdateAgent[ <*> [ lvl = <*> ] -[ KSAgentApp updateProductWithProductID : usingEngine : ] Checking for updates for \"All Products\" using engine <KSUpdateEngine : <*>"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "<*> : <*> GoogleSoftwareUpdateAgent[ <*> [ lvl = <*> ] -[ KSOutOfProcessFetcher ( PrivateMethods ) helperDidTerminate : ] KSOutOfProcessFetcher fetch ended for URL : <*>",
+      "<*> : <*> GoogleSoftwareUpdateAgent[ <*> [ lvl = <*> ] -[ KSUpdateCheckAction ( PrivateMethods ) finishAction ] KSUpdateCheckAction found updates : { ( ) }"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "[ <*> ] <*> signalled err = <*> ( <*> ) ( <*> ) at <*> line <*>",
+      "[ <*> ] fragManifold_PushBytes signalled err = <*> ( kFigManifoldError_UnexpectedInitData ) ( Second 'ftyp' atom encountered ) at <*> line <*>"
+    ],
+    "output": {
+      "template": "[ <*> ] <*> signalled err = <*> ( <*> ) ( <*> ) at <*> line <*>"
+    }
+  },
+  {
+    "inputs": [
+      "<*> : <*> GoogleSoftwareUpdateAgent[ <*> [ lvl = <*> ] -[ KSUpdateEngine ( PrivateMethods ) updateFinish ] KSUpdateEngine update processing complete .",
+      "<*> : <*> GoogleSoftwareUpdateAgent[ <*> [ lvl = <*> ] -[ KSAgentApp ( KeystoneThread ) runKeystonesInThreadWithArg : ] Finished with engine thread"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "<*> : <*> GoogleSoftwareUpdateAgent[ <*> [ lvl = <*> ] -[ KSUpdateCheckAction performAction ] KSUpdateCheckAction running KSServerUpdateRequest : <KSOmahaServerUpdateRequest : <*>",
+      "<*> : <*> GoogleSoftwareUpdateAgent[ <*> [ lvl = <*> ] -[ KSMultiUpdateAction performAction ] KSSilentUpdateAction had no updates to apply ."
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "Failed to connect ( imageView ) outlet from ( MMFilePreviewPanelWindowController ) to ( NSImageView ) : missing setter or instance variable",
+      "Failed to connect ( loadingViewContainer ) outlet from ( MMFilePreviewPanelWindowController ) to ( NSView ) : missing setter or instance variable",
+      "Failed to connect ( titleField ) outlet from ( MMSessionPickerListRowView ) to ( NSTextField ) : missing setter or instance variable"
+    ],
+    "output": {
+      "template": "Failed to connect ( <*> ) outlet from ( MMFilePreviewPanelWindowController ) to ( <*> ) : missing setter or instance variable"
+    }
+  },
+  {
+    "inputs": [
+      "<*> : Could not write data to client PID[ <*> ] ( Mail ) because of error - aborting connection",
+      "<*> : Could not write data to client PID[ <*> ] ( configd ) because of error - aborting connection",
+      "<*> : Could not write data to client PID[ <*> ] ( CalendarAgent ) because of error - aborting connection"
+    ],
+    "output": {
+      "template": "<*> : Could not write data to client PID[ <*> ] ( <*> ) because of error - aborting connection"
+    }
+  },
+  {
+    "inputs": [
+      "<WORKFLOW> : sdk send an request to server[ <*> with <*> and data[ <*> ] for <*> ( <*> ) ]",
+      "<WORKFLOW> : sdk send an request to server[ <*> with <*> and data[ <*> ] for <*> ]"
+    ],
+    "output": {
+      "template": "<WORKFLOW> : sdk send an request to server[ <*> with <*> and data[ <*> ] for <*> ( <*> ) ]"
+    }
+  },
+  {
+    "inputs": [
+      "<*> : <*> GoogleSoftwareUpdateAgent[ <*> [ lvl = <*> ] -[ KSPrefetchAction performAction ] KSPrefetchAction no updates to prefetch .",
+      "<*> : <*> GoogleSoftwareUpdateAgent[ <*> [ lvl = <*> ] -[ KSAgentApp performSelfUpdateWithEngine : ] Finished self update check ."
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "<*> : DNSServiceCreateConnection : <*> registered records , <*> kDNSServiceFlagsShareConnection operation PID[ <*> ] ( Mail )",
+      "<*> : DNSServiceCreateConnection : <*> registered records , <*> kDNSServiceFlagsShareConnection operation PID[ <*> ] ( configd )",
+      "<*> : DNSServiceCreateConnection : <*> registered records , <*> kDNSServiceFlagsShareConnection operation PID[ <*> ] ( CalendarAgent )"
+    ],
+    "output": {
+      "template": "<*> : DNSServiceCreateConnection : <*> registered records , <*> kDNSServiceFlagsShareConnection operation PID[ <*> ] ( <*> )"
+    }
+  },
+  {
+    "inputs": [
+      "<*> : <*> ksfetch[ <*> [ lvl = <*> ] main() ksfetch done fetching .",
+      "<*> : <*> ksfetch[ <*> [ lvl = <*> ] main() Fetcher is exiting ."
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "Saved wakeups_resource.diag report for QQ version <*> ( <*> ) to <*>",
+      "Saved wakeups_resource.diag report for WeChat version <*> ( <*> ) to <*>"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "PM response took <*> ms ( <*> , softwareupdated )",
+      "PM response took <*> ms ( <*> , QQ )",
+      "PM response took <*> ms ( <*> , mapspushd )",
+      "PM response took <*> ms ( <*> , netbiosd )"
+    ],
+    "output": {
+      "template": "PM response took <*> ms ( <*> , <*> )"
+    }
+  },
+  {
+    "inputs": [
+      "Wake reason : <*>",
+      "Wake reason : RTC ( Alarm )"
+    ],
+    "output": {
+      "template": "Wake reason : <*>"
+    }
+  },
+  {
+    "inputs": [
+      "Wake reason : <*>",
+      "Wake reason : EC.LidClose ( Maintenance )"
+    ],
+    "output": {
+      "template": "Wake reason : <*>"
+    }
+  },
+  {
+    "inputs": [
+      "Wake reason : <*>",
+      "Wake reason : EC.LidOpen ( User )"
+    ],
+    "output": {
+      "template": "Wake reason : <*>"
+    }
+  },
+  {
+    "inputs": [
+      "Wake reason : <*>",
+      "Wake reason : ARPT ( Network )"
+    ],
+    "output": {
+      "template": "Wake reason : <*>"
+    }
+  },
+  {
+    "inputs": [
+      "pan_sam : I-xD020038da11df0002-xGf5edfff4-xUaf16bdabc4077f9f : error report : failure <*> : <*> ( OBSD ) osd_op = <*> offset = <*> length = <*> error = <*> ( RPC : No response within the timeout period )",
+      "pan_sam : I-xD020038da11df0002-xGf5edfff4-xU7a7b9fe15033fa7f : error report : failure <*> : <*> ( OBSD ) osd_op = <*> offset = <*> length = <*> error = <*> ( RPC : No response within the timeout period )"
+    ],
+    "output": {
+      "template": "pan_sam : <*> : error report : failure <*> : <*> ( OBSD ) osd_op = <*> offset = <*> length = <*> error = <*> ( RPC : No response within the timeout period )"
+    }
+  },
+  {
+    "inputs": [
+      "VIPKL ( <*> ) : <*> : make_iobuf : MOSAL_iobuf_register failed : va = 0xAFA0000size=0x2C000",
+      "VIPKL ( <*> ) : <*> : make_iobuf : MOSAL_iobuf_register failed : va = 0xAFA0000size=0x1F000"
+    ],
+    "output": {
+      "template": "VIPKL ( <*> ) : <*> : make_iobuf : MOSAL_iobuf_register failed : va = <*>"
+    }
+  },
+  {
+    "inputs": [
+      "ACPI : LAPIC ( acpi_id[ <*> ] lapic_id[ <*> ] disabled )",
+      "ACPI : LAPIC ( acpi_id[ <*> ] lapic_id[ <*> ] enabled )"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "correctable error detected in EDRAM bank <*> ..... <*>",
+      "uncorrectable error detected in EDRAM bank <*> ... <*>"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "correctable error detected in directory <*> ...... <*>",
+      "uncorrectable error detected in directory <*> .... <*>"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "invalid operation exception ( software ) ... <*>",
+      "invalid operation exception ( sqrt ) ....... <*>"
+    ],
+    "output": {
+      "template": "invalid operation exception ( <*> ) ... <*>"
+    }
+  },
+  {
+    "inputs": [
+      "invalid operation exception ( int cnvt ) ... <*>",
+      "invalid operation exception ( <*> ) ... <*>"
+    ],
+    "output": {
+      "template": "invalid operation exception ( <*> ) ... <*>"
+    }
+  },
+  {
+    "inputs": [
+      "memory manager store buffer parity ............... <*>",
+      "memory manager RMW buffer parity ................. <*>"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "d-cache search parity error ....... <*>",
+      "d-cache flush parity error ........ <*>"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "data read plb error ............... <*>",
+      "data write plb error .............. <*>"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "round toward +infinity ................... <*>",
+      "round toward -infinity ................... <*>"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "Power deactivated : R05-M0-NA",
+      "Power deactivated : R73-M0-N7"
+    ],
+    "output": {
+      "template": "Power deactivated : <*>"
+    }
+  },
+  {
+    "inputs": [
+      "fraction rounded ......................... <*>",
+      "fraction inexact ......................... <*>"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "Targeting domains : <*> and nodes : node-[ <*> ] child of command <*>",
+      "Targeting domains : <*> and nodes : <*> child of command <*>"
+    ],
+    "output": {
+      "template": "Targeting domains : <*> and nodes : <*> child of command <*>"
+    }
+  },
+  {
+    "inputs": [
+      "Targeting domains : <*> and nodes : node-[ <*> ]",
+      "Targeting domains : <*> and nodes : <*>"
+    ],
+    "output": {
+      "template": "Targeting domains : <*> and nodes : <*>"
+    }
+  },
+  {
+    "inputs": [
+      "Accepted password for curi from <*> port <*> ssh2",
+      "Accepted password for suyuxin from <*> port <*> ssh2",
+      "Accepted password for fztu from <*> port <*> ssh2"
+    ],
+    "output": {
+      "template": "Accepted password for <*> from <*> port <*> ssh2"
+    }
+  },
+  {
+    "inputs": [
+      "Received disconnect from <*>  : disconnect [ preauth ]",
+      "Received disconnect from <*>  : <*>"
+    ],
+    "output": {
+      "template": "Received disconnect from <*>  : <*>"
+    }
+  },
+  {
+    "inputs": [
+      "[ CardDAVPlugin-ERROR ] -getPrincipalInfo : [ _controller supportsRequestCompressionAtURL : <*> Error Domain = <*> Code = <*> \"The Internet connection appears to be offline.\" UserInfo = <*> {Error Domain = <*> Code = <*> \"The Internet connection appears to be offline.\" UserInfo = {NSErrorFailingURLStringKey = <*> NSErrorFailingURLKey = <*> _kCFStreamErrorCodeKey = <*> _kCFStreamErrorDomainKey = <*> NSLocalizedDescription = The Internet connection appears to be offline.}} , NSErrorFailingURLStringKey = <*> NSErrorFailingURLKey = <*> _kCFStreamErrorDomainKey = <*> _kCFStreamErrorCodeKey = <*> NSLocalizedDescription = The Internet connection appears to be offline.}",
+      "[ CardDAVPlugin-ERROR ] -getPrincipalInfo : [ _controller principalPropertiesAtURL : <*> Error Domain = <*> Code = <*> \"The Internet connection appears to be offline.\" UserInfo = <*> {Error Domain = <*> Code = <*> \"The Internet connection appears to be offline.\" UserInfo = {NSErrorFailingURLStringKey = <*> NSErrorFailingURLKey = <*> _kCFStreamErrorCodeKey = <*> _kCFStreamErrorDomainKey = <*> NSLocalizedDescription = The Internet connection appears to be offline.}} , NSErrorFailingURLStringKey = <*> NSErrorFailingURLKey = <*> _kCFStreamErrorDomainKey = <*> _kCFStreamErrorCodeKey = <*> NSLocalizedDescription = The Internet connection appears to be offline.}"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "[ CardDAVPlugin-ERROR ] -getPrincipalInfo : [ _controller supportsRequestCompressionAtURL : <*> Error Domain = <*> Code = <*> \"The network connection was lost.\" UserInfo = <*> {Error Domain = <*> Code = <*> \"The network connection was lost.\" UserInfo = {NSErrorFailingURLStringKey = <*> NSErrorFailingURLKey = <*> _kCFStreamErrorCodeKey = <*> _kCFStreamErrorDomainKey = <*> NSLocalizedDescription = The network connection was lost.}} , NSErrorFailingURLStringKey = <*> NSErrorFailingURLKey = <*> _kCFStreamErrorDomainKey = <*> _kCFStreamErrorCodeKey = <*> NSLocalizedDescription = The network connection was lost.}",
+      "[ CardDAVPlugin-ERROR ] -getPrincipalInfo : [ _controller principalPropertiesAtURL : <*> Error Domain = <*> Code = <*> \"The network connection was lost.\" UserInfo = <*> {Error Domain = <*> Code = <*> \"The network connection was lost.\" UserInfo = {NSErrorFailingURLStringKey = <*> NSErrorFailingURLKey = <*> _kCFStreamErrorCodeKey = <*> _kCFStreamErrorDomainKey = <*> NSLocalizedDescription = The network connection was lost.}} , NSErrorFailingURLStringKey = <*> NSErrorFailingURLKey = <*> _kCFStreamErrorDomainKey = <*> _kCFStreamErrorCodeKey = <*> NSLocalizedDescription = The network connection was lost.}"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "[ CardDAVPlugin-ERROR ] -getPrincipalInfo : [ _controller supportsRequestCompressionAtURL : <*> Error Domain = <*> Code = <*> \"The request timed out.\" UserInfo = <*> {Error Domain = <*> Code = <*> \"The request timed out.\" UserInfo = {NSErrorFailingURLStringKey = <*> NSErrorFailingURLKey = <*> _kCFStreamErrorCodeKey = <*> _kCFStreamErrorDomainKey = <*> NSLocalizedDescription = The request timed out.}} , NSErrorFailingURLStringKey = <*> NSErrorFailingURLKey = <*> _kCFStreamErrorDomainKey = <*> _kCFStreamErrorCodeKey = <*> NSLocalizedDescription = The request timed out.}",
+      "[ CardDAVPlugin-ERROR ] -getPrincipalInfo : [ _controller principalPropertiesAtURL : <*> Error Domain = <*> Code = <*> \"The request timed out.\" UserInfo = <*> {Error Domain = <*> Code = <*> \"The request timed out.\" UserInfo = {NSErrorFailingURLStringKey = <*> NSErrorFailingURLKey = <*> _kCFStreamErrorCodeKey = <*> _kCFStreamErrorDomainKey = <*> NSLocalizedDescription = The request timed out.}} , NSErrorFailingURLStringKey = <*> NSErrorFailingURLKey = <*> _kCFStreamErrorDomainKey = <*> _kCFStreamErrorCodeKey = <*> NSLocalizedDescription = The request timed out.}"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "<*> GoogleSoftwareUpdateAgent[ <*> [ lvl = <*> ] -[ KSAgentApp updateProductWithProductID : usingEngine : ] Done checking for updates for <*> using engine <KSUpdateEngine : <*>",
+      "<*> GoogleSoftwareUpdateAgent[ <*> [ lvl = <*> ] -[ KSAgentApp updateProductWithProductID : usingEngine : ] Checking for updates for \"All Products\" using engine <KSUpdateEngine : <*>"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "<*> GoogleSoftwareUpdateAgent[ <*> [ lvl = <*> ] -[ KSAgentApp updateProductWithProductID : usingEngine : ] Done checking for updates for '\"All Products\"' using engine <KSUpdateEngine : <*>",
+      "<*> GoogleSoftwareUpdateAgent[ <*> [ lvl = <*> ] -[ KSAgentApp updateProductWithProductID : usingEngine : ] Done checking for updates for <*> using engine <KSUpdateEngine : <*>"
+    ],
+    "output": {
+      "template": "<*> GoogleSoftwareUpdateAgent[ <*> [ lvl = <*> ] -[ KSAgentApp updateProductWithProductID : usingEngine : ] Done checking for updates for <*> using engine <KSUpdateEngine : <*>"
+    }
+  },
+  {
+    "inputs": [
+      "<*> GoogleSoftwareUpdateAgent[ <*> [ lvl = <*> ] -[ KSAgentApp updateProductWithProductID : usingEngine : ] Checking for updates for \"All Products\" using engine <KSUpdateEngine : <*>",
+      "<*> GoogleSoftwareUpdateAgent[ <*> [ lvl = <*> ] -[ KSAgentApp updateProductWithProductID : usingEngine : ] Checking for updates for <*> using engine <KSUpdateEngine : <*>"
+    ],
+    "output": {
+      "template": "<*> GoogleSoftwareUpdateAgent[ <*> [ lvl = <*> ] -[ KSAgentApp updateProductWithProductID : usingEngine : ] Checking for updates for <*> using engine <KSUpdateEngine : <*>"
+    }
+  },
+  {
+    "inputs": [
+      "<*> GoogleSoftwareUpdateAgent[ <*> [ lvl = <*> ] -[ KSOutOfProcessFetcher ( PrivateMethods ) helperDidTerminate : ] KSOutOfProcessFetcher fetch ended for URL : <*>",
+      "<*> GoogleSoftwareUpdateAgent[ <*> [ lvl = <*> ] -[ KSUpdateCheckAction ( PrivateMethods ) finishAction ] KSUpdateCheckAction found updates : { ( ) }"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "<WORKFLOW> : sdk send an request to server[ <*> with <*> and data[ <*> ] for <*> , <*> ( <*> ) ]",
+      "<WORKFLOW> : sdk send an request to server[ <*> with <*> and data[ <*> ] for <*> , <*> ]"
+    ],
+    "output": {
+      "template": "<WORKFLOW> : sdk send an request to server[ <*> with <*> and data[ <*> ] for <*> , <*> ( <*> ) ]"
+    }
+  },
+  {
+    "inputs": [
+      "[ <*> ] audioMentorThreadForwardOrReversePlayback signalled err = <*> ( err ) ( FigSampleGeneratorCreateSampleBufferAtCursor failed ) at <*> line <*>",
+      "[ <*> ] sgffr_generatePartialChunkSampleBuffer signalled err = <*> ( err ) ( FigScheduledReadRequestRead failed ) at <*> line <*>"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "ARPT : <*> : AirPort_Brcm43xx::platformWoWEnable : WWEN[ enable ]",
+      "ARPT : <*> : AirPort_Brcm43xx::syncPowerState : WWEN[ enabled ]",
+      "ARPT : <*> : AirPort_Brcm43xx::platformWoWEnable : WWEN[ disable ]"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "jAAALVSg001460 : from = root , size = <*> , class = <*> , nrcpts = <*> , msgid = <*> , relay = <*>",
+      "jAAB32Mn003063 : from = root , size = <*> , class = <*> , nrcpts = <*> , msgid = <*> , relay = <*>",
+      "jAAD1WpN032463 : from = root , size = <*> , class = <*> , nrcpts = <*> , msgid = <*> , relay = <*>",
+      "jAAEfUdS017026 : from = root , size = <*> , class = <*> , nrcpts = <*> , msgid = <*> , relay = <*>",
+      "jAB5VWZh007805 : from = root , size = <*> , class = <*> , nrcpts = <*> , msgid = <*> , relay = <*>"
+    ],
+    "output": {
+      "template": "<*> : from = root , size = <*> , class = <*> , nrcpts = <*> , msgid = <*> , relay = <*>"
+    }
+  },
+  {
+    "inputs": [
+      "Now running on root's privileges .",
+      "Now running on jtfish's privileges ."
+    ],
+    "output": {
+      "template": "Now running on <*> privileges ."
+    }
+  },
+  {
+    "inputs": [
+      "pan_sam : I-xD020038da11df0002-xGf5edfff4-xUaf16bdabc4077f9f : error report : failure <*> : <*> ( OBSD ) osd_op = OP_WRITE offset = <*> length = <*> error = <*> ( RPC : No response within the timeout period )",
+      "pan_sam : I-xD020038da11df0002-xGf5edfff4-xU7a7b9fe15033fa7f : error report : failure <*> : <*> ( OBSD ) osd_op = OP_WRITE offset = <*> length = <*> error = <*> ( RPC : No response within the timeout period )"
+    ],
+    "output": {
+      "template": "pan_sam : <*> : error report : failure <*> : <*> ( OBSD ) osd_op = OP_WRITE offset = <*> length = <*> error = <*> ( RPC : No response within the timeout period )"
+    }
+  },
+  {
+    "inputs": [
+      "pan_sam : I-xD020038da11df0002-xGf5edfff4-xUa153654359664693 : error report : cap_handle = <*> op = OP_GETATTR op_offset = <*> op_length = <*> action_mask = <*> cap_offset = <*> cap_length = <*>",
+      "pan_sam : I-xD020038da11df0002-xGf5edfff4-xUc60d66047e9be81b : error report : cap_handle = <*> op = OP_GETATTR op_offset = <*> op_length = <*> action_mask = <*> cap_offset = <*> cap_length = <*>"
+    ],
+    "output": {
+      "template": "pan_sam : <*> : error report : cap_handle = <*> op = OP_GETATTR op_offset = <*> op_length = <*> action_mask = <*> cap_offset = <*> cap_length = <*>"
+    }
+  },
+  {
+    "inputs": [
+      "<*> : TTY = tty1 ; PWD = <*> ; USER = root ; COMMAND = <*> -",
+      "<*> : TTY = <*> ; PWD = <*> ; USER = root ; COMMAND = <*>"
+    ],
+    "output": {
+      "template": "<*> : TTY = <*> ; PWD = <*> ; USER = root ; COMMAND = <*>"
+    }
+  },
+  {
+    "inputs": [
+      "<*> open through proxy <*> HTTPS",
+      "<*> open through proxy <*> SOCKS5"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "<*> error : Could not connect to proxy <*> - Could not resolve <*> error <*>",
+      "<*> error : Could not connect to proxy <*> - connection attempt failed with error <*>"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "Received disconnect from <*> : <*> : disconnect [ preauth ]",
+      "Received disconnect from <*> : <*> : <*>"
+    ],
+    "output": {
+      "template": "Received disconnect from <*> : <*> : <*>"
+    }
+  },
+  {
+    "inputs": [
+      "tickTime set to <*>",
+      "minSessionTimeout set to <*>",
+      "maxSessionTimeout set to <*>",
+      "initLimit set to <*>"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "Server environment : <*> = <*>",
+      "Server environment : java.vendor = Oracle Corporation"
+    ],
+    "output": {
+      "template": "Server environment : <*> = <*>"
+    }
+  },
+  {
+    "inputs": [
+      "running : Set()",
+      "failed : Set()"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "program interrupt : fp cr update ............. <*>",
+      "program interrupt : fp cr field ............. <*>"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "critical input interrupt enable ... <*>",
+      "external input interrupt enable ... <*>"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "MidplaneSwitchController performing bit sparing on R27-M1-L3-U18-C bit <*>",
+      "MidplaneSwitchController performing bit sparing on R33-M1-L0-U22-C bit <*>",
+      "MidplaneSwitchController performing bit sparing on R77-M0-L1-U19-C bit <*>"
+    ],
+    "output": {
+      "template": "MidplaneSwitchController performing bit sparing on <*> bit <*>"
+    }
+  },
+  {
+    "inputs": [
+      "number of correctable errors detected in L3 directories ... <*>",
+      "number of correctable errors detected in L3 EDRAMs ........ <*>"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "[ <*> ] FigAgglomeratorSetObjectForKey signalled err = <*> ( kFigStringConformerError_ParamErr ) ( NULL key ) at <*> line <*>",
+      "[ <*> ] sgffr_generateSingleSampleBuffer signalled err = <*> ( err ) ( FigScheduledReadRequestRead failed ) at <*> line <*>",
+      "[ <*> ] videoMentorThreadCreateSampleBuffer signalled err = <*> ( err ) ( FigSampleGeneratorCreateSampleBufferAtCursor failed ) at <*> line <*>",
+      "[ <*> ] mv_LowLevelCheckIfVideoPlayableUsingDecoder signalled err = <*> ( kFigMediaValidatorError_VideoCodecNotSupported ) ( video codec <*> ) at line <*>"
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "KeychainGetICDPStatus : keychain : <*>",
+      "KeychainGetICDPStatus : status : off"
+    ],
+    "output": {
+      "template": "KeychainGetICDPStatus : keychain : <*>"
+    }
+  },
+  {
+    "inputs": [
+      "DHCPDISCOVER from <*> via eth1 : network A_net : no free leases",
+      "DHCPDISCOVER from <*> via eth1 : network C_net : no free leases",
+      "DHCPDISCOVER from <*> via eth1 : network B_net : no free leases",
+      "DHCPDISCOVER from <*> via eth1 : network D_net : no free leases"
+    ],
+    "output": {
+      "template": "DHCPDISCOVER from <*> via eth1 : network <*> : no free leases"
+    }
+  },
+  {
+    "inputs": [
+      "DHCPOFFER on <*> to <*> : b2:e7 via eth1",
+      "DHCPOFFER on <*> to <*> : e2 via eth1",
+      "DHCPOFFER on <*> to <*> : bd via eth1",
+      "DHCPACK on <*> to <*> : <*> via eth1",
+      "DHCPOFFER on <*> to <*> : e9 via eth1"
+    ],
+    "output": {
+      "template": "DHCPOFFER on <*> to <*> : <*> via eth1"
+    }
+  },
+  {
+    "inputs": [
+      "<*> GoogleSoftwareUpdateAgent[ <*> [ lvl = <*> ] -[ KSUpdateCheckAction performAction ] KSUpdateCheckAction running KSServerUpdateRequest : <KSOmahaServerUpdateRequest : <*>",
+      "<*> GoogleSoftwareUpdateAgent[ <*> [ lvl = <*> ] -[ KSMultiUpdateAction performAction ] KSSilentUpdateAction had no updates to apply ."
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "<*> ksfetch[ <*> [ lvl = <*> ] main() ksfetch done fetching .",
+      "<*> ksfetch[ <*> [ lvl = <*> ] main() Fetcher is exiting ."
+    ],
+    "output": {
+      "template": ""
+    }
+  },
+  {
+    "inputs": [
+      "DHCPREQUEST for <*> from <*> via eth0",
+      "DHCPREQUEST for <*> from <*> via eth1"
+    ],
+    "output": {
+      "template": "DHCPREQUEST for <*> from <*> via <*>"
+    }
+  },
+  {
+    "inputs": [
+      "audit ( <*> ) : avc : denied { read write } for pid = <*> exe = <*> name = <*> dev = <*> ino = <*> scontext = <*> tcontext = <*> tclass = <*>",
+      "audit ( <*> ) : avc : denied { <*> } for pid = <*> exe = <*> name = <*> dev = <*> ino = <*> scontext = <*> tcontext = <*> tclass = <*>"
+    ],
+    "output": {
+      "template": "audit ( <*> ) : avc : denied { <*> } for pid = <*> exe = <*> name = <*> dev = <*> ino = <*> scontext = <*> tcontext = <*> tclass = <*>"
+    }
+  },
+  {
+    "inputs": [
+      "couldn't add command channel :: <*> : not found",
+      "couldn't add command channel <*> : not found"
+    ],
+    "output": {
+      "template": "couldn't add command channel <*> : not found"
+    }
+  }
+]

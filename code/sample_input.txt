@@ -1,0 +1,23 @@
+The server.application crashed with error code=500: Internal Server Error at 12:30.
+startAnimation begin
+Component State Change: Component \042alt0\042 is in the unavailable state (HWID=3891)
+acquire lock=233570404, flags=0x1, tag="View Lock", name=com.android.systemui, ws=null, uid=10037, pid=2227
+
+Skipping AppWindowToken{df0798e token=Token{78af589 ActivityRecord{3b04890 u0 com.tencent.qt.qtl/com.tencent.video.player.activity.PlayerActivity t761}}} -- going to hide
+
+after trim url = https://www.google.com/search?q=test
+
+printFreezingDisplayLogsopening app wtoken = AppWindowToken{9f4ef63 token=Token{a64f992 ActivityRecord{de9231d u0 com.tencent.qt.qtl/.activity.info.NewsDetailXmlActivity t761}}}, allDrawn= false, startingDisplayed =  false, startingMoved =  false, isRelaunching =  false
+
+Destroying surface Surface(name=SurfaceView - com.tencent.qt.qtl/com.tencent.video.player.activity.PlayerActivity) called by com.android.server.wm.WindowStateAnimator.destroyDeferredSurfaceLocked:942 com.android.server.wm.WindowManagerService.performDeferredDestroyWindow:3407 com.android.server.wm.Session.performDeferredDestroy:225 android.view.IWindowSession$Stub.onTransact:398 com.android.server.wm.Session.onTransact:136 android.os.Binder.execTransact:565 <bottom of call stack> <bottom of call stack>
+
+Animating brightness: target=<HEX>, rate=<HEX>
+
+ServerFileSystem: ServerFileSystem domain root21_local is full
+ServerFileSystem: ServerFileSystem domain root14_local is full
+
+
+
+ciod: generated 64 core files for program IMB - MPI1.2MB_perf
+
+Server environment:java.vendor=Oracle Corporation

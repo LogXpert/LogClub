@@ -1,0 +1,1682 @@
+[
+  {
+    "inputs": [
+      {
+        "Id": 6,
+        "logs": "`sam raid obsd error on read : local_status <*> ( RPC : No response within the timeout period ) , obsd_error <*> ( Success ) virtual object I-xD020038da11df0002-xGf5edfff4-xUf029f5d7e546a4a5 index <*> , stor_op <*> , component device <*> ( OBSD )`\n`sam raid obsd error on read : local_status <*> ( RPC : No response within the timeout period ) , obsd_error <*> ( Success ) virtual object I-xD020038da11df0002-xGf5edfff4-xU033ec9af270b7e19 index <*> , stor_op <*> , component device <*> ( OBSD )`"
+      },
+      {
+        "Id": 7,
+        "logs": "`Instrumentation Service EventID : <*> Temperature sensor returned to a normal value Sensor location : BMC Ambient Temp Chassis location : Main System Chassis Previous state was : Unknown Temperature sensor value ( in Degrees Celsius ) : <*>`\n`Instrumentation Service EventID : <*> Temperature sensor returned to a normal value Sensor location : BMC Riser Temp Chassis location : Main System Chassis Previous state was : Unknown Temperature sensor value ( in Degrees Celsius ) : <*>`"
+      },
+      {
+        "Id": 10,
+        "logs": "`pan_sam : I-xD020038da11df0002-xGf5edfff4-xUaf16bdabc4077f9f : error report : failure <*> : <*> ( OBSD ) osd_op = <*> offset = <*> length = <*> error = <*> ( RPC : No response within the timeout period )`\n`pan_sam : I-xD020038da11df0002-xGf5edfff4-xU7a7b9fe15033fa7f : error report : failure <*> : <*> ( OBSD ) osd_op = <*> offset = <*> length = <*> error = <*> ( RPC : No response within the timeout period )`"
+      },
+      {
+        "Id": 20,
+        "logs": "`pan_sam : I-xD020038da11df0002-xGf5edfff4-xUa153654359664693 : error report : cap_handle = <*> op = <*> op_offset = <*> op_length = <*> action_mask = <*> cap_offset = <*> cap_length = <*>`\n`pan_sam : I-xD020038da11df0002-xGf5edfff4-xUc60d66047e9be81b : error report : cap_handle = <*> op = <*> op_offset = <*> op_length = <*> action_mask = <*> cap_offset = <*> cap_length = <*>`"
+      },
+      {
+        "Id": 34,
+        "logs": "`THH ( <*> ) : handle_eqe_ib_events : QP event on qpn = 0x1B0519 event type is VAPI_LOCAL_WQ_ACCESS_VIOL_ERROR ( <*> ) , syndrome = <*>`\n`THH ( <*> ) : handle_eqe_ib_events : QP event on qpn = 0xA0A54 event type is VAPI_LOCAL_WQ_ACCESS_VIOL_ERROR ( <*> ) , syndrome = <*>`"
+      },
+      {
+        "Id": 45,
+        "logs": "`rpc : request timed out , request <*> , pan_rm_vsmdb_get_mgr_addrs_rpc_v1 ( async ) , to ( peer addr not available )`\n`rpc : request timed out , request <*> , pan_fm_obj_get_r_capability_rpc_v2 ( async ) , to ( peer addr not available )`"
+      },
+      {
+        "Id": 106,
+        "logs": "`e1000 : eth0 : e1000_watchdog : NIC Link is Up <*> Mbps Full Duplex`\n`e1000 : eth1 : e1000_watchdog : NIC Link is Up <*> Mbps Full Duplex`"
+      },
+      {
+        "Id": 122,
+        "logs": "`e1000 : eth1 : e1000_probe : Intel ( R ) <*> Network Connection`\n`e1000 : eth0 : e1000_probe : Intel ( R ) <*> Network Connection`"
+      },
+      {
+        "Id": 150,
+        "logs": "`ACPI : LAPIC ( acpi_id[ <*> ] lapic_id[ <*> ] disabled )`\n`ACPI : LAPIC ( acpi_id[ <*> ] lapic_id[ <*> ] enabled )`"
+      },
+      {
+        "Id": 154,
+        "logs": "`running <*> --nox -i netsnmp' with <*> privileges on behalf of <*>`\n`running <*> --nox -i ganglia-gmond' with <*> privileges on behalf of <*>`"
+      },
+      {
+        "Id": 204,
+        "logs": "`ACPI : Processor [ CPU0 ] ( supports C1 )`\n`ACPI : Processor [ CPU1 ] ( supports C1 )`"
+      },
+      {
+        "Id": 233,
+        "logs": "`divert : not allocating divert_blk for non-ethernet device sit0`\n`divert : not allocating divert_blk for non-ethernet device lo`"
+      },
+      {
+        "Id": 257,
+        "logs": "`Vendor : SEAGATE Model : ST373207LC Rev : D701`\n`Vendor : MAXTOR Model : ATLAS10K5_73SCA Rev : JNZM`"
+      },
+      {
+        "Id": 277,
+        "logs": "`Type : Direct-Access ANSI SCSI revision : <*>`\n`Type : Processor ANSI SCSI revision : <*>`"
+      },
+      {
+        "Id": 282,
+        "logs": "`Warning : acpi_table_parse ( ACPI_SRAT ) returned <*>`\n`Warning : acpi_table_parse ( ACPI_SLIT ) returned <*>`"
+      },
+      {
+        "Id": 297,
+        "logs": "`MOSAL ( <*> ) : map_list = <*>`\n`MOSAL ( <*> ) : pid = <*>`\n`MOSAL ( <*> ) : file_p = <*>`"
+      },
+      {
+        "Id": 356,
+        "logs": "`Updated timestamp for job `cron.daily' to <*>`\n`Updated timestamp for job `cron.weekly' to <*>`"
+      },
+      {
+        "Id": 359,
+        "logs": "`DHCPREQUEST for <*> from <*> via eth0`\n`DHCPREQUEST for <*> from <*> via eth1`"
+      },
+      {
+        "Id": 400,
+        "logs": "`Bringing up interface ib0 : succeeded`\n`Bringing up interface eth0 : succeeded`\n`Bringing up interface ib0 : failed`"
+      },
+      {
+        "Id": 509,
+        "logs": "`RSA key generation succeeded`\n`RSA1 key generation succeeded`\n`DSA key generation succeeded`"
+      }
+    ],
+    "output": [
+      {
+        "Id": 6,
+        "Reason": "Position 6: I-xD020038da11df0002-xGf5edfff4-xUf029f5d7e546a4a5 and I-xD020038da11df0002-xGf5edfff4-xU033ec9af270b7e19 are different virtual object IDs (variable). All differing positions are labeled as variable, the logs share the same template.",
+        "template": "sam raid obsd error on read : local_status <*> ( RPC : No response within the timeout period ) , obsd_error <*> ( Success ) virtual object <*> index <*> , stor_op <*> , component device <*> ( OBSD )"
+      },
+      {
+        "Id": 7,
+        "Reason": "Position 8: BMC Ambient Temp and BMC Riser Temp are different sensor locations (variable). All differing positions are labeled as variable, the logs share the same template.",
+        "template": "Instrumentation Service EventID : <*> Temperature sensor returned to a normal value Sensor location : <*> Chassis location : Main System Chassis Previous state was : Unknown Temperature sensor value ( in Degrees Celsius ) : <*>"
+      },
+      {
+        "Id": 10,
+        "Reason": "Position 2: I-xD020038da11df0002-xGf5edfff4-xUaf16bdabc4077f9f and I-xD020038da11df0002-xGf5edfff4-xU7a7b9fe15033fa7f are different object IDs (variable). All differing positions are labeled as variable, the logs share the same template.",
+        "template": "pan_sam : <*> : error report : failure <*> : <*> ( OBSD ) osd_op = <*> offset = <*> length = <*> error = <*> ( RPC : No response within the timeout period )"
+      },
+      {
+        "Id": 20,
+        "Reason": "Position 2: I-xD020038da11df0002-xGf5edfff4-xUa153654359664693 and I-xD020038da11df0002-xGf5edfff4-xUc60d66047e9be81b are different object IDs (variable). All differing positions are labeled as variable, the logs share the same template.",
+        "template": "pan_sam : <*> : error report : cap_handle = <*> op = <*> op_offset = <*> op_length = <*> action_mask = <*> cap_offset = <*> cap_length = <*>"
+      },
+      {
+        "Id": 34,
+        "Reason": "Position 2: 0x1B0519 and 0xA0A54 are different QPNs (variable). Position 5: <*> and <*> are abstracted as variables. All differing positions are labeled as variable, the logs share the same template.",
+        "template": "THH ( <*> ) : handle_eqe_ib_events : QP event on qpn = <*> event type is VAPI_LOCAL_WQ_ACCESS_VIOL_ERROR ( <*> ) , syndrome = <*>"
+      },
+      {
+        "Id": 45,
+        "Reason": "Position 5: pan_rm_vsmdb_get_mgr_addrs_rpc_v1 and pan_fm_obj_get_r_capability_rpc_v2 are different RPC names (constant). Any position is labeled as constant, the logs do not share the same template.",
+        "template": ""
+      },
+      {
+        "Id": 106,
+        "Reason": "Position 4: eth0 and eth1 are different interface names (variable). All differing positions are labeled as variable, the logs share the same template.",
+        "template": "e1000 : <*> : e1000_watchdog : NIC Link is Up <*> Mbps Full Duplex"
+      },
+      {
+        "Id": 122,
+        "Reason": "Position 4: eth1 and eth0 are different interface names (variable). All differing positions are labeled as variable, the logs share the same template.",
+        "template": "e1000 : <*> : e1000_probe : Intel ( R ) <*> Network Connection"
+      },
+      {
+        "Id": 150,
+        "Reason": "Position 4: <*> and <*> are abstracted as variables. Position 6: <*> and <*> are abstracted as variables. Position 8: disabled and enabled are different behaviors (constant). Any position is labeled as constant, the logs do not share the same template.",
+        "template": ""
+      },
+      {
+        "Id": 154,
+        "Reason": "Position 2: <*> and <*> are abstracted as variables. Position 5: netsnmp and ganglia-gmond are different processes (constant). Any position is labeled as constant, the logs do not share the same template.",
+        "template": ""
+      },
+      {
+        "Id": 204,
+        "Reason": "Position 5: CPU0 and CPU1 are different processor IDs (variable). All differing positions are labeled as variable, the logs share the same template.",
+        "template": "ACPI : Processor [ <*> ] ( supports C1 )"
+      },
+      {
+        "Id": 233,
+        "Reason": "Position 8: sit0 and lo are different device names (variable). All differing positions are labeled as variable, the logs share the same template.",
+        "template": "divert : not allocating divert_blk for non-ethernet device <*>"
+      },
+      {
+        "Id": 257,
+        "Reason": "Position 2: SEAGATE and MAXTOR are different vendors (constant). Any position is labeled as constant, the logs do not share the same template.",
+        "template": ""
+      },
+      {
+        "Id": 277,
+        "Reason": "Position 2: Direct-Access and Processor are different types (constant). Any position is labeled as constant, the logs do not share the same template.",
+        "template": ""
+      },
+      {
+        "Id": 282,
+        "Reason": "Position 5: ACPI_SRAT and ACPI_SLIT are different table names (constant). Any position is labeled as constant, the logs do not share the same template.",
+        "template": ""
+      },
+      {
+        "Id": 297,
+        "Reason": "Position 4: map_list, pid, and file_p are different keys (constant). Any position is labeled as constant, the logs do not share the same template.",
+        "template": ""
+      },
+      {
+        "Id": 356,
+        "Reason": "Position 5: cron.daily and cron.weekly are different jobs (variable). All differing positions are labeled as variable, the logs share the same template.",
+        "template": "Updated timestamp for job ` <*> ' to <*>"
+      },
+      {
+        "Id": 359,
+        "Reason": "Position 3: <*> and <*> are abstracted as variables. Position 5: <*> and <*> are abstracted as variables. Position 7: eth0 and eth1 are different interfaces (variable). All differing positions are labeled as variable, the logs share the same template.",
+        "template": "DHCPREQUEST for <*> from <*> via <*>"
+      },
+      {
+        "Id": 400,
+        "Reason": "Position 5: ib0, eth0, and ib0 are different interfaces (variable). Position 7: succeeded and failed are different outcomes (constant). Any position is labeled as constant, the logs do not share the same template.",
+        "template": ""
+      },
+      {
+        "Id": 509,
+        "Reason": "Position 1: RSA, RSA1, and DSA are different key types (constant). Any position is labeled as constant, the logs do not share the same template.",
+        "template": ""
+      }
+    ]
+  }
+]
+
+
+
+
+LLM input JSON: [
+  {
+    "Id": 1,
+    "logs": "`pam_unix ( sshd : session ) : session opened for user curi by ( uid = <*> )`\n`pam_unix ( sshd : session ) : session opened for user suyuxin by ( uid = <*> )`\n`pam_unix ( sshd : session ) : session opened for user fztu by ( uid = <*> )`"
+  },
+  {
+    "Id": 3,
+    "logs": "`pam_unix ( sshd : session ) : session closed for user zachary`\n`pam_unix ( sshd : session ) : session closed for user curi`\n`pam_unix ( sshd : session ) : session closed for user suyuxin`"
+  },
+  {
+    "Id": 7,
+    "logs": "`Accepted password for curi from <*> port <*> ssh2`\n`Accepted password for suyuxin from <*> port <*> ssh2`\n`Accepted password for fztu from <*> port <*> ssh2`"
+  }
+]
+LLM batch response: [{"Id":1,"Reason":"All tokens are same except for the username which is variable. All differing positions are labeled as variable, the logs share the same template.","template":"pam_unix ( sshd : session ) : session opened for user <*> by ( uid = <*> )"},{"Id":3,"Reason":"All tokens are same except for the username which is variable. All differing positions are labeled as variable, the logs share the same template.","template":"pam_unix ( sshd : session ) : session closed for user <*>"},{"Id":7,"Reason":"Position 5: curi, suyuxin, and fztu are different user names (variable). Position 7 and 8: IP addresses and port numbers differ (variable). All differing positions are labeled as variable, the logs share the same template.","template":"Accepted password for <*> from <*> port <*> ssh2"}]
+================================
+LLM input JSON: [
+  {
+    "Id": 0,
+    "logs": "`reverse mapping checking getaddrinfo for <*> [ <*> ] failed - POSSIBLE BREAK-IN ATTEMPT !`\n`reverse mapping checking getaddrinfo for . [ <*> ] failed - POSSIBLE BREAK-IN ATTEMPT !`"
+  }
+]
+LLM batch response: ```json
+[
+  {
+    "Id": 0,
+    "Reason": "Position 6: Tokens \".\" and \"<*>\" indicate a missing or variable identifier, labeled as variable. Position 8: IP addresses <*> are variable. All differing positions are labeled as variable, the logs share the same template.",
+    "template": "reverse mapping checking getaddrinfo for <*> [ <*> ] failed - POSSIBLE BREAK-IN ATTEMPT !"
+  }
+]
+```
+================================
+LLM input JSON: [
+  {
+    "Id": 3,
+    "logs": "`[ instance : <*> ] Took <*> seconds to spawn the instance on the hypervisor .`\n`[ instance : <*> ] Took <*> seconds to destroy the instance on the hypervisor .`"
+  },
+  {
+    "Id": 12,
+    "logs": "`[ instance : <*> ] disk limit not specified , defaulting to unlimited`\n`[ instance : <*> ] vcpu limit not specified , defaulting to unlimited`"
+  },
+  {
+    "Id": 14,
+    "logs": "`[ instance : <*> ] VM Resumed ( Lifecycle Event )`\n`[ instance : <*> ] VM Stopped ( Lifecycle Event )`\n`[ instance : <*> ] VM Started ( Lifecycle Event )`\n`[ instance : <*> ] VM Paused ( Lifecycle Event )`"
+  },
+  {
+    "Id": 16,
+    "logs": "`[ instance : <*> ] Instance spawned successfully .`\n`[ instance : <*> ] Instance destroyed successfully .`"
+  },
+  {
+    "Id": 21,
+    "logs": "`[ instance : <*> ] Creating image`\n`[ instance : <*> ] Terminating instance`\n`[ instance : <*> ] Claim successful`"
+  }
+]
+LLM batch response: [{"Id":3,"Reason":"Position 6: spawn and destroy are different behaviors (constant). Any position is labeled as constant, the logs do not share the same template.","template":""},{"Id":12,"Reason":"Position 4: disk and vcpu are different resource types (constant). Any position is labeled as constant, the logs do not share the same template.","template":""},{"Id":14,"Reason":"Position 5: Resumed, Stopped, Started, and Paused are different VM states (constant). Any position is labeled as constant, the logs do not share the same template.","template":""},{"Id":16,"Reason":"Position 3: spawned and destroyed are different instance states (constant). Any position is labeled as constant, the logs do not share the same template.","template":""},{"Id":21,"Reason":"Position 5: Creating, Terminating, and Claim are different instance operations (constant). Any position is labeled as constant, the logs do not share the same template.","template":""}]
+================================
+LLM input JSON: [
+  {
+    "Id": 0,
+    "logs": "`NIFF : node <*> detected a failed network connection on network <*> via interface alt0`\n`NIFF : node <*> detected a failed network connection on network <*> via interface scip0`\n`NIFF : node <*> detected a failed network connection on network <*> via interface ee0`"
+  },
+  {
+    "Id": 8,
+    "logs": "`Temperature ( 41C ) exceeds warning threshold`\n`Temperature ( 43C ) exceeds warning threshold`\n`Temperature ( 42C ) exceeds warning threshold`"
+  },
+  {
+    "Id": 12,
+    "logs": "`wait ( command <*> )`\n`boot ( command <*> )`\n`halt ( command <*> )`\n`clusterAddMember ( command <*> )`\n`risBoot ( command <*> )`"
+  }
+]
+[
+  {
+    "Id": 0,
+    "Reason": "Position 7: alt0, scip0, ee0 are different interface names (variable). All differing positions are labeled as variable, the logs share the same template.",
+    "template": "NIFF : node <*> detected a failed network connection on network <*> via interface <*>"
+  },
+  {
+    "Id": 8,
+    "Reason": "Position 2: 41C, 43C, 42C are different temperature values (variable). All differing positions are labeled as variable, the logs share the same template.",
+    "template": "Temperature ( <*> ) exceeds warning threshold"
+  },
+  {
+    "Id": 12,
+    "Reason": "Position 0: wait, boot, halt, clusterAddMember, risBoot are different command types (constant). Any position is labeled as constant, the logs do not share the same template.",
+    "template": ""
+  }
+]
+```
+================================
+LLM input JSON: [
+  {
+    "Id": 15,
+    "logs": "`NIFF : node <*> has detected an available network connection on network <*> via interface alt0`\n`NIFF : node <*> has detected an available network connection on network <*> via interface ee0`\n`NIFF : node <*> has detected an available network connection on network <*> via interface scip0`"
+  },
+  {
+    "Id": 23,
+    "logs": "`haltcluster ( command <*> ) Error : timeout waiting for SRM prompts`\n`boot ( command <*> ) Error : Console-Busy Port already in use`\n`halt ( command <*> ) Error : timeout waiting for SRM prompt`\n`haltcluster ( command <*> ) Error : haltcluster : bad spawn id`"
+  }
+]
+LLM batch response: ```json
+[
+  {
+    "Id": 15,
+    "Reason": "Position 6: alt0, ee0, scip0 are different interface names (variable). All differing positions are labeled as variable, the logs share the same template.",
+    "template": "NIFF : node <*> has detected an available network connection on network <*> via interface <*>"
+  },
+  {
+    "Id": 23,
+    "Reason": "Position 0: haltcluster, boot, halt, haltcluster are different commands (constant). Any position is labeled as constant, the logs do not share the same template.",
+    "template": ""
+  }
+]
+```
+================================
+LLM input JSON: [
+  {
+    "Id": 0,
+    "logs": "`Notification : <*> ( n.leader ) , <*> ( n.zxid ) , <*> ( n.round ) , LOOKING ( n.state ) , <*> ( n.sid ) , <*> ( n.peerEPoch ) , LOOKING ( my state )`\n`Notification : <*> ( n.leader ) , <*> ( n.zxid ) , <*> ( n.round ) , LOOKING ( n.state ) , <*> ( n.sid ) , <*> ( n.peerEPoch ) , FOLLOWING ( my state )`\n`Notification : <*> ( n.leader ) , <*> ( n.zxid ) , <*> ( n.round ) , LEADING ( n.state ) , <*> ( n.sid ) , <*> ( n.peerEPoch ) , LOOKING ( my state )`\n`Notification : <*> ( n.leader ) , <*> ( n.zxid ) , <*> ( n.round ) , FOLLOWING ( n.state ) , <*> ( n.sid ) , <*> ( n.peerEPoch ) , FOLLOWING ( my state )`\n`Notification : <*> ( n.leader ) , <*> ( n.zxid ) , <*> ( n.round ) , LEADING ( n.state ) , <*> ( n.sid ) , <*> ( n.peerEPoch ) , FOLLOWING ( my state )`"
+  }
+]
+LLM batch response: ```json
+[
+  {
+    "Id": 0,
+    "Reason": "Position 12: LOOKING, LOOKING, LEADING, FOLLOWING, LEADING are different node states (constant). Position 26: LOOKING, FOLLOWING, LOOKING, FOLLOWING, FOLLOWING are different my states (constant). Any position is labeled as constant, the logs do not share the same template.",
+    "template": ""
+  }
+]
+```
+================================
+LLM input JSON: [
+  {
+    "Id": 0,
+    "logs": "`FollowerRequestProcessor exited loop !`\n`CommitProcessor exited loop !`\n`PrepRequestProcessor exited loop !`\n`SessionTrackerImpl exited loop !`"
+  }
+]
+LLM batch response: ```json
+[
+  {
+    "Id": 0,
+    "Reason": "Position 0: FollowerRequestProcessor, CommitProcessor, PrepRequestProcessor, and SessionTrackerImpl are different process names (variable). All differing positions are labeled as variable, the logs share the same template.",
+    "template": "<*> exited loop !"
+  }
+]
+```
+================================
+LLM input JSON: [
+  {
+    "Id": 0,
+    "logs": "`Notification : <*> ( n.leader ) , <*> ( n.zxid ) , <*> ( n.round ) , FOLLOWING ( n.state ) , <*> ( n.sid ) , <*> ( n.peerEPoch ) , LEADING ( my state )`\n`Notification : <*> ( n.leader ) , <*> ( n.zxid ) , <*> ( n.round ) , LEADING ( n.state ) , <*> ( n.sid ) , <*> ( n.peerEPoch ) , LEADING ( my state )`"
+  },
+  {
+    "Id": 2,
+    "logs": "`currentEpoch not found ! Creating with a reasonable default of <*> . This should only happen when you are upgrading your installation`\n`acceptedEpoch not found ! Creating with a reasonable default of <*> . This should only happen when you are upgrading your installation`"
+  }
+]
+LLM batch response: ```json
+[
+  {
+    "Id": 0,
+    "Reason": "Position 7: FOLLOWING and LEADING are different node states (constant). Any position is labeled as constant, the logs do not share the same template.",
+    "template": ""
+  },
+  {
+    "Id": 2,
+    "Reason": "Position 0: currentEpoch and acceptedEpoch are different epoch types (constant). Any position is labeled as constant, the logs do not share the same template.",
+    "template": ""
+  }
+]
+```
+================================
+LLM input JSON: [
+  {
+    "Id": 3,
+    "logs": "`onReceive action : android.intent.action.SCREEN_ON`\n`processHandleBroadcastAction action : android.intent.action.SCREEN_ON`\n`processHandleBroadcastAction action : android.intent.action.TIME_TICK`\n`onReceive action : android.intent.action.SCREEN_OFF`\n`onReceive action : android.intent.action.BOOT_COMPLETED`"
+  }
+]
+LLM batch response: ```json
+[
+  {
+    "Id": 3,
+    "Reason": "Position 0: onReceive and processHandleBroadcastAction are different function names (constant). Position 5: android.intent.action.SCREEN_ON, android.intent.action.TIME_TICK, android.intent.action.SCREEN_OFF, and android.intent.action.BOOT_COMPLETED are different domain-specific constants (constant). Since there are differing tokens labeled as constant, the logs do not share the same template.",
+    "template": ""
+  }
+]
+```
+================================
+LLM input JSON: [
+  {
+    "Id": 1,
+    "logs": "`saveRealTimeHealthDatasStat() size = <*> , totalTime = <*>`\n`bulkSaveDetailHiHealthData() size = <*> , totalTime = <*>`"
+  },
+  {
+    "Id": 2,
+    "logs": "`getVersion = Athene3`\n`getServiceRestartRecord = <*>`\n`getStepsTarget = <*>`\n`getLastSyncDBTime = <*>`\n`getDiffTotalCalories = <*>`"
+  },
+  {
+    "Id": 4,
+    "logs": "`getCfgFile enter ...`\n`initCacheFromFile enter ...`\n`initDataManager enter ...`\n`startStepCounter enter ...`\n`compareMidWareCacheAndLocalCache enter ...`"
+  }
+]
+LLM batch response: ```json
+[
+  {
+    "Id": 1,
+    "Reason": "Position 0: saveRealTimeHealthDatasStat() and bulkSaveDetailHiHealthData() are different function names (constant). Any position is labeled as constant, the logs do not share the same template.",
+    "template": ""
+  },
+  {
+    "Id": 2,
+    "Reason": "Position 0: getVersion, getServiceRestartRecord, getStepsTarget, getLastSyncDBTime, getDiffTotalCalories are different function names (constant). Any position is labeled as constant, the logs do not share the same template.",
+    "template": ""
+  },
+  {
+    "Id": 4,
+    "Reason": "Position 0: getCfgFile, initCacheFromFile, initDataManager, startStepCounter, compareMidWareCacheAndLocalCache are different function names (constant). Any position is labeled as constant, the logs do not share the same template.",
+    "template": ""
+  }
+]
+```
+================================
+LLM input JSON: [
+  {
+    "Id": 9,
+    "logs": "`aggregateHiHealthData() checkAppType <*> appID = <*> id = <*> time = <*>`\n`readHiHealthData() checkAppType <*> appID = <*> id = <*> time = <*>`"
+  },
+  {
+    "Id": 27,
+    "logs": "`subscribeHiHealthData() checkAppType <*> appID = <*>`\n`aggregateHiHealthDataEx() checkAppType <*> appID = <*>`"
+  },
+  {
+    "Id": 37,
+    "logs": "`next day : steps0mLastReport7214`\n`next day : steps0mLastReport6089`\n`next day : steps0mLastReport6225`"
+  },
+  {
+    "Id": 50,
+    "logs": "`getFirstStartDaemonFromUI : <*>`\n`SystemClock.elapsedRealtime() : <*>`"
+  },
+  {
+    "Id": 58,
+    "logs": "`checkLocalDataValue <*>`\n`initExtendStepCounter <*>`\n`registerLogCallback <*>`"
+  }
+]
+LLM batch response: ```json
+[
+  {
+    "Id": 9,
+    "Reason": "Position 0: aggregateHiHealthData() and readHiHealthData() are different function names (constant). Any position is labeled as constant, the logs do not share the same template.",
+    "template": ""
+  },
+  {
+    "Id": 27,
+    "Reason": "Position 0: subscribeHiHealthData() and aggregateHiHealthDataEx() are different function names (constant). Any position is labeled as constant, the logs do not share the same template.",
+    "template": ""
+  },
+  {
+    "Id": 37,
+    "Reason": "Position 4: steps0mLastReport7214, steps0mLastReport6089, and steps0mLastReport6225 are variable identifiers (variable). All differing positions are labeled as variable, the logs share the same template.",
+    "template": "next day : <*>"
+  },
+  {
+    "Id": 50,
+    "Reason": "Position 0: getFirstStartDaemonFromUI and SystemClock.elapsedRealtime() are different function names or process names (constant). Any position is labeled as constant, the logs do not share the same template.",
+    "template": ""
+  },
+  {
+    "Id": 58,
+    "Reason": "Position 0: checkLocalDataValue, initExtendStepCounter, and registerLogCallback are different function names (constant). Any position is labeled as constant, the logs do not share the same template.",
+    "template": ""
+  }
+]
+```
+================================
+LLM input JSON: [
+  {
+    "Id": 9,
+    "logs": "`<*> Task Transitioned from NEW to SCHEDULED`\n`<*> Task Transitioned from SCHEDULED to RUNNING`\n`<*> Task Transitioned from RUNNING to SUCCEEDED`\n`<*> Task Transitioned from NEW to SUCCEEDED`"
+  },
+  {
+    "Id": 27,
+    "logs": "`Started <*>`\n`JOB_CREATE <*>`\n`Launching <*>`\n`ATTEMPT_START <*>`\n`KILLING <*>`"
+  }
+]
+LLM batch response: ```json
+[
+  {
+    "Id": 9,
+    "Reason": "Position 3: NEW, SCHEDULED, RUNNING, NEW are different task states (variable). Position 5: SCHEDULED, RUNNING, SUCCEEDED, SUCCEEDED are different task states (variable). All differing positions are labeled as variable, the logs share the same template.",
+    "template": "<*> Task Transitioned from <*> to <*>"
+  },
+  {
+    "Id": 27,
+    "Reason": "Position 1: Started, JOB_CREATE, Launching, ATTEMPT_START, KILLING are different process states (constant). Any position is labeled as constant, the logs do not share the same template.",
+    "template": ""
+  }
+]
+```
+================================
+LLM input JSON: [
+  {
+    "Id": 4,
+    "logs": "`Processing the event EventType : CONTAINER_REMOTE_LAUNCH for container <*> taskAttempt <*>`\n`Processing the event EventType : CONTAINER_REMOTE_CLEANUP for container <*> taskAttempt <*>`"
+  }
+]
+LLM batch response: ```json
+[
+  {
+    "Id": 4,
+    "Reason": "Position 6: CONTAINER_REMOTE_LAUNCH and CONTAINER_REMOTE_CLEANUP are different event types (constant). Any position is labeled as constant, the logs do not share the same template.",
+    "template": ""
+  }
+]
+```
+================================
+LLM input JSON: [
+  {
+    "Id": 36,
+    "logs": "`Added filter AM_PROXY_FILTER ( class = org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter ) to context mapreduce`\n`Added filter AM_PROXY_FILTER ( class = org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter ) to context static`"
+  },
+  {
+    "Id": 58,
+    "logs": "`The job-jar file on the remote FS is <*>`\n`The job-conf file on the remote FS is <*>`"
+  }
+]
+LLM batch response: ```json
+[
+  {
+    "Id": 36,
+    "Reason": "Position 9: mapreduce and static are different context values (variable). All differing positions are labeled as variable, the logs share the same template.",
+    "template": "Added filter AM_PROXY_FILTER ( class = org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter ) to context <*>"
+  },
+  {
+    "Id": 58,
+    "Reason": "Position 5: job-jar and job-conf are different file types (constant). Any position is labeled as constant, the logs do not share the same template.",
+    "template": ""
+  }
+]
+```
+================================
+LLM input JSON: [
+  {
+    "Id": 1,
+    "logs": "`Block <*> stored as bytes in memory ( estimated size <*> , free <*> )`\n`Block <*> stored as values in memory ( estimated size <*> , free <*> )`"
+  },
+  {
+    "Id": 12,
+    "logs": "`<*> : Committed`\n`running : Set()`\n`failed : Set()`"
+  }
+]
+================================
+==== LLM batch JSON response ===
+LLM batch response: [{"Id": 1, "Reason": "Position 4: bytes and values are different storage types (constant). Any position is labeled as constant, the logs do not share the same template.", "template": ""}, {"Id": 12, "Reason": "Position 1: <*> and running and failed are different states (variable). Position 3: Set() and Committed are different behaviors (constant). Any position is labeled as constant, the logs do not share the same template.", "template": ""}]
+================================
+LLM input JSON: [
+  {
+    "Id": 1,
+    "logs": "`Lost task <*> in stage <*> ( TID <*> , <*> ) : ExecutorLostFailure ( executor <*> exited caused by one of the running tasks ) Reason : Container killed by YARN for exceeding memory limits . <*> of <*> virtual memory used . Consider boosting spark.yarn.executor.memoryOverhead .`\n`Lost task <*> in stage <*> ( TID <*> , <*> ) : ExecutorLostFailure ( executor <*> exited caused by one of the running tasks ) Reason : Container killed by YARN for exceeding memory limits . <*> of <*> physical memory used . Consider boosting spark.yarn.executor.memoryOverhead .`"
+  },
+  {
+    "Id": 6,
+    "logs": "`Starting task <*> in stage <*> ( TID <*> , <*> , partition <*> , NODE_LOCAL , <*> bytes )`\n`Starting task <*> in stage <*> ( TID <*> , <*> , partition <*> , PROCESS_LOCAL , <*> bytes )`\n`Starting task <*> in stage <*> ( TID <*> , <*> , partition <*> , RACK_LOCAL , <*> bytes )`"
+  },
+  {
+    "Id": 48,
+    "logs": "`Changing view acls to : yarn , curi`\n`Changing modify acls to : yarn , curi`"
+  }
+]
+LLM batch response: ```json
+[
+  {
+    "Id": 1,
+    "Reason": "Position 21: 'virtual' and 'physical' are different memory types (constant). Any position is labeled as constant, the logs do not share the same template.",
+    "template": ""
+  },
+  {
+    "Id": 6,
+    "Reason": "Position 12: 'NODE_LOCAL', 'PROCESS_LOCAL', and 'RACK_LOCAL' are different locality types (constant). Any position is labeled as constant, the logs do not share the same template.",
+    "template": ""
+  },
+  {
+    "Id": 48,
+    "Reason": "Position 4: 'view' and 'modify' are different acl types (constant). Any position is labeled as constant, the logs do not share the same template.",
+    "template": ""
+  }
+]
+```
+================================
+LLM input JSON: [
+  {
+    "Id": 0,
+    "logs": "`<*> torus receiver y + input pipe error ( s ) ( dcr <*> ) detected and corrected`\n`<*> torus receiver z + input pipe error ( s ) ( dcr <*> ) detected and corrected`\n`<*> torus receiver x + input pipe error ( s ) ( dcr <*> ) detected and corrected`"
+  },
+  {
+    "Id": 3,
+    "logs": "`data store interrupt caused by dcbf ......... <*>`\n`data store interrupt caused by icbi ......... <*>`"
+  },
+  {
+    "Id": 4,
+    "logs": "`program interrupt : fp cr update ............. <*>`\n`program interrupt : fp cr field ............. <*>`"
+  }
+]
+LLM batch response: ```json
+[
+  {
+    "Id": 0,
+    "Reason": "Position 0: All logs have <*> at this position, so it is variable. Position 3: y, z, and x are different receiver names (variable). All differing positions are labeled as variable, the logs share the same template.",
+    "template": "<*> torus receiver <*> + input pipe error ( s ) ( dcr <*> ) detected and corrected"
+  },
+  {
+    "Id": 3,
+    "Reason": "Position 6: dcbf and icbi are different interrupt causes (variable). All differing positions are labeled as variable, the logs share the same template.",
+    "template": "data store interrupt caused by <*> ......... <*>"
+  },
+  {
+    "Id": 4,
+    "Reason": "Position 5: fp cr update and fp cr field are different interrupt types (constant). Any position is labeled as constant, the logs do not share the same template.",
+    "template": ""
+  }
+]
+```
+================================
+LLM input JSON: [
+  {
+    "Id": 1,
+    "logs": "`external input interrupt ( unit = <*> bit = <*> ) : torus sender y + retransmission error was corrected`\n`external input interrupt ( unit = <*> bit = <*> ) : torus sender x + retransmission error was corrected`\n`external input interrupt ( unit = <*> bit = <*> ) : torus sender z + retransmission error was corrected`"
+  },
+  {
+    "Id": 2,
+    "logs": "`<*> torus receiver z- input pipe error ( s ) ( dcr <*> ) detected and corrected`\n`<*> torus receiver x- input pipe error ( s ) ( dcr <*> ) detected and corrected`\n`<*> torus receiver y- input pipe error ( s ) ( dcr <*> ) detected and corrected`"
+  },
+  {
+    "Id": 3,
+    "logs": "`ciod : Error creating node map from file <*> : No child processes`\n`ciod : Error creating node map from file <*> : Bad file descriptor`\n`ciod : Error creating node map from file <*> : Block device required`"
+  }
+]
+LLM batch response: ```json
+[
+  {
+    "Id": 1,
+    "Reason": "Position 8: y, x, and z are different sender identifiers (variable). All differing positions are labeled as variable, the logs share the same template.",
+    "template": "external input interrupt ( unit = <*> bit = <*> ) : torus sender <*> + retransmission error was corrected"
+  },
+  {
+    "Id": 2,
+    "Reason": "Position 3: z-, x-, and y- are different receiver identifiers (variable); Position 7: dcr <*> has consistent structure with variable value (variable). All differing positions are labeled as variable, the logs share the same template.",
+    "template": "<*> torus receiver <*> input pipe error ( s ) ( dcr <*> ) detected and corrected"
+  },
+  {
+    "Id": 3,
+    "Reason": "Position 7: No child processes, Bad file descriptor, and Block device required are different error messages (constant). Any position is labeled as constant, the logs do not share the same template.",
+    "template": ""
+  }
+]
+```
+================================
+LLM input JSON: [
+  {
+    "Id": 0,
+    "logs": "`ciod : X coordinate <*> exceeds physical dimension <*> at line <*> of node map file <*>`\n`ciod : T coordinate <*> exceeds physical dimension <*> at line <*> of node map file <*>`\n`ciod : Y coordinate <*> exceeds physical dimension <*> at line <*> of node map file <*>`\n`ciod : Z coordinate <*> exceeds physical dimension <*> at line <*> of node map file <*>`"
+  }
+]
+LLM batch response: ```json
+[
+  {
+    "Id": 0,
+    "Reason": "Position 3: X, T, Y, Z are different coordinate types (constant). Any position is labeled as constant, the logs do not share the same template.",
+    "template": ""
+  }
+]
+```
+================================
+LLM input JSON: [
+  {
+    "Id": 1,
+    "logs": "`rts <*> link training failed : wanted : A C X + X- Y + Y- Z + Z- got : A C X + Y + Z + Z-`\n`rts <*> link training failed : wanted : A C X + X- Y + Y- Z + Z- got : A C X + X- Y + Z +`\n`rts <*> link training failed : wanted : B C X + X- Y + Y- Z + Z- got : B C X + X- Y- Z + Z-`"
+  },
+  {
+    "Id": 6,
+    "logs": "`critical input interrupt ( unit = <*> bit = <*> ) : warning for torus z + wire`\n`critical input interrupt ( unit = <*> bit = <*> ) : warning for torus y + wire`\n`critical input interrupt ( unit = <*> bit = <*> ) : warning for torus x + wire`"
+  },
+  {
+    "Id": 9,
+    "logs": "`critical input interrupt ( unit = <*> bit = <*> ) : warning for torus z- wire`\n`critical input interrupt ( unit = <*> bit = <*> ) : warning for torus y- wire`\n`critical input interrupt ( unit = <*> bit = <*> ) : warning for tree C1 wire`\n`critical input interrupt ( unit = <*> bit = <*> ) : warning for tree A0 wire`\n`critical input interrupt ( unit = <*> bit = <*> ) : warning for torus x- wire`"
+  },
+  {
+    "Id": 10,
+    "logs": "`<*> torus sender y- retransmission error ( s ) ( dcr <*> ) detected and corrected`\n`<*> torus sender x- retransmission error ( s ) ( dcr <*> ) detected and corrected`\n`<*> torus sender z- retransmission error ( s ) ( dcr <*> ) detected and corrected`"
+  },
+  {
+    "Id": 14,
+    "logs": "`EndServiceAction is restarting the LinkCards in midplane R04-M1 as part of Service Action <*>`\n`EndServiceAction is restarting the NodeCards in midplane R01-M1 as part of Service Action <*>`\n`EndServiceAction is restarting the NodeCards in midplane R35-M1 as part of Service Action <*>`\n`EndServiceAction is restarting the LinkCards in midplane R62-M0 as part of Service Action <*>`\n`EndServiceAction is restarting the NodeCards in midplane R67-M1 as part of Service Action <*>`"
+  },
+  {
+    "Id": 22,
+    "logs": "`MidplaneSwitchController performing bit sparing on R27-M1-L3-U18-C bit <*>`\n`MidplaneSwitchController performing bit sparing on R33-M1-L0-U22-C bit <*>`\n`MidplaneSwitchController performing bit sparing on R77-M0-L1-U19-C bit <*>`"
+  }
+]
+LLM batch response: ```json
+[
+  {
+    "Id": 1,
+    "Reason": "Position 5: A, B are different values (constant). Any position is labeled as constant, the logs do not share the same template.",
+    "template": ""
+  },
+  {
+    "Id": 6,
+    "Reason": "Position 10: z+, y+, x+ are different torus directions (variable). All differing positions are labeled as variable, the logs share the same template.",
+    "template": "critical input interrupt ( unit = <*> bit = <*> ) : warning for torus <*> wire"
+  },
+  {
+    "Id": 9,
+    "Reason": "Position 10: z-, y-, x-, C1, A0 are different torus or tree identifiers (variable). All differing positions are labeled as variable, the logs share the same template.",
+    "template": "critical input interrupt ( unit = <*> bit = <*> ) : warning for <*> wire"
+  },
+  {
+    "Id": 10,
+    "Reason": "Position 4: y-, x-, z- are different torus directions (variable). All differing positions are labeled as variable, the logs share the same template.",
+    "template": "<*> torus sender <*> retransmission error ( s ) ( dcr <*> ) detected and corrected"
+  },
+  {
+    "Id": 14,
+    "Reason": "Position 5: LinkCards, NodeCards are different card types (constant). Position 7: R04-M1, R01-M1, R35-M1, R62-M0, R67-M1 are different midplanes (variable). Any position is labeled as constant, the logs do not share the same template.",
+    "template": ""
+  },
+  {
+    "Id": 22,
+    "Reason": "Position 7: R27-M1-L3-U18-C, R33-M1-L0-U22-C, R77-M0-L1-U19-C are different switch identifiers (variable). All differing positions are labeled as variable, the logs share the same template.",
+    "template": "MidplaneSwitchController performing bit sparing on <*> bit <*>"
+  }
+]
+```
+================================
+LLM input JSON: [
+  {
+    "Id": 3,
+    "logs": "`critical input interrupt ( unit = <*> bit = <*> ) : warning for torus y + wire , suppressing further interrupts of same type`\n`critical input interrupt ( unit = <*> bit = <*> ) : warning for torus z + wire , suppressing further interrupts of same type`\n`critical input interrupt ( unit = <*> bit = <*> ) : warning for torus x + wire , suppressing further interrupts of same type`"
+  },
+  {
+    "Id": 4,
+    "logs": "`critical input interrupt ( unit = <*> bit = <*> ) : warning for tree C1 wire , suppressing further interrupts of same type`\n`critical input interrupt ( unit = <*> bit = <*> ) : warning for torus z- wire , suppressing further interrupts of same type`\n`critical input interrupt ( unit = <*> bit = <*> ) : warning for tree A0 wire , suppressing further interrupts of same type`\n`critical input interrupt ( unit = <*> bit = <*> ) : warning for tree A1 wire , suppressing further interrupts of same type`\n`critical input interrupt ( unit = <*> bit = <*> ) : warning for torus y- wire , suppressing further interrupts of same type`"
+  },
+  {
+    "Id": 5,
+    "logs": "`<*> torus receiver y + input pipe error ( s ) ( dcr <*> ) detected and corrected over <*> seconds`\n`<*> torus receiver z + input pipe error ( s ) ( dcr <*> ) detected and corrected over <*> seconds`\n`<*> torus receiver x + input pipe error ( s ) ( dcr <*> ) detected and corrected over <*> seconds`"
+  },
+  {
+    "Id": 6,
+    "logs": "`<*> torus receiver x- input pipe error ( s ) ( dcr <*> ) detected and corrected over <*> seconds`\n`<*> torus receiver y- input pipe error ( s ) ( dcr <*> ) detected and corrected over <*> seconds`\n`<*> torus receiver z- input pipe error ( s ) ( dcr <*> ) detected and corrected over <*> seconds`"
+  },
+  {
+    "Id": 7,
+    "logs": "`<*> torus sender z- retransmission error ( s ) ( dcr <*> ) detected and corrected over <*> seconds`\n`<*> torus sender x- retransmission error ( s ) ( dcr <*> ) detected and corrected over <*> seconds`\n`<*> torus sender y- retransmission error ( s ) ( dcr <*> ) detected and corrected over <*> seconds`"
+  },
+  {
+    "Id": 14,
+    "logs": "`EndServiceAction <*> performed upon R02-M0-N9 by <*>`\n`EndServiceAction <*> performed upon R06-M1-NF by gooding3`\n`EndServiceAction <*> performed upon R20-M1-N by <*>`"
+  }
+]
+LLM batch response: ```json
+[
+  {
+    "Id": 3,
+    "Reason": "Position 10: y, z, and x are different torus identifiers (variable). All differing positions are labeled as variable, the logs share the same template.",
+    "template": "critical input interrupt ( unit = <*> bit = <*> ) : warning for torus <*> + wire , suppressing further interrupts of same type"
+  },
+  {
+    "Id": 4,
+    "Reason": "Position 10: C1, z-, A0, A1, y- are different identifiers (variable). All differing positions are labeled as variable, the logs share the same template.",
+    "template": "critical input interrupt ( unit = <*> bit = <*> ) : warning for <*> wire , suppressing further interrupts of same type"
+  },
+  {
+    "Id": 5,
+    "Reason": "Position 4: y, z, x are different torus identifiers (variable). All differing positions are labeled as variable, the logs share the same template.",
+    "template": "<*> torus receiver <*> + input pipe error ( s ) ( dcr <*> ) detected and corrected over <*> seconds"
+  },
+  {
+    "Id": 6,
+    "Reason": "Position 4: x-, y-, z- are different torus identifiers (variable). All differing positions are labeled as variable, the logs share the same template.",
+    "template": "<*> torus receiver <*> - input pipe error ( s ) ( dcr <*> ) detected and corrected over <*> seconds"
+  },
+  {
+    "Id": 7,
+    "Reason": "Position 4: z-, x-, y- are different torus identifiers (variable). All differing positions are labeled as variable, the logs share the same template.",
+    "template": "<*> torus sender <*> - retransmission error ( s ) ( dcr <*> ) detected and corrected over <*> seconds"
+  },
+  {
+    "Id": 14,
+    "Reason": "Position 3: R02-M0-N9, R06-M1-NF, R20-M1-N are different identifiers (variable). Position 5: by, by, by are constant. Position 6: <*>, gooding3, <*> are variable. All differing positions are labeled as variable, the logs share the same template.",
+    "template": "EndServiceAction <*> performed upon <*> by <*>"
+  }
+]
+```
+================================
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▉| 50000/50026 [00:46<00:00, 291.67log/s]==== LLM input JSON ===
+LLM input JSON: [
+  {
+    "Id": 25,
+    "logs": "`<*> torus sender x + retransmission error ( s ) ( dcr <*> ) detected and corrected over <*> seconds`\n`<*> torus sender z + retransmission error ( s ) ( dcr <*> ) detected and corrected over <*> seconds`"
+  },
+  {
+    "Id": 26,
+    "logs": "`external input interrupt ( unit = <*> bit = <*> ) : torus sender y- retransmission error was corrected`\n`external input interrupt ( unit = <*> bit = <*> ) : torus sender z- retransmission error was corrected`"
+  },
+  {
+    "Id": 32,
+    "logs": "`Node card VPD check : missing <*> node , VPD ecid <*> in processor card slot J18`\n`Node card VPD check : missing <*> node , VPD ecid <*> in processor card slot J19`"
+  },
+  {
+    "Id": 34,
+    "logs": "`<*> L3 directory error ( s ) ( dcr <*> ) detected and corrected over <*> seconds`\n`<*> L3 EDRAM error ( s ) ( dcr <*> ) detected and corrected over <*> seconds`"
+  },
+  {
+    "Id": 43,
+    "logs": "`<*> L3 EDRAM error ( s ) ( dcr <*> ) detected and corrected`\n`<*> L3 directory error ( s ) ( dcr <*> ) detected and corrected`"
+  },
+  {
+    "Id": 93,
+    "logs": "`NodeCard power module <*> is not accessible`\n`LinkCard power module <*> is not accessible`"
+  },
+  {
+    "Id": 170,
+    "logs": "`Power deactivated : R05-M0-NA`\n`Power deactivated : R73-M0-N7`"
+  }
+]
+================================
+LLM batch response: ```json
+[
+  {
+    "Id": 25,
+    "Reason": "Position 2: x and z are different identifiers (variable). All differing positions are labeled as variable, the logs share the same template.",
+    "template": "<*> torus sender <*> + retransmission error ( s ) ( dcr <*> ) detected and corrected over <*> seconds"
+  },
+  {
+    "Id": 26,
+    "Reason": "Position 7: y and z are different identifiers (variable). All differing positions are labeled as variable, the logs share the same template.",
+    "template": "external input interrupt ( unit = <*> bit = <*> ) : torus sender <*> - retransmission error was corrected"
+  },
+  {
+    "Id": 32,
+    "Reason": "Position 5: J18 and J19 are different slot identifiers (variable). All differing positions are labeled as variable, the logs share the same template.",
+    "template": "Node card VPD check : missing <*> node , VPD ecid <*> in processor card slot <*>"
+  },
+  {
+    "Id": 34,
+    "Reason": "Position 3: directory and EDRAM are different memory types (constant). Any position is labeled as constant, the logs do not share the same template.",
+    "template": ""
+  },
+  {
+    "Id": 43,
+    "Reason": "Position 3: EDRAM and directory are different memory types (constant). Any position is labeled as constant, the logs do not share the same template.",
+    "template": ""
+  },
+  {
+    "Id": 93,
+    "Reason": "Position 0: NodeCard and LinkCard are different card types (constant). Any position is labeled as constant, the logs do not share the same template.",
+    "template": ""
+  },
+  {
+    "Id": 170,
+    "Reason": "Position 2: R05-M0-NA and R73-M0-N7 are different identifiers (variable). All differing positions are labeled as variable, the logs share the same template.",
+    "template": "Power deactivated : <*>"
+  }
+]
+```
+===========================
+LLM input JSON: [
+  {
+    "Id": 2,
+    "logs": "`Out of Memory : Killed process <*> ( httpd ) .`\n`Out of Memory : Killed process <*> ( python ) .`\n`Out of Memory : Killed process <*> ( sendmail ) .`\n`Out of Memory : Killed process <*> ( mysqld ) .`"
+  },
+  {
+    "Id": 3,
+    "logs": "`*** info [ startup.c ( <*> ) ] :`\n`*** info [ mice.c ( <*> ) ] :`\n`*** info [ client.c ( <*> ) ] :`"
+  },
+  {
+    "Id": 4,
+    "logs": "`DMA zone : <*> pages , LIFO <*>`\n`Normal zone : <*> pages , LIFO <*>`\n`HighMem zone : <*> pages , LIFO <*>`"
+  },
+  {
+    "Id": 10,
+    "logs": "`Bluetooth : Core ver <*>`\n`Bluetooth : L2CAP ver <*>`\n`Bluetooth : RFCOMM ver <*>`"
+  },
+  {
+    "Id": 17,
+    "logs": "`kernel.core_uses_pid = <*>`\n`net.ipv4.conf.default.rp_filter = <*>`\n`kernel.sysrq = <*>`"
+  }
+]
+LLM batch response: ```json
+[
+  {
+    "Id": 2,
+    "Reason": "Position 5: httpd, python, sendmail, mysqld are different process names (variable). All differing positions are labeled as variable, the logs share the same template.",
+    "template": "Out of Memory : Killed process <*> ( <*> ) ."
+  },
+  {
+    "Id": 3,
+    "Reason": "Position 4: startup.c, mice.c, client.c are different file names (variable). All differing positions are labeled as variable, the logs share the same template.",
+    "template": "*** info [ <*> ( <*> ) ] :"
+  },
+  {
+    "Id": 4,
+    "Reason": "Position 1: DMA, Normal, HighMem are different memory zone types (constant). Any position is labeled as constant, the logs do not share the same template.",
+    "template": ""
+  },
+  {
+    "Id": 10,
+    "Reason": "Position 3: Core, L2CAP, RFCOMM are different Bluetooth protocol components (constant). Any position is labeled as constant, the logs do not share the same template.",
+    "template": ""
+  },
+  {
+    "Id": 17,
+    "Reason": "Position 1: kernel.core_uses_pid, net.ipv4.conf.default.rp_filter, kernel.sysrq are different configuration keys (constant). Any position is labeled as constant, the logs do not share the same template.",
+    "template": ""
+  }
+]
+```
+================================
+LLM input JSON: [
+  {
+    "Id": 0,
+    "logs": "`[ <*> ] ext3_get_inode_loc + <*> [ ext3 ]`\n`[ <*> ] ext3_reserve_inode_write + <*> [ ext3 ]`\n`[ <*> ] ext3_mark_inode_dirty + <*> [ ext3 ]`\n`[ <*> ] journal_start + <*> [ jbd ]`\n`[ <*> ] ext3_dirty_inode + <*> [ ext3 ]`"
+  },
+  {
+    "Id": 1,
+    "logs": "`[ <*> ] __alloc_pages + <*>`\n`[ <*> ] read_swap_cache_async + <*>`\n`[ <*> ] swapin_readahead + <*>`\n`[ <*> ] do_swap_page + <*>`\n`[ <*> ] handle_mm_fault + <*>`"
+  }
+]
+LLM batch response: ```json
+[
+  {
+    "Id": 0,
+    "Reason": "Position 2: All tokens are `<*>`, considered variable. Position 3: `ext3_get_inode_loc`, `ext3_reserve_inode_write`, `ext3_mark_inode_dirty`, `journal_start`, `ext3_dirty_inode` are different function names (variable). Position 5: All tokens are `<*>`, considered variable. Position 6: `ext3`, `jbd`, `ext3` — `ext3` and `jbd` are different module names (constant). Since at least one position is labeled as constant, the logs do not share the same template.",
+    "template": ""
+  },
+  {
+    "Id": 1,
+    "Reason": "Position 2: All tokens are `<*>`, considered variable. Position 3: `__alloc_pages`, `read_swap_cache_async`, `swapin_readahead`, `do_swap_page`, `handle_mm_fault` are different function names (variable). Position 5: All tokens are `<*>`, considered variable. All differing positions are labeled as variable, the logs share the same template.",
+    "template": "[ <*> ] <*> + <*>"
+  }
+]
+```
+================================
+LLM input JSON: [
+  {
+    "Id": 16,
+    "logs": "`Inode-cache hash table entries : <*> ( order : <*> , <*> bytes )`\n`Mount-cache hash table entries : <*> ( order : <*> , <*> bytes )`"
+  },
+  {
+    "Id": 20,
+    "logs": "`SELinux : initialized ( dev , type mqueue ) , not configured for labeling`\n`SELinux : initialized ( dev , type hugetlbfs ) , not configured for labeling`"
+  },
+  {
+    "Id": 21,
+    "logs": "`PID hash table entries : <*> ( order <*> : <*> bytes )`\n`Dquot-cache hash table entries : <*> ( order <*> , <*> bytes )`"
+  },
+  {
+    "Id": 29,
+    "logs": "`SELinux : initialized ( dev , type devpts ) , uses transition SIDs`\n`SELinux : initialized ( dev , type pipefs ) , uses task SIDs`\n`SELinux : initialized ( dev , type tmpfs ) , uses transition SIDs`\n`SELinux : initialized ( dev , type sockfs ) , uses task SIDs`"
+  },
+  {
+    "Id": 47,
+    "logs": "`serio : i8042 AUX port at <*> , <*> irq <*>`\n`serio : i8042 KBD port at <*> , <*> irq <*>`"
+  },
+  {
+    "Id": 114,
+    "logs": "`ide0 at <*> , <*> on irq <*>`\n`ide1 at <*> , <*> on irq <*>`"
+  },
+  {
+    "Id": 134,
+    "logs": "`EXT3 FS on hda2 , internal journal`\n`EXT3 FS on hda1 , internal journal`"
+  },
+  {
+    "Id": 228,
+    "logs": "`Stopping MySQL : succeeded`\n`Stopping squid : succeeded`\n`Stopping MySQL : failed`"
+  }
+]
+
+LLM batch response: ```json
+[
+  {
+    "Id": 16,
+    "Reason": "Position 0: Inode-cache and Mount-cache are different behaviors (constant). Any position is labeled as constant, the logs do not share the same template.",
+    "template": ""
+  },
+  {
+    "Id": 20,
+    "Reason": "Position 6: mqueue and hugetlbfs are different memory types (constant). All differing positions are labeled as constant, the logs do not share the same template.",
+    "template": ""
+  },
+  {
+    "Id": 21,
+    "Reason": "Position 0: PID and Dquot-cache are different cache types (constant). Any position is labeled as constant, the logs do not share the same template.",
+    "template": ""
+  },
+  {
+    "Id": 29,
+    "Reason": "Position 6: devpts, pipefs, tmpfs, sockfs are different device types (variable). Position 8: transition and task are different SID types (constant). Any position is labeled as constant, the logs do not share the same template.",
+    "template": ""
+  },
+  {
+    "Id": 47,
+    "Reason": "Position 3: i8042 AUX port and i8042 KBD port indicate different device ports (constant). All differing positions are labeled as constant, the logs do not share the same template.",
+    "template": ""
+  },
+  {
+    "Id": 114,
+    "Reason": "Position 0: ide0 and ide1 are different device names (variable). All differing positions are labeled as variable, the logs share the same template.",
+    "template": "ide<*> at <*> , <*> on irq <*>"
+  },
+  {
+    "Id": 134,
+    "Reason": "Position 4: hda2 and hda1 are different disk partitions (variable). All differing positions are labeled as variable, the logs share the same template.",
+    "template": "EXT3 FS on hda<*> , internal journal"
+  },
+  {
+    "Id": 228,
+    "Reason": "Position 1: MySQL and squid are different process names (variable). Position 3: succeeded and failed are different statuses (constant). Any position is labeled as constant, the logs do not share the same template.",
+    "template": ""
+  }
+]
+```
+LLM input JSON: [
+  {
+    "Id": 5,
+    "logs": "`network changed : v4 ( en0- : <*> ) v6 ( en0 : <*> ) DNS ! Proxy SMB`\n`network changed : v4 ( en0+ : <*> ) v6 ( en0 : <*> ) DNS ! Proxy SMB`\n`network changed : v4 ( en0 : <*> ) v6 ( en0+ : <*> ) DNS ! Proxy SMB`"
+  },
+  {
+    "Id": 7,
+    "logs": "`[ <*> ] sgffr_generateSingleSampleBuffer signalled err = <*> ( err ) ( FigScheduledReadRequestRead failed ) at <*> line <*>`\n`[ <*> ] videoMentorThreadCreateSampleBuffer signalled err = <*> ( err ) ( FigSampleGeneratorCreateSampleBufferAtCursor failed ) at <*> line <*>`"
+  },
+  {
+    "Id": 12,
+    "logs": "`CCFile::captureLog Received Capture notice id : <*> , reason = AssocFail : <*>`\n`CCFile::captureLog Received Capture notice id : <*> , reason = AuthFail : <*>`\n`CCFile::captureLog Received Capture notice id : <*> , reason = RoamFail : <*>`"
+  },
+  {
+    "Id": 15,
+    "logs": "`ARPT : <*> : wl0 : MDNS : IPV6 Addr : <*>`\n`ARPT : <*> : wl0 : MDNS : IPV4 Addr : <*>`"
+  },
+  {
+    "Id": 20,
+    "logs": "`<*> : Will write to : <*> - AssocFail : <*>`\n`<*> : Will write to : <*> - AuthFail : <*>`\n`<*> : Will write to : <*> - RoamFail : <*>`"
+  },
+  {
+    "Id": 21,
+    "logs": "`IO80211AWDLPeerManager::setAwdlOperatingMode Setting the AWDL operation mode from AUTO to SUSPENDED`\n`IO80211AWDLPeerManager::setAwdlOperatingMode Setting the AWDL operation mode from SUSPENDED to AUTO`"
+  },
+  {
+    "Id": 22,
+    "logs": "`mDNS_RegisterInterface : Frequent transitions for interface en0 ( <*> )`\n`mDNS_DeregisterInterface : Frequent transitions for interface en0 ( <*> )`\n`mDNS_RegisterInterface : Frequent transitions for interface awdl0 ( <*> )`\n`mDNS_DeregisterInterface : Frequent transitions for interface awdl0 ( <*> )`"
+  },
+  {
+    "Id": 24,
+    "logs": "`ARPT : <*> : AirPort_Brcm43xx::platformWoWEnable : WWEN[ enable ]`\n`ARPT : <*> : AirPort_Brcm43xx::syncPowerState : WWEN[ enabled ]`\n`ARPT : <*> : AirPort_Brcm43xx::platformWoWEnable : WWEN[ disable ]`"
+  },
+  {
+    "Id": 25,
+    "logs": "`CCDataTap::profileRemoved , Owner : <*> , Name : AssociationEventHistory`\n`CCDataTap::profileRemoved , Owner : <*> , Name : StateSnapshots`"
+  },
+  {
+    "Id": 26,
+    "logs": "`CCLogTap::profileRemoved , Owner : <*> , Name : OneStats`\n`CCLogTap::profileRemoved , Owner : <*> , Name : IO80211AWDLPeerManager`\n`CCLogTap::profileRemoved , Owner : <*> , Name : DriverLogs`"
+  },
+  {
+    "Id": 28,
+    "logs": "`Location icon should now be in state 'Active'`\n`Location icon should now be in state 'Inactive'`"
+  },
+  {
+    "Id": 38,
+    "logs": "`vm_compressor_flush completed - took <*> msecs`\n`hibernate_rebuild completed - took <*> msecs`\n`vm_compressor_fastwake_warmup completed - took <*> msecs`"
+  },
+  {
+    "Id": 39,
+    "logs": "`AppleCamIn::systemWakeCall - messageType = 0xE0000340`\n`AppleCamIn::systemWakeCall - messageType = 0xE0000300`\n`AppleCamIn::systemWakeCall - messageType = 0xE0000280`\n`AppleCamIn::systemWakeCall - messageType = 0xE0000320`"
+  }
+]
+================================
+LLM batch response: ```json
+[
+  {
+    "Id": 5,
+    "Reason": "Position 5: en0- and en0+ and en0 are different interface names (variable). Position 8: en0 and en0 and en0+ are different interface names (variable). All differing positions are labeled as variable, the logs share the same template.",
+    "template": "network changed : v4 ( <*> : <*> ) v6 ( <*> : <*> ) DNS ! Proxy SMB"
+  },
+  {
+    "Id": 7,
+    "Reason": "Position 2: sgffr_generateSingleSampleBuffer and videoMentorThreadCreateSampleBuffer are different function names (constant). Any position is labeled as constant, the logs do not share the same template.",
+    "template": ""
+  },
+  {
+    "Id": 12,
+    "Reason": "Position 10: AssocFail and AuthFail and RoamFail are different failure reasons (constant). Any position is labeled as constant, the logs do not share the same template.",
+    "template": ""
+  },
+  {
+    "Id": 15,
+    "Reason": "Position 6: IPV6 and IPV4 are different address families (constant). Any position is labeled as constant, the logs do not share the same template.",
+    "template": ""
+  },
+  {
+    "Id": 20,
+    "Reason": "Position 0: <*> and <*> and <*> are all variable (already abstracted). Position 4: AssocFail and AuthFail and RoamFail are different failure reasons (constant). Any position is labeled as constant, the logs do not share the same template.",
+    "template": ""
+  },
+  {
+    "Id": 21,
+    "Reason": "Position 10: AUTO and SUSPENDED are different states (constant). Any position is labeled as constant, the logs do not share the same template.",
+    "template": ""
+  },
+  {
+    "Id": 22,
+    "Reason": "Position 0: mDNS_RegisterInterface and mDNS_DeregisterInterface are different function names (constant). Position 9: en0 and awdl0 are different interface names (variable). At least one position is labeled as constant, the logs do not share the same template.",
+    "template": ""
+  },
+  {
+    "Id": 24,
+    "Reason": "Position 4: AirPort_Brcm43xx::platformWoWEnable and AirPort_Brcm43xx::syncPowerState and AirPort_Brcm43xx::platformWoWEnable are different function names (constant). Any position is labeled as constant, the logs do not share the same template.",
+    "template": ""
+  },
+  {
+    "Id": 25,
+    "Reason": "Position 10: AssociationEventHistory and StateSnapshots are different profile names (constant). Any position is labeled as constant, the logs do not share the same template.",
+    "template": ""
+  },
+  {
+    "Id": 26,
+    "Reason": "Position 10: OneStats and IO80211AWDLPeerManager and DriverLogs are different profile names (constant). Any position is labeled as constant, the logs do not share the same template.",
+    "template": ""
+  },
+  {
+    "Id": 28,
+    "Reason": "Position 8: 'Active' and 'Inactive' are different states (constant). Any position is labeled as constant, the logs do not share the same template.",
+    "template": ""
+  },
+  {
+    "Id": 38,
+    "Reason": "Position 0: vm_compressor_flush and hibernate_rebuild and vm_compressor_fastwake_warmup are different function names (constant). Any position is labeled as constant, the logs do not share the same template.",
+    "template": ""
+  },
+  {
+    "Id": 39,
+    "Reason": "Position 5: 0xE0000340 and 0xE0000300 and 0xE0000280 and 0xE0000320 are different message types (variable). All differing positions are labeled as variable, the logs share the same template.",
+    "template": "AppleCamIn::systemWakeCall - messageType = <*>"
+  }
+]
+```
+================================
+LLM input JSON: [
+  {
+    "Id": 3,
+    "logs": "`ARPT : <*> : IOPMPowerSource Information : onSleep , SleepType : Normal Sleep , 'ExternalConnected' : Yes , 'TimeRemaining' : <*> ,`\n`ARPT : <*> : IOPMPowerSource Information : onSleep , SleepType : Normal Sleep , 'ExternalConnected' : No , 'TimeRemaining' : <*> ,`"
+  },
+  {
+    "Id": 9,
+    "logs": "`[ <*> ] itemasync_SetProperty signalled err = <*> ( kFigBaseObjectError_Invalidated ) ( invalidated ) at <*> line <*>`\n`[ <*> ] itemasync_CopyProperty signalled err = <*> ( kFigBaseObjectError_Invalidated ) ( invalidated ) at <*> line <*>`"
+  },
+  {
+    "Id": 13,
+    "logs": "`[ HID ] [ ATC ] AppleDeviceManagementHIDEventService::processWakeReason Wake reason : Host ( <*> )`\n`[ HID ] [ ATC ] AppleDeviceManagementHIDEventService::processWakeReason Wake reason : Button ( <*> )`"
+  },
+  {
+    "Id": 33,
+    "logs": "`AirPort : Link Up on awdl0`\n`AirPort : Link Up on en0`"
+  }
+]
+LLM batch response: ```json
+[
+  {
+    "Id": 3,
+    "Reason": "Position 1: onSleep and onSleep are the same (constant). Position 5: Yes and No are different boolean values (variable). Position 7: <*> and <*> are already abstracted (same structure). All differing positions are labeled as variable, the logs share the same template.",
+    "template": "ARPT : <*> : IOPMPowerSource Information : onSleep , SleepType : Normal Sleep , 'ExternalConnected' : <*> , 'TimeRemaining' : <*> ,"
+  },
+  {
+    "Id": 9,
+    "Reason": "Position 2: SetProperty and CopyProperty are different function names (constant). Position 5: <*> and <*> are already abstracted (variable). Position 9: <*> and <*> are already abstracted (variable). Since any position is labeled as constant, the logs do not share the same template.",
+    "template": ""
+  },
+  {
+    "Id": 13,
+    "Reason": "Position 8: Host and Button are different wake reasons (variable). All differing positions are labeled as variable, the logs share the same template.",
+    "template": "[ HID ] [ ATC ] AppleDeviceManagementHIDEventService::processWakeReason Wake reason : <*> ( <*> )"
+  },
+  {
+    "Id": 33,
+    "Reason": "Position 5: awdl0 and en0 are different interface names (variable). All differing positions are labeled as variable, the logs share the same template.",
+    "template": "AirPort : Link Up on <*>"
+  }
+]
+```
+================================
+LLM input JSON: [
+  {
+    "Id": 2,
+    "logs": "`Failed to connect ( colorGridView ) outlet from ( NSApplication ) to ( NSColorPickerGridView ) : missing setter or instance variable`\n`Failed to connect ( view ) outlet from ( NSApplication ) to ( NSColorPickerGridView ) : missing setter or instance variable`\n`Failed to connect ( _consoleX ) outlet from ( NSApplication ) to ( ConsoleX ) : missing setter or instance variable`"
+  },
+  {
+    "Id": 4,
+    "logs": "`[ <*> ] FigFileForkOpenMainByCFURL signalled err = <*> ( errno ) ( open failed ) at <*> line <*>`\n`[ <*> ] audioMentorThreadForwardOrReversePlayback signalled err = <*> ( err ) ( FigSampleGeneratorCreateSampleBufferAtCursor failed ) at <*> line <*>`\n`[ <*> ] sgffr_generatePartialChunkSampleBuffer signalled err = <*> ( err ) ( FigScheduledReadRequestRead failed ) at <*> line <*>`"
+  },
+  {
+    "Id": 10,
+    "logs": "`en0 : <*> country code set to 'X3' .`\n`en0 : <*> country code set to 'US' .`"
+  },
+  {
+    "Id": 13,
+    "logs": "`ChromeExistion main isUndetectWithCommand = <*>`\n`ChromeExistion main isBrowserDetect = <*>`\n`ChromeExistion main isUndetectWebsite = <*>`"
+  }
+]
+LLM batch response: ```json
+[
+  {
+    "Id": 2,
+    "Reason": "Position 5: colorGridView, view, and _consoleX are different variable names (variable). Position 9: NSColorPickerGridView and ConsoleX are different class names (variable). All differing positions are labeled as variable, the logs share the same template.",
+    "template": "Failed to connect ( <*> ) outlet from ( NSApplication ) to ( <*> ) : missing setter or instance variable"
+  },
+  {
+    "Id": 4,
+    "Reason": "Position 1: <*> is a placeholder for variable context. Position 4: FigFileForkOpenMainByCFURL, audioMentorThreadForwardOrReversePlayback, and sgffr_generatePartialChunkSampleBuffer are different function names (constant). Since function names are constant and differ, the logs do not share the same template.",
+    "template": ""
+  },
+  {
+    "Id": 10,
+    "Reason": "Position 3: <*> is a placeholder for variable signal strength. Position 8: 'X3' and 'US' are different country codes (variable). All differing positions are labeled as variable, the logs share the same template.",
+    "template": "en0 : <*> country code set to '<*>' ."
+  },
+  {
+    "Id": 13,
+    "Reason": "Position 4: isUndetectWithCommand, isBrowserDetect, and isUndetectWebsite are different boolean flags (constant). Since boolean flags are constant and differ, the logs do not share the same template.",
+    "template": ""
+  }
+]
+```
+================================
+LLM input JSON: [
+  {
+    "Id": 10,
+    "logs": "`Wake reason : ?`\n`Wake reason : XHC1`"
+  }
+]
+
+LLM batch response: ```json
+[
+  {
+    "Id": 10,
+    "Reason": "Position 3: ? and XHC1 are different wake reasons (variable). All differing positions are labeled as variable, the logs share the same template.",
+    "template": "Wake reason : <*>"
+  }
+]
+```
+================================
+LLM input JSON: [
+  {
+    "Id": 6,
+    "logs": "`[ CardDAVPlugin-ERROR ] -getPrincipalInfo : [ _controller supportsRequestCompressionAtURL : <*> Error Domain = <*> Code = <*> \"The Internet connection appears to be offline.\" UserInfo = <*> {Error Domain = <*> Code = <*> \"The Internet connection appears to be offline.\" UserInfo = {NSErrorFailingURLStringKey = <*> NSErrorFailingURLKey = <*> _kCFStreamErrorCodeKey = <*> _kCFStreamErrorDomainKey = <*> NSLocalizedDescription = The Internet connection appears to be offline.}} , NSErrorFailingURLStringKey = <*> NSErrorFailingURLKey = <*> _kCFStreamErrorDomainKey = <*> _kCFStreamErrorCodeKey = <*> NSLocalizedDescription = The Internet connection appears to be offline.}`\n`[ CardDAVPlugin-ERROR ] -getPrincipalInfo : [ _controller principalPropertiesAtURL : <*> Error Domain = <*> Code = <*> \"The Internet connection appears to be offline.\" UserInfo = <*> {Error Domain = <*> Code = <*> \"The Internet connection appears to be offline.\" UserInfo = {NSErrorFailingURLStringKey = <*> NSErrorFailingURLKey = <*> _kCFStreamErrorCodeKey = <*> _kCFStreamErrorDomainKey = <*> NSLocalizedDescription = The Internet connection appears to be offline.}} , NSErrorFailingURLStringKey = <*> NSErrorFailingURLKey = <*> _kCFStreamErrorDomainKey = <*> _kCFStreamErrorCodeKey = <*> NSLocalizedDescription = The Internet connection appears to be offline.}`"
+  },
+  {
+    "Id": 10,
+    "logs": "`[ CardDAVPlugin-ERROR ] -getPrincipalInfo : [ _controller supportsRequestCompressionAtURL : <*> Error Domain = <*> Code = <*> \"The network connection was lost.\" UserInfo = <*> {Error Domain = <*> Code = <*> \"The network connection was lost.\" UserInfo = {NSErrorFailingURLStringKey = <*> NSErrorFailingURLKey = <*> _kCFStreamErrorCodeKey = <*> _kCFStreamErrorDomainKey = <*> NSLocalizedDescription = The network connection was lost.}} , NSErrorFailingURLStringKey = <*> NSErrorFailingURLKey = <*> _kCFStreamErrorDomainKey = <*> _kCFStreamErrorCodeKey = <*> NSLocalizedDescription = The network connection was lost.}`\n`[ CardDAVPlugin-ERROR ] -getPrincipalInfo : [ _controller principalPropertiesAtURL : <*> Error Domain = <*> Code = <*> \"The network connection was lost.\" UserInfo = <*> {Error Domain = <*> Code = <*> \"The network connection was lost.\" UserInfo = {NSErrorFailingURLStringKey = <*> NSErrorFailingURLKey = <*> _kCFStreamErrorCodeKey = <*> _kCFStreamErrorDomainKey = <*> NSLocalizedDescription = The network connection was lost.}} , NSErrorFailingURLStringKey = <*> NSErrorFailingURLKey = <*> _kCFStreamErrorDomainKey = <*> _kCFStreamErrorCodeKey = <*> NSLocalizedDescription = The network connection was lost.}`"
+  },
+  {
+    "Id": 11,
+    "logs": "`[ CardDAVPlugin-ERROR ] -getPrincipalInfo : [ _controller supportsRequestCompressionAtURL : <*> Error Domain = <*> Code = <*> \"The request timed out.\" UserInfo = <*> {Error Domain = <*> Code = <*> \"The request timed out.\" UserInfo = {NSErrorFailingURLStringKey = <*> NSErrorFailingURLKey = <*> _kCFStreamErrorCodeKey = <*> _kCFStreamErrorDomainKey = <*> NSLocalizedDescription = The request timed out.}} , NSErrorFailingURLStringKey = <*> NSErrorFailingURLKey = <*> _kCFStreamErrorDomainKey = <*> _kCFStreamErrorCodeKey = <*> NSLocalizedDescription = The request timed out.}`\n`[ CardDAVPlugin-ERROR ] -getPrincipalInfo : [ _controller principalPropertiesAtURL : <*> Error Domain = <*> Code = <*> \"The request timed out.\" UserInfo = <*> {Error Domain = <*> Code = <*> \"The request timed out.\" UserInfo = {NSErrorFailingURLStringKey = <*> NSErrorFailingURLKey = <*> _kCFStreamErrorCodeKey = <*> _kCFStreamErrorDomainKey = <*> NSLocalizedDescription = The request timed out.}} , NSErrorFailingURLStringKey = <*> NSErrorFailingURLKey = <*> _kCFStreamErrorDomainKey = <*> _kCFStreamErrorCodeKey = <*> NSLocalizedDescription = The request timed out.}`"
+  },
+  {
+    "Id": 49,
+    "logs": "`<*> GoogleSoftwareUpdateAgent[ <*> [ lvl = <*> ] -[ KSAgentApp updateProductWithProductID : usingEngine : ] Done checking for updates for <*> using engine <KSUpdateEngine : <*>`\n`<*> GoogleSoftwareUpdateAgent[ <*> [ lvl = <*> ] -[ KSAgentApp updateProductWithProductID : usingEngine : ] Checking for updates for \"All Products\" using engine <KSUpdateEngine : <*>`"
+  },
+  {
+    "Id": 77,
+    "logs": "`. sdef warning for argument '' of command 'activate object' in suite 'Microsoft Word Suite' : <*> is not a valid type name .`\n`. sdef warning for argument '' of command 'cut object' in suite 'Microsoft Word Suite' : <*> is not a valid type name .`"
+  },
+  {
+    "Id": 78,
+    "logs": "`. sdef warning for argument '' of command 'check grammar' in suite 'Microsoft Word Suite' : <*> is not a valid type name .`\n`. sdef warning for argument '' of command 'check spelling' in suite 'Microsoft Word Suite' : <*> is not a valid type name .`"
+  },
+  {
+    "Id": 94,
+    "logs": "`. sdef warning for argument '' of command 'reject' in suite 'Microsoft Word Suite' : <*> is not a valid type name .`\n`. sdef warning for argument '' of command 'update' in suite 'Microsoft Word Suite' : <*> is not a valid type name .`"
+  },
+  {
+    "Id": 96,
+    "logs": "`. sdef warning for argument '' of command 'preset drop' in suite 'Drawing Suite' : <*> is not a valid type name .`\n`. sdef warning for argument '' of command 'preset gradient' in suite 'Drawing Suite' : <*> is not a valid type name .`"
+  },
+  {
+    "Id": 98,
+    "logs": "`. sdef warning for argument '' of command 'user picture' in suite 'Drawing Suite' : <*> is not a valid type name .`\n`. sdef warning for argument '' of command 'user textured' in suite 'Drawing Suite' : <*> is not a valid type name .`"
+  },
+  {
+    "Id": 103,
+    "logs": "`. sdef warning for argument '' of command 'sort ascending' in suite 'Table Suite' : <*> is not a valid type name .`\n`. sdef warning for argument '' of command 'sort descending' in suite 'Table Suite' : <*> is not a valid type name .`"
+  },
+  {
+    "Id": 106,
+    "logs": "`[ CardDAVPlugin-ERROR ] -getPrincipalInfo : [ _controller principalPropertiesAtURL : <*> Error Domain = <*> Code = <*> \" ( <*> ) \"`\n`[ CardDAVPlugin-ERROR ] -getPrincipalInfo : [ _controller supportsRequestCompressionAtURL : <*> Error Domain = <*> Code = <*> \" ( <*> ) \"`"
+  },
+  {
+    "Id": 119,
+    "logs": "`Failed to connect ( imageView ) outlet from ( MMFilePreviewPanelWindowController ) to ( NSImageView ) : missing setter or instance variable`\n`Failed to connect ( loadingViewContainer ) outlet from ( MMFilePreviewPanelWindowController ) to ( NSView ) : missing setter or instance variable`\n`Failed to connect ( titleField ) outlet from ( MMSessionPickerListRowView ) to ( NSTextField ) : missing setter or instance variable`"
+  },
+  {
+    "Id": 120,
+    "logs": "`<*> : Could not write data to client PID[ <*> ] ( Mail ) because of error - aborting connection`\n`<*> : Could not write data to client PID[ <*> ] ( configd ) because of error - aborting connection`\n`<*> : Could not write data to client PID[ <*> ] ( CalendarAgent ) because of error - aborting connection`"
+  },
+  {
+    "Id": 128,
+    "logs": "`[ HID ] [ ATC ] [ Error ] AppleDeviceManagementHIDEventService::start Could not make a string from out connection notification key`\n`[ HID ] [ ATC ] [ Error ] AppleDeviceManagementHIDEventService::start Could not make a string from out poweredoff notification key`"
+  },
+  {
+    "Id": 137,
+    "logs": "`Captive : [ <*> ] en0 : SSID 'CalVisitor' making interface primary ( cache indicates network not captive )`\n`Captive : [ <*> ] en0 : SSID 'AirBears2' making interface primary ( cache indicates network not captive )`"
+  },
+  {
+    "Id": 162,
+    "logs": "`<*> : DNSServiceCreateConnection : <*> registered records , <*> kDNSServiceFlagsShareConnection operation PID[ <*> ] ( Mail )`\n`<*> : DNSServiceCreateConnection : <*> registered records , <*> kDNSServiceFlagsShareConnection operation PID[ <*> ] ( configd )`\n`<*> : DNSServiceCreateConnection : <*> registered records , <*> kDNSServiceFlagsShareConnection operation PID[ <*> ] ( CalendarAgent )`"
+  },
+  {
+    "Id": 186,
+    "logs": "`<IMMacNotificationCenterManager : <*> : notification observer : <*> notification : __CFNotification <*> {name = _NSDoNotDisturbEnabledNotification}`\n`<IMMacNotificationCenterManager : <*> : notification observer : <*> notification : __CFNotification <*> {name = _NSDoNotDisturbDisabledNotification}`"
+  },
+  {
+    "Id": 203,
+    "logs": "`network changed : v4 ( en0! : <*> ) DNS + Proxy + SMB`\n`network changed : v6 ( en0! : <*> ) DNS + Proxy + SMB`"
+  },
+  {
+    "Id": 213,
+    "logs": "`Captive : en0 : Not probing 'CalVisitor' ( cache indicates not captive )`\n`Captive : en0 : Not probing 'AirBears2' ( cache indicates not captive )`"
+  },
+  {
+    "Id": 214,
+    "logs": "`network changed : v6 ( en0 : <*> ) DNS ! Proxy SMB`\n`network changed : v4 ( en0 : <*> ) DNS ! Proxy SMB`"
+  },
+  {
+    "Id": 215,
+    "logs": "`tcp_connection_destination_perform_socket_connect <*> connectx to <*> failed : [ <*> ] Network is down`\n`tcp_connection_destination_perform_socket_connect <*> connectx to <*> failed : [ <*> ] Network is unreachable`"
+  },
+  {
+    "Id": 218,
+    "logs": "`Failed to stop a scan - central is not powered on : <*>`\n`Failed to start a scan - central is not powered on : <*>`"
+  },
+  {
+    "Id": 231,
+    "logs": "`<IMMacNotificationCenterManager : <*> : Updating enabled : NO ( Topics : (`\n`<IMMacNotificationCenterManager : <*> : Updating enabled : YES ( Topics : (`"
+  },
+  {
+    "Id": 235,
+    "logs": "`could discard act <*> inact <*> purgeable <*> spec <*> cleaned <*>`\n`did discard act <*> inact <*> purgeable <*> spec <*> cleaned <*>`"
+  },
+  {
+    "Id": 240,
+    "logs": "`Saved wakeups_resource.diag report for QQ version <*> ( <*> ) to <*>`\n`Saved wakeups_resource.diag report for WeChat version <*> ( <*> ) to <*>`"
+  },
+  {
+    "Id": 244,
+    "logs": "`network changed : v6 ( en0- : <*> ) DNS- Proxy-`\n`network changed : v4 ( en0- : <*> ) DNS- Proxy-`"
+  },
+  {
+    "Id": 281,
+    "logs": "`Unknown class DocsUINewTemplateItemBox in Interface Builder file at path <*>`\n`Unknown class FRToolbar in Interface Builder file at path <*>`"
+  },
+  {
+    "Id": 283,
+    "logs": "`en0 : <*> country code set to 'X3' .`\n`en0 : <*> country code set to 'US' .`"
+  },
+  {
+    "Id": 287,
+    "logs": "`CoreAnimation : failed to receive fence reply : <*>`\n`CoreAnimation : failed to send fence reply : <*>`"
+  },
+  {
+    "Id": 290,
+    "logs": "`full wake promotion ( reason <*> ) <*> ms`\n`full wake request ( reason <*> ) <*> ms`"
+  }
+]
+LLM batch response: [{"Id":6,"Reason":"All differing positions are labeled as variable, the logs share the same template.","template":"[ CardDAVPlugin-ERROR ] -getPrincipalInfo : [ _controller <*> : <*> Error Domain = <*> Code = <*> \"The Internet connection appears to be offline.\" UserInfo = <*> {Error Domain = <*> Code = <*> \"The Internet connection appears to be offline.\" UserInfo = {NSErrorFailingURLStringKey = <*> NSErrorFailingURLKey = <*> _kCFStreamErrorCodeKey = <*> _kCFStreamErrorDomainKey = <*> NSLocalizedDescription = The Internet connection appears to be offline.}} , NSErrorFailingURLStringKey = <*> NSErrorFailingURLKey = <*> _kCFStreamErrorDomainKey = <*> _kCFStreamErrorCodeKey = <*> NSLocalizedDescription = The Internet connection appears to be offline.}"},{"Id":10,"Reason":"All differing positions are labeled as variable, the logs share the same template.","template":"[ CardDAVPlugin-ERROR ] -getPrincipalInfo : [ _controller <*> : <*> Error Domain = <*> Code = <*> \"The network connection was lost.\" UserInfo = <*> {Error Domain = <*> Code = <*> \"The network connection was lost.\" UserInfo = {NSErrorFailingURLStringKey = <*> NSErrorFailingURLKey = <*> _kCFStreamErrorCodeKey = <*> _kCFStreamErrorDomainKey = <*> NSLocalizedDescription = The network connection was lost.}} , NSErrorFailingURLStringKey = <*> NSErrorFailingURLKey = <*> _kCFStreamErrorDomainKey = <*> _kCFStreamErrorCodeKey = <*> NSLocalizedDescription = The network connection was lost.}"},{"Id":11,"Reason":"All differing positions are labeled as variable, the logs share the same template.","template":"[ CardDAVPlugin-ERROR ] -getPrincipalInfo : [ _controller <*> : <*> Error Domain = <*> Code = <*> \"The request timed out.\" UserInfo = <*> {Error Domain = <*> Code = <*> \"The request timed out.\" UserInfo = {NSErrorFailingURLStringKey = <*> NSErrorFailingURLKey = <*> _kCFStreamErrorCodeKey = <*> _kCFStreamErrorDomainKey = <*> NSLocalizedDescription = The request timed out.}} , NSErrorFailingURLStringKey = <*> NSErrorFailingURLKey = <*> _kCFStreamErrorDomainKey = <*> _kCFStreamErrorCodeKey = <*> NSLocalizedDescription = The request timed out.}"},{"Id":49,"Reason":"Position 4: \"updateProductWithProductID\" and \"updateProductWithProductID\" are same (constant). Position 5: \":\" and \":\" are same (constant). Position 6: \"usingEngine\" and \"usingEngine\" are same (constant). Position 7: \"]\" and \"]\" are same (constant). Position 8: \"Done\" and \"Checking\" are different behaviors (constant). Any position is labeled as constant, the logs do not share the same template.","template":""},{"Id":77,"Reason":"Position 10: \"activate\" and \"cut\" are different behaviors (constant). Any position is labeled as constant, the logs do not share the same template.","template":""},{"Id":78,"Reason":"Position 10: \"check\" and \"check\" are same (constant). Position 11: \"grammar\" and \"spelling\" are different behaviors (constant). Any position is labeled as constant, the logs do not share the same template.","template":""},{"Id":94,"Reason":"Position 10: \"reject\" and \"update\" are different behaviors (constant). Any position is labeled as constant, the logs do not share the same template.","template":""},{"Id":96,"Reason":"Position 10: \"preset\" and \"preset\" are same (constant). Position 11: \"drop\" and \"gradient\" are different behaviors (constant). Any position is labeled as constant, the logs do not share the same template.","template":""},{"Id":98,"Reason":"Position 10: \"user\" and \"user\" are same (constant). Position 11: \"picture\" and \"textured\" are different behaviors (constant). Any position is labeled as constant, the logs do not share the same template.","template":""},{"Id":103,"Reason":"Position 10: \"sort\" and \"sort\" are same (constant). Position 11: \"ascending\" and \"descending\" are different behaviors (constant). Any position is labeled as constant, the logs do not share the same template.","template":""},{"Id":106,"Reason":"Position 5: \"principalPropertiesAtURL\" and \"supportsRequestCompressionAtURL\" are different behaviors (constant). Any position is labeled as constant, the logs do not share the same template.","template":""},{"Id":119,"Reason":"Position 2: \"connect\" and \"connect\" are same (constant). Position 4: \"outlet\" and \"outlet\" are same (constant). Position 6: \"MMFilePreviewPanelWindowController\" and \"MMFilePreviewPanelWindowController\" are same (constant). Position 8: \"NSImageView\" and \"NSView\" are different behaviors (constant). Any position is labeled as constant, the logs do not share the same template.","template":""},{"Id":120,"Reason":"All differing positions are labeled as variable, the logs share the same template.","template":"<*> : Could not write data to client PID[ <*> ] ( <*> ) because of error - aborting connection"},{"Id":128,"Reason":"Position 7: \"make\" and \"make\" are same (constant). Position 8: \"a\" and \"a\" are same (constant). Position 9: \"string\" and \"string\" are same (constant). Position 10: \"from\" and \"from\" are same (constant). Position 11: \"out\" and \"out\" are same (constant). Position 12: \"connection\" and \"poweredoff\" are different behaviors (constant). Any position is labeled as constant, the logs do not share the same template.","template":""},{"Id":137,"Reason":"All differing positions are labeled as variable, the logs share the same template.","template":"Captive : [ <*> ] en0 : SSID <*> making interface primary ( cache indicates network not captive )"},{"Id":162,"Reason":"All differing positions are labeled as variable, the logs share the same template.","template":"<*> : DNSServiceCreateConnection : <*> registered records , <*> kDNSServiceFlagsShareConnection operation PID[ <*> ] ( <*> )"},{"Id":186,"Reason":"Position 9: \"__CFNotification\" and \"__CFNotification\" are same (constant). Position 11: \"_NSDoNotDisturbEnabledNotification\" and \"_NSDoNotDisturbDisabledNotification\" are different behaviors (constant). Any position is labeled as constant, the logs do not share the same template.","template":""},{"Id":203,"Reason":"Position 2: \"v4\" and \"v6\" are different behaviors (constant). Any position is labeled as constant, the logs do not share the same template.","template":""},{"Id":213,"Reason":"All differing positions are labeled as variable, the logs share the same template.","template":"Captive : en0 : Not probing <*> ( cache indicates not captive )"},{"Id":214,"Reason":"Position 2: \"v6\" and \"v4\" are different behaviors (constant). Any position is labeled as constant, the logs do not share the same template.","template":""},{"Id":215,"Reason":"Position 6: \"connectx\" and \"connectx\" are same (constant). Position 8: \"Network\" and \"Network\" are same (constant). Position 9: \"is\" and \"is\" are same (constant). Position 10: \"down\" and \"unreachable\" are different behaviors (constant). Any position is labeled as constant, the logs do not share the same template.","template":""},{"Id":218,"Reason":"Position 4: \"stop\" and \"start\" are different behaviors (constant). Any position is labeled as constant, the logs do not share the same template.","template":""},{"Id":231,"Reason":"Position 5: \"Updating\" and \"Updating\" are same (constant). Position 6: \"enabled\" and \"enabled\" are same (constant). Position 8: \"NO\" and \"YES\" are different behaviors (constant). Any position is labeled as constant, the logs do not share the same template.","template":""},{"Id":235,"Reason":"All differing positions are labeled as variable, the logs share the same template.","template":"could <*> act <*> inact <*> purgeable <*> spec <*> cleaned <*>"},{"Id":240,"Reason":"All differing positions are labeled as variable, the logs share the same template.","template":"Saved wakeups_resource.diag report for <*> version <*> ( <*> ) to <*>"},{"Id":244,"Reason":"Position 2: \"v6\" and \"v4\" are different behaviors (constant). Any position is labeled as constant, the logs do not share the same template.","template":""},{"Id":281,"Reason":"All differing positions are labeled as variable, the logs share the same template.","template":"Unknown class <*> in Interface Builder file at path <*>"},{"Id":283,"Reason":"All differing positions are labeled as variable, the logs share the same template.","template":"en0 : <*> country code set to <*> ."},{"Id":287,"Reason":"Position 5: \"receive\" and \"send\" are different behaviors (constant). Any position is labeled as constant, the logs do not share the same template.","template":""},{"Id":290,"Reason":"Position 3: \"wake\" and \"wake\" are same (constant). Position 4: \"promotion\" and \"request\" are different behaviors (constant). Any position is labeled as constant, the logs do not share the same template.","template":""}]
+================================
+LLM input JSON: [
+  {
+    "Id": 10,
+    "logs": "`PID hash table entries : <*> ( order : <*> , <*> bytes )`\n`Inode-cache hash table entries : <*> ( order : <*> , <*> bytes )`\n`Mount-cache hash table entries : <*> ( order : <*> , <*> bytes )`"
+  },
+  {
+    "Id": 12,
+    "logs": "`DHCPDISCOVER from <*> via eth1 : network A_net : no free leases`\n`DHCPDISCOVER from <*> via eth1 : network C_net : no free leases`\n`DHCPDISCOVER from <*> via eth1 : network B_net : no free leases`\n`DHCPDISCOVER from <*> via eth1 : network D_net : no free leases`"
+  },
+  {
+    "Id": 25,
+    "logs": "`Normal zone : <*> pages , LIFO <*>`\n`DMA zone : <*> pages , LIFO <*>`\n`HighMem zone : <*> pages , LIFO <*>`"
+  },
+  {
+    "Id": 29,
+    "logs": "`ACPI : IRQ9 used by override .`\n`ACPI : IRQ2 used by override .`\n`ACPI : IRQ0 used by override .`"
+  },
+  {
+    "Id": 30,
+    "logs": "`EXT3 FS on sda5 , internal journal`\n`EXT3 FS on sda3 , internal journal`\n`EXT3 FS on sda1 , internal journal`\n`EXT3 FS on sda6 , internal journal`"
+  },
+  {
+    "Id": 32,
+    "logs": "`Listening on interface eth0 , <*>`\n`Listening on interface ib0 , <*>`\n`Listening on interface wildcard , <*>`\n`Listening on interface lo , <*>`"
+  },
+  {
+    "Id": 34,
+    "logs": "`eth1 : no IPv6 routers present`\n`ib0 : no IPv6 routers present`\n`eth0 : no IPv6 routers present`"
+  },
+  {
+    "Id": 36,
+    "logs": "`dcdipm device driver loaded`\n`dcdbas device driver loaded`\n`dcdbas device driver unloaded`\n`dcdipm device driver unloaded`"
+  },
+  {
+    "Id": 42,
+    "logs": "`net.ipv4.conf.default.rp_filter = <*>`\n`kernel.core_uses_pid = <*>`\n`net.core.rmem_default = <*>`\n`net.core.wmem_default = <*>`\n`net.core.rmem_max = <*>`"
+  }
+]
+================================
+LLM batch response: ```json
+[
+  {
+    "Id": 10,
+    "Reason": "Position 0: PID, Inode-cache, Mount-cache are different types of hash tables (constant). Any position is labeled as constant, the logs do not share the same template.",
+    "template": ""
+  },
+  {
+    "Id": 12,
+    "Reason": "Position 4: A_net, C_net, B_net, D_net are different network names (variable). All differing positions are labeled as variable, the logs share the same template.",
+    "template": "DHCPDISCOVER from <*> via eth1 : network <*> : no free leases"
+  },
+  {
+    "Id": 25,
+    "Reason": "Position 0: Normal, DMA, HighMem are different zone types (constant). Any position is labeled as constant, the logs do not share the same template.",
+    "template": ""
+  },
+  {
+    "Id": 29,
+    "Reason": "Position 2: IRQ9, IRQ2, IRQ0 are different IRQ numbers (variable). All differing positions are labeled as variable, the logs share the same template.",
+    "template": "ACPI : IRQ<*> used by override ."
+  },
+  {
+    "Id": 30,
+    "Reason": "Position 4: sda5, sda3, sda1, sda6 are different disk partitions (variable). All differing positions are labeled as variable, the logs share the same template.",
+    "template": "EXT3 FS on <*> , internal journal"
+  },
+  {
+    "Id": 32,
+    "Reason": "Position 3: eth0, ib0, wildcard, lo are different interface names (variable). All differing positions are labeled as variable, the logs share the same template.",
+    "template": "Listening on interface <*> , <*>"
+  },
+  {
+    "Id": 34,
+    "Reason": "Position 0: eth1, ib0, eth0 are different interface names (variable). All differing positions are labeled as variable, the logs share the same template.",
+    "template": "<*> : no IPv6 routers present"
+  },
+  {
+    "Id": 36,
+    "Reason": "Position 0: dcdipm, dcdbas are different drivers (constant). Position 3: loaded, unloaded are different states (constant). Any position is labeled as constant, the logs do not share the same template.",
+    "template": ""
+  },
+  {
+    "Id": 42,
+    "Reason": "Position 0: net.ipv4.conf.default.rp_filter, kernel.core_uses_pid, net.core.rmem_default, net.core.wmem_default, net.core.rmem_max are different configuration keys (constant). Any position is labeled as constant, the logs do not share the same template.",
+    "template": ""
+  }
+]
+```
+LLM input JSON: [
+  {
+    "Id": 6,
+    "logs": "`DHCPACK on <*> to <*> via eth1`\n`DHCPACK on <*> to <*> via eth0`"
+  },
+  {
+    "Id": 10,
+    "logs": "`ACPI : IRQ2 used by override .`\n`ACPI : IRQ9 used by override .`\n`ACPI : IRQ0 used by override .`"
+  }
+]
+================================
+==== LLM batch JSON response ===
+LLM batch response: ```json
+[
+  {
+    "Id": 6,
+    "Reason": "Position 5: eth1 and eth0 are different interface names (variable). All differing positions are labeled as variable, the logs share the same template.",
+    "template": "DHCPACK on <*> to <*> via <*>"
+  },
+  {
+    "Id": 10,
+    "Reason": "Position 3: IRQ2, IRQ9, and IRQ0 are different interrupt request numbers (variable). All differing positions are labeled as variable, the logs share the same template.",
+    "template": "ACPI : <*> used by override ."
+  }
+]
+```
+{
+  "inputs": [
+  {
+    "Id": 5,
+    "logs": "`Updated timestamp for job `cron.daily' to <*>`\n`Updated timestamp for job `cron.monthly' to <*>`\n`Updated timestamp for job `cron.weekly' to <*>`"
+  },
+  {
+    "Id": 6,
+    "logs": "`sshd -TERM succeeded`\n`haldaemon -TERM succeeded`\n`messagebus -TERM succeeded`"
+  }
+],
+"output": [
+  {
+    "Id": 5,
+    "Reason": "Position 5: cron.daily, cron.monthly, and cron.weekly are different job names (variable). All differing positions are labeled as variable, the logs share the same template.",
+    "template": "Updated timestamp for job ` <*> ' to <*>"
+  },
+  {
+    "Id": 6,
+    "Reason": "Position 0: sshd, haldaemon, and messagebus are different process names (variable). All differing positions are labeled as variable, the logs share the same template.",
+    "template": "<*> -TERM succeeded"
+  }
+]
+},
+
+{
+  "inputs": [
+  {
+    "Id": 6,
+    "logs": "`sam raid obsd error on read : local_status <*> ( RPC : No response within the timeout period ) , obsd_error <*> ( Success ) virtual object I-xD020038da11df0002-xGf5edfff4-xUf029f5d7e546a4a5 index <*> , stor_op <*> , component device <*> ( OBSD )`\n`sam raid obsd error on read : local_status <*> ( RPC : No response within the timeout period ) , obsd_error <*> ( Success ) virtual object I-xD020038da11df0002-xGf5edfff4-xU033ec9af270b7e19 index <*> , stor_op <*> , component device <*> ( OBSD )`"
+  },
+  {
+    "Id": 7,
+    "logs": "`Instrumentation Service EventID : <*> Temperature sensor returned to a normal value Sensor location : BMC Ambient Temp Chassis location : Main System Chassis Previous state was : Unknown Temperature sensor value ( in Degrees Celsius ) : <*>`\n`Instrumentation Service EventID : <*> Temperature sensor returned to a normal value Sensor location : BMC Riser Temp Chassis location : Main System Chassis Previous state was : Unknown Temperature sensor value ( in Degrees Celsius ) : <*>`"
+  },
+  {
+    "Id": 10,
+    "logs": "`pan_sam : I-xD020038da11df0002-xGf5edfff4-xUaf16bdabc4077f9f : error report : failure <*> : <*> ( OBSD ) osd_op = <*> offset = <*> length = <*> error = <*> ( RPC : No response within the timeout period )`\n`pan_sam : I-xD020038da11df0002-xGf5edfff4-xU7a7b9fe15033fa7f : error report : failure <*> : <*> ( OBSD ) osd_op = <*> offset = <*> length = <*> error = <*> ( RPC : No response within the timeout period )`"
+  },
+  {
+    "Id": 20,
+    "logs": "`pan_sam : I-xD020038da11df0002-xGf5edfff4-xUa153654359664693 : error report : cap_handle = <*> op = <*> op_offset = <*> op_length = <*> action_mask = <*> cap_offset = <*> cap_length = <*>`\n`pan_sam : I-xD020038da11df0002-xGf5edfff4-xUc60d66047e9be81b : error report : cap_handle = <*> op = <*> op_offset = <*> op_length = <*> action_mask = <*> cap_offset = <*> cap_length = <*>`"
+  },
+  {
+    "Id": 34,
+    "logs": "`THH ( <*> ) : handle_eqe_ib_events : QP event on qpn = 0x1B0519 event type is VAPI_LOCAL_WQ_ACCESS_VIOL_ERROR ( <*> ) , syndrome = <*>`\n`THH ( <*> ) : handle_eqe_ib_events : QP event on qpn = 0xA0A54 event type is VAPI_LOCAL_WQ_ACCESS_VIOL_ERROR ( <*> ) , syndrome = <*>`"
+  },
+  {
+    "Id": 45,
+    "logs": "`rpc : request timed out , request <*> , pan_rm_vsmdb_get_mgr_addrs_rpc_v1 ( async ) , to ( peer addr not available )`\n`rpc : request timed out , request <*> , pan_fm_obj_get_r_capability_rpc_v2 ( async ) , to ( peer addr not available )`"
+  },
+  {
+    "Id": 106,
+    "logs": "`e1000 : eth0 : e1000_watchdog : NIC Link is Up <*> Mbps Full Duplex`\n`e1000 : eth1 : e1000_watchdog : NIC Link is Up <*> Mbps Full Duplex`"
+  },
+  {
+    "Id": 122,
+    "logs": "`e1000 : eth1 : e1000_probe : Intel ( R ) <*> Network Connection`\n`e1000 : eth0 : e1000_probe : Intel ( R ) <*> Network Connection`"
+  },
+  {
+    "Id": 150,
+    "logs": "`ACPI : LAPIC ( acpi_id[ <*> ] lapic_id[ <*> ] disabled )`\n`ACPI : LAPIC ( acpi_id[ <*> ] lapic_id[ <*> ] enabled )`"
+  },
+  {
+    "Id": 154,
+    "logs": "`running <*> --nox -i netsnmp' with <*> privileges on behalf of <*>`\n`running <*> --nox -i ganglia-gmond' with <*> privileges on behalf of <*>`"
+  },
+  {
+    "Id": 204,
+    "logs": "`ACPI : Processor [ CPU0 ] ( supports C1 )`\n`ACPI : Processor [ CPU1 ] ( supports C1 )`"
+  },
+  {
+    "Id": 233,
+    "logs": "`divert : not allocating divert_blk for non-ethernet device sit0`\n`divert : not allocating divert_blk for non-ethernet device lo`"
+  },
+  {
+    "Id": 278,
+    "logs": "`Type : Direct-Access ANSI SCSI revision : <*>`\n`Type : Processor ANSI SCSI revision : <*>`"
+  },
+  {
+    "Id": 283,
+    "logs": "`Warning : acpi_table_parse ( ACPI_SRAT ) returned <*>`\n`Warning : acpi_table_parse ( ACPI_SLIT ) returned <*>`"
+  },
+  {
+    "Id": 298,
+    "logs": "`MOSAL ( <*> ) : map_list = <*>`\n`MOSAL ( <*> ) : pid = <*>`\n`MOSAL ( <*> ) : file_p = <*>`"
+  },
+  {
+    "Id": 359,
+    "logs": "`DHCPREQUEST for <*> from <*> via eth0`\n`DHCPREQUEST for <*> from <*> via eth1`"
+  },
+  {
+    "Id": 400,
+    "logs": "`Bringing up interface ib0 : succeeded`\n`Bringing up interface eth0 : succeeded`"
+  },
+  {
+    "Id": 477,
+    "logs": "`Device : <*> opened`\n`<*> : updated <*>`"
+  },
+  {
+    "Id": 510,
+    "logs": "`RSA key generation succeeded`\n`RSA1 key generation succeeded`\n`DSA key generation succeeded`"
+  }
+],
+"output": [
+  {
+    "Id": 6,
+    "Reason": "Position 6: I-xD020038da11df0002-xGf5edfff4-xUf029f5d7e546a4a5 and I-xD020038da11df0002-xGf5edfff4-xU033ec9af270b7e19 are different virtual object IDs (variable). All differing positions are labeled as variable, the logs share the same template.",
+    "template": "sam raid obsd error on read : local_status <*> ( RPC : No response within the timeout period ) , obsd_error <*> ( Success ) virtual object <*> index <*> , stor_op <*> , component device <*> ( OBSD )"
+  },
+  {
+    "Id": 7,
+    "Reason": "Position 8: BMC Ambient Temp and BMC Riser Temp are different sensor locations (variable). All differing positions are labeled as variable, the logs share the same template.",
+    "template": "Instrumentation Service EventID : <*> Temperature sensor returned to a normal value Sensor location : <*> Chassis location : Main System Chassis Previous state was : Unknown Temperature sensor value ( in Degrees Celsius ) : <*>"
+  },
+  {
+    "Id": 10,
+    "Reason": "Position 2: I-xD020038da11df0002-xGf5edfff4-xUaf16bdabc4077f9f and I-xD020038da11df0002-xGf5edfff4-xU7a7b9fe15033fa7f are different object IDs (variable). All differing positions are labeled as variable, the logs share the same template.",
+    "template": "pan_sam : <*> : error report : failure <*> : <*> ( OBSD ) osd_op = <*> offset = <*> length = <*> error = <*> ( RPC : No response within the timeout period )"
+  },
+  {
+    "Id": 20,
+    "Reason": "Position 2: I-xD020038da11df0002-xGf5edfff4-xUa153654359664693 and I-xD020038da11df0002-xGf5edfff4-xUc60d66047e9be81b are different object IDs (variable). All differing positions are labeled as variable, the logs share the same template.",
+    "template": "pan_sam : <*> : error report : cap_handle = <*> op = <*> op_offset = <*> op_length = <*> action_mask = <*> cap_offset = <*> cap_length = <*>"
+  },
+  {
+    "Id": 34,
+    "Reason": "Position 2: QP event on qpn = 0x1B0519 and QP event on qpn = 0xA0A54 are different qpn values (variable). Position 6: VAPI_LOCAL_WQ_ACCESS_VIOL_ERROR ( <*> ) and VAPI_LOCAL_WQ_ACCESS_VIOL_ERROR ( <*> ) are variable. All differing positions are labeled as variable, the logs share the same template.",
+    "template": "THH ( <*> ) : handle_eqe_ib_events : QP event on qpn = <*> event type is VAPI_LOCAL_WQ_ACCESS_VIOL_ERROR ( <*> ) , syndrome = <*>"
+  },
+  {
+    "Id": 45,
+    "Reason": "Position 5: pan_rm_vsmdb_get_mgr_addrs_rpc_v1 and pan_fm_obj_get_r_capability_rpc_v2 are different RPC function names (constant). Any position is labeled as constant, the logs do not share the same template.",
+    "template": ""
+  },
+  {
+    "Id": 106,
+    "Reason": "Position 3: eth0 and eth1 are different interface names (variable). All differing positions are labeled as variable, the logs share the same template.",
+    "template": "e1000 : <*> : e1000_watchdog : NIC Link is Up <*> Mbps Full Duplex"
+  },
+  {
+    "Id": 122,
+    "Reason": "Position 3: eth1 and eth0 are different interface names (variable). All differing positions are labeled as variable, the logs share the same template.",
+    "template": "e1000 : <*> : e1000_probe : Intel ( R ) <*> Network Connection"
+  },
+  {
+    "Id": 150,
+    "Reason": "Position 4: enabled and disabled are different states (constant). Any position is labeled as constant, the logs do not share the same template.",
+    "template": ""
+  },
+  {
+    "Id": 154,
+    "Reason": "Position 2: netsnmp and ganglia-gmond are different processes (variable). All differing positions are labeled as variable, the logs share the same template.",
+    "template": "running <*> --nox -i <*>' with <*> privileges on behalf of <*>"
+  },
+  {
+    "Id": 204,
+    "Reason": "Position 5: CPU0 and CPU1 are different processors (variable). All differing positions are labeled as variable, the logs share the same template.",
+    "template": "ACPI : Processor [ <*> ] ( supports C1 )"
+  },
+  {
+    "Id": 233,
+    "Reason": "Position 9: sit0 and lo are different devices (variable). All differing positions are labeled as variable, the logs share the same template.",
+    "template": "divert : not allocating divert_blk for non-ethernet device <*>"
+  },
+  {
+    "Id": 278,
+    "Reason": "Position 3: Direct-Access and Processor are different types (constant). Any position is labeled as constant, the logs do not share the same template.",
+    "template": ""
+  },
+  {
+    "Id": 283,
+    "Reason": "Position 4: ACPI_SRAT and ACPI_SLIT are different table types (constant). Any position is labeled as constant, the logs do not share the same template.",
+    "template": ""
+  },
+  {
+    "Id": 298,
+    "Reason": "Position 5: map_list, pid, and file_p are different variable types (constant). Any position is labeled as constant, the logs do not share the same template.",
+    "template": ""
+  },
+  {
+    "Id": 359,
+    "Reason": "Position 3: <*> and <*> are different DHCP request IPs (variable). Position 5: <*> and <*> are different MAC addresses (variable). Position 7: eth0 and eth1 are different interfaces (variable). All differing positions are labeled as variable, the logs share the same template.",
+    "template": "DHCPREQUEST for <*> from <*> via <*>"
+  },
+  {
+    "Id": 400,
+    "Reason": "Position 4: ib0 and eth0 are different interfaces (variable). All differing positions are labeled as variable, the logs share the same template.",
+    "template": "Bringing up interface <*> : succeeded"
+  },
+  {
+    "Id": 477,
+    "Reason": "The logs have different token structures. First log has 3 tokens, second log has 5 tokens. The logs do not share the same template.",
+    "template": ""
+  },
+  {
+    "Id": 510,
+    "Reason": "Position 1: RSA, RSA1, and DSA are different key types (constant). Any position is labeled as constant, the logs do not share the same template.",
+    "template": ""
+  }
+]
+}
+]
